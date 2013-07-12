@@ -1,0 +1,310 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using HIS.common;
+using Maticsoft.Model;
+ 
+
+namespace HIS
+{
+    public partial class DetailInfo : Form
+    {
+        private GeneralInfo generalInfo = new GeneralInfo(); //一般情况
+
+        private OperateType OperatType = OperateType.VIew;//操作类型 0新增 1 编辑 2 查看
+        private int pid = 0; //患者ID
+
+        public DetailInfo(OperateType operatType, int patientID)
+        {
+            InitializeComponent();
+            OperatType = operatType;//操作类型 0新增 1 编辑 2 查看
+            pid = patientID;
+
+            BindingComboBox();//绑定所有的下拉框
+            BindAllInfos();//绑定每页的各项信息
+
+
+        }
+
+        /// <summary>
+        /// 绑定每页的各项信息
+        /// </summary>
+        private void BindAllInfos()
+        {
+
+            dateTimePicker1.Format = DateTimePickerFormat.Custom;
+            dateTimePicker1.CustomFormat = "yyyy";
+            dateTimePicker1.ShowUpDown = true;
+
+            dtpBirthday.Format = DateTimePickerFormat.Custom;
+            dtpBirthday.CustomFormat = "yyyy-MM-dd";
+            dtpBirthday.ShowUpDown = true;
+            
+           //TODO
+            //绑定人口学数据            
+            Maticsoft.BLL.Demographic bll = new Maticsoft.BLL.Demographic();
+            Demographic d = bll.GetByPID(this.pid);
+            if (d.Gender == "男")
+            {
+                this.rbnMale.Checked = true;
+                this.rbnFemale.Checked = false;
+            }
+            else
+            {
+                this.rbnFemale.Checked = true;
+                this.rbnMale.Checked = false;
+            }
+            this.txtEmail.Text = d.Email;
+            this.txtAddress.Text = d.Address;
+            this.txtPhone2.Text = d.Phone2;
+            this.txtPhone1.Text = d.Phone1;
+            this.txtAge.Text = d.Age.ToString();
+            if (d.HomeTown != null)
+            {
+                this.cmbFrom.SelectedValue = d.HomeTown;
+            }
+            if (d.Race != null)
+            {
+                this.cmbRace.SelectedValue = d.Race;
+            }
+            if (d.BirthDay.HasValue)
+            {
+                this.dtpBirthday.Value = d.BirthDay.Value;
+            }
+        }
+
+        /// <summary>
+        /// 绑定所有的下拉框
+        /// </summary>
+        private void BindingComboBox()
+        {
+           //Todo
+            //民族 
+            Constants constants = new Constants();
+            this.cmbRace.DataSource = constants.races();
+            cmbRace.DisplayMember = "Name";
+            cmbRace.ValueMember = "Name";
+
+            this.cmbFrom.DataSource = constants.regions();
+            cmbFrom.DisplayMember = "Name";
+            cmbFrom.ValueMember = "Name";
+
+        }
+
+        private void ultraTabbedMdiManager1_InitializeTab(object sender, Infragistics.Win.UltraWinTabbedMdi.MdiTabEventArgs e)
+        {
+
+        }
+
+        private void ultraLabel20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ultraLabel27_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ultraOptionSet1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBillCode_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void txtMeatNO_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+             
+            TreatmentInfo ti = new TreatmentInfo();
+            ti.ShowDialog();
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            BadReaction br = new BadReaction();
+            br.ShowDialog();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            BadReaction br = new BadReaction();
+            br.ShowDialog();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            BadReaction br = new BadReaction();
+            br.ShowDialog();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            BadReaction br = new BadReaction();
+            br.ShowDialog();
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            BadReaction br = new BadReaction();
+            br.ShowDialog();
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            BadReaction br = new BadReaction();
+            br.ShowDialog();
+        }
+
+        //保存人口学数据
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Demographic d = new Demographic();
+            Maticsoft.BLL.Demographic bll = new Maticsoft.BLL.Demographic();
+
+            d.PID = this.pid;
+            if (this.rbnFemale.Checked) {
+                d.Gender = "女";
+            }
+            if (this.rbnMale.Checked) {
+                d.Gender = "男";
+            }
+            d.BirthDay = this.dtpBirthday.Value;   
+            d.Age = DateTime.Now.Year - d.BirthDay.Value.Year;
+            d.Race = cmbRace.SelectedValue.ToString();
+            d.HomeTown = cmbFrom.SelectedValue.ToString();
+            d.Phone1 = this.txtPhone1.Text;
+            d.Phone2 = this.txtPhone2.Text; 
+            d.Address = this.txtAddress.Text;
+            d.Email = this.txtEmail.Text;
+            bool i = bll.SaveOrUpdate(d);//.Add(d);
+            if (i) {
+                MessageBox.Show(this, "人口学数据增加操作成功", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
+            }
+
+
+        }
+
+        private void dtpBirthday_ValueChanged(object sender, EventArgs e)
+        {
+            this.txtAge.Text = (DateTime.Now.Year - this.dtpBirthday.Value.Year).ToString();
+        }
+
+        private void txtHeight_TextChanged(object sender, EventArgs e)
+        {
+            //bmi=体重/身高的平方
+            ComputerBMI();
+        }
+
+        private void ComputerBMI()
+        {
+            double h = 0;
+            double w = 0;
+            bool resultHeight = double.TryParse(this.txtHeight.Text, out h);
+            bool resultWeight = double.TryParse(this.txtWeight.Text, out w);
+            if (resultHeight && resultWeight)
+            {
+                h *= 0.01;
+                if (h > 0)
+                {
+                    double bmi = w / (h * h);
+                    this.txtBMI.Text = bmi.ToString("f1");
+                }
+                
+            }
+        }
+
+        private void txtWeight_TextChanged(object sender, EventArgs e)
+        {
+            ComputerBMI();
+        }
+
+        //保存一般情况数据
+        private void button3_Click(object sender, EventArgs e)
+        {
+            //generalInfo
+            generalInfo.Height = double.Parse(this.txtHeight.Text);
+            generalInfo.Weight = double.Parse(this.txtWeight.Text);
+            generalInfo.Waist = double.Parse(this.txtWeight.Text);
+            generalInfo.BMI = double.Parse(this.txtBMI.Text);
+
+            generalInfo.SmokeYear = Convert.ToDouble(this.txtSmokeYear.Value );
+            generalInfo.SmokePerDay = Convert.ToDouble(this.txtSmokePerDay.Value);
+            generalInfo.SmokeIndex = double.Parse(this.txtSmokeIndex.Text);
+            if (this.ckbIsQuitSmoke.Checked)
+            {
+                generalInfo.QuitSmoke = true;
+                generalInfo.QuitYear = dateTimePicker1.Value.ToString("yyyy");
+            }
+            else
+            {
+                generalInfo.QuitSmoke = true;
+            }
+
+            Maticsoft.BLL.GeneralInfo gi = new Maticsoft.BLL.GeneralInfo();
+            gi.Add(generalInfo);
+        }
+
+        private void txtSmokeYear_TabIndexChanged(object sender, EventArgs e)
+        {
+            ComputerSmokeIndex();
+        }
+
+        private void ComputerSmokeIndex()
+        {
+            decimal year = this.txtSmokeYear.Value;
+            decimal smokePerDay = this.txtSmokePerDay.Value;
+            decimal smokeIndex = year * 365 * smokePerDay;
+            this.txtSmokeIndex.Text = smokeIndex.ToString("f1");
+        }
+
+        private void txtSmokePerDay_ValueChanged(object sender, EventArgs e)
+        {
+            ComputerSmokeIndex();
+        }
+
+        private void txtSmokePerDay_TabIndexChanged(object sender, EventArgs e)
+        {
+            ComputerSmokeIndex();
+        }
+
+        private void txtSmokeYear_ValueChanged(object sender, EventArgs e)
+        {
+            ComputerSmokeIndex();
+        }
+
+        private void txtSmokePerDay_ValueChanged_1(object sender, EventArgs e)
+        {
+            ComputerSmokeIndex();
+        }
+
+        private void ckbIsQuitSmoke_CheckedChanged(object sender, EventArgs e)
+        {
+            if (this.ckbIsQuitSmoke.Checked) 
+            {
+                this.dateTimePicker1.Enabled = true;
+            }else
+            {
+                this.dateTimePicker1.Enabled = false;
+            }
+        }
+    }
+}

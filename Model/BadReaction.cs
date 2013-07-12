@@ -1,0 +1,89 @@
+﻿using System;
+namespace Maticsoft.Model
+{
+	/// <summary>
+	/// BadReaction:实体类(属性说明自动提取数据库字段的描述信息)
+	/// </summary>
+	[Serializable]
+	public partial class BadReaction
+	{
+		public BadReaction()
+		{}
+		#region Model
+		private int _id;
+		private int? _pid=0;
+		private int? _peroid=0;
+		private string _reactionname;
+		private DateTime? _occurdate;
+		private string _severity;
+		private string _treatmethod;
+		private string _treatresult;
+		/// <summary>
+		/// 
+		/// </summary>
+		public int ID
+		{
+			set{ _id=value;}
+			get{return _id;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public int? PID
+		{
+			set{ _pid=value;}
+			get{return _pid;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public int? Peroid
+		{
+			set{ _peroid=value;}
+			get{return _peroid;}
+		}
+		/// <summary>
+		/// 副反应名称
+		/// </summary>
+		public string ReactionName
+		{
+			set{ _reactionname=value;}
+			get{return _reactionname;}
+		}
+		/// <summary>
+		/// 发生日期
+		/// </summary>
+		public DateTime? OccurDate
+		{
+			set{ _occurdate=value;}
+			get{return _occurdate;}
+		}
+		/// <summary>
+		/// 严重程度
+		/// </summary>
+		public string Severity
+		{
+			set{ _severity=value;}
+			get{return _severity;}
+		}
+		/// <summary>
+		/// 处理方法
+		/// </summary>
+		public string TreatMethod
+		{
+			set{ _treatmethod=value;}
+			get{return _treatmethod;}
+		}
+		/// <summary>
+		/// 处理结果（均手动填写）
+		/// </summary>
+		public string TreatResult
+		{
+			set{ _treatresult=value;}
+			get{return _treatresult;}
+		}
+		#endregion Model
+
+	}
+}
+

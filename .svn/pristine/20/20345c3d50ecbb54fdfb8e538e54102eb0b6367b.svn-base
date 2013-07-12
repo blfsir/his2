@@ -1,0 +1,147 @@
+﻿namespace HIS.patient
+{
+    partial class PatientEdit
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.gbUserInfo = new System.Windows.Forms.GroupBox();
+            this.txtIDNo = new System.Windows.Forms.TextBox();
+            this.lblID = new System.Windows.Forms.Label();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.lblName = new System.Windows.Forms.Label();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnCancle = new System.Windows.Forms.Button();
+            this.btnOK = new System.Windows.Forms.Button();
+            this.gbUserInfo.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // gbUserInfo
+            // 
+            this.gbUserInfo.Controls.Add(this.txtIDNo);
+            this.gbUserInfo.Controls.Add(this.lblID);
+            this.gbUserInfo.Controls.Add(this.txtName);
+            this.gbUserInfo.Controls.Add(this.lblName);
+            this.gbUserInfo.Location = new System.Drawing.Point(12, 12);
+            this.gbUserInfo.Name = "gbUserInfo";
+            this.gbUserInfo.Size = new System.Drawing.Size(570, 41);
+            this.gbUserInfo.TabIndex = 21;
+            this.gbUserInfo.TabStop = false;
+            this.gbUserInfo.Text = "基本信息";
+            // 
+            // txtIDNo
+            // 
+            this.txtIDNo.Location = new System.Drawing.Point(94, 14);
+            this.txtIDNo.Name = "txtIDNo";
+            this.txtIDNo.Size = new System.Drawing.Size(177, 21);
+            this.txtIDNo.TabIndex = 31;
+            this.txtIDNo.TabStop = false;
+            // 
+            // lblID
+            // 
+            this.lblID.AutoSize = true;
+            this.lblID.Location = new System.Drawing.Point(12, 19);
+            this.lblID.Name = "lblID";
+            this.lblID.Size = new System.Drawing.Size(35, 12);
+            this.lblID.TabIndex = 30;
+            this.lblID.Text = "ID号:";
+            // 
+            // txtName
+            // 
+            this.txtName.Location = new System.Drawing.Point(375, 14);
+            this.txtName.MaxLength = 20;
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(177, 21);
+            this.txtName.TabIndex = 71;
+            this.txtName.TabStop = false;
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.Location = new System.Drawing.Point(293, 17);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(35, 12);
+            this.lblName.TabIndex = 46;
+            this.lblName.Text = "姓名:";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.btnCancle);
+            this.panel1.Controls.Add(this.btnOK);
+            this.panel1.Location = new System.Drawing.Point(12, 76);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(570, 31);
+            this.panel1.TabIndex = 33;
+            // 
+            // btnCancle
+            // 
+            this.btnCancle.Location = new System.Drawing.Point(492, 5);
+            this.btnCancle.Name = "btnCancle";
+            this.btnCancle.Size = new System.Drawing.Size(75, 23);
+            this.btnCancle.TabIndex = 34;
+            this.btnCancle.Text = "取消(&C)";
+            this.btnCancle.UseVisualStyleBackColor = true;
+            this.btnCancle.Click += new System.EventHandler(this.btnCancle_Click);
+            // 
+            // btnOK
+            // 
+            this.btnOK.Location = new System.Drawing.Point(411, 5);
+            this.btnOK.Name = "btnOK";
+            this.btnOK.Size = new System.Drawing.Size(75, 23);
+            this.btnOK.TabIndex = 33;
+            this.btnOK.Text = "确定(&S)";
+            this.btnOK.UseVisualStyleBackColor = true;
+            this.btnOK.Click += new System.EventHandler(this.btnOK_Click);
+            // 
+            // PatientEdit
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(592, 124);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.gbUserInfo);
+            this.Name = "PatientEdit";
+            this.Text = "患者信息";
+            this.gbUserInfo.ResumeLayout(false);
+            this.gbUserInfo.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.GroupBox gbUserInfo;
+        private System.Windows.Forms.TextBox txtIDNo;
+        private System.Windows.Forms.Label lblID;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button btnCancle;
+        private System.Windows.Forms.Button btnOK;
+    }
+}

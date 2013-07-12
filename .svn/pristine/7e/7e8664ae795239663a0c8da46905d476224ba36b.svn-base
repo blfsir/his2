@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace HIS.common
+{
+    public class TreatPeroid
+    { 
+        /// <summary>
+        /// 治疗前基线指标
+        /// </summary>
+        public const int BeforTreatment = 0; 
+
+
+        //public enum TreatPeroid { 治疗前基线指标, 治疗后1周, 治疗后1月, 治疗后3月, 治疗后6月, 治疗后1年, 治疗后2年, 治疗后3年, 治疗后4年, 治疗后5年 };
+        /// <summary>
+        /// 治疗后1周, 治疗后1月, 治疗后3月, 治疗后6月, 治疗后1年, 治疗后2年, 治疗后3年, 治疗后4年, 治疗后5年
+        /// </summary>
+        public enum AfterTreatment { OneWeek=1, OneMonth, ThreeMonth, SixMonth, OneYear, TwoYear, ThreeYear, FourYear, FiveYear };
+    }
+}

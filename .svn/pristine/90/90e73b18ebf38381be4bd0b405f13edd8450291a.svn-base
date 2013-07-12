@@ -1,0 +1,69 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using ExportToExcel;
+using System.IO;
+using System.Diagnostics;
+
+namespace HIS
+{
+    public partial class DataETC : Form
+    {
+        public DataETC()
+        {
+            InitializeComponent();
+        }
+
+        private void btnCancle_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        //export data to excel
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+            Maticsoft.BLL.Patient patientBLL = new Maticsoft.BLL.Patient();
+            DataSet ds = patientBLL.GetAllListWithTitle();
+            ds.Tables[0].TableName = "患者信息";
+
+            //人口学数据
+            Maticsoft.BLL.Demographic demoBLL = new Maticsoft.BLL.Demographic();
+            DataTable dtDemo = demoBLL.GetAllListWithTitle().Tables[0].Copy();
+            dtDemo.TableName = "人口学数据";
+            //一般情况
+            Maticsoft.BLL.GeneralInfo geneBLL = new Maticsoft.BLL.GeneralInfo();
+            DataTable dtGene = geneBLL.GetAllListWithTitle().Tables[0].Copy();
+            dtGene.TableName = "一般情况";
+
+            ds.Tables.Add(dtDemo);
+            ds.Tables.Add(dtGene);
+            DialogResult result = this.folderBrowserDialog1.ShowDialog();
+            if (result == DialogResult.OK)
+            {
+                string foldername = this.folderBrowserDialog1.SelectedPath;
+                try
+                {
+                    CreateExcelFile.CreateExcelDocument(ds, foldername+@"\患者基本信息.xlsx");
+                    MessageBox.Show("数据提取成功!");
+                    if (File.Exists(foldername))
+                    {
+                        Process.Start("explorer.exe", foldername);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show("Couldn't create Excel file.\r\nException: " + ex.Message);
+                    return;
+                }
+                // the code here will be executed if the user presses Open in
+                // the dialog.
+            }
+
+        }
+    }
+}

@@ -1,0 +1,134 @@
+﻿using System;
+namespace Maticsoft.Model
+{
+	/// <summary>
+	/// SportLife:实体类(属性说明自动提取数据库字段的描述信息)
+	/// </summary>
+	[Serializable]
+	public partial class SportLife
+	{
+		public SportLife()
+		{}
+		#region Model
+		private int _id;
+		private int? _pid=0;
+		private int? _period=0;
+		private int? _sixminutetest=0;
+		private DateTime? _sixminutetestdate;
+		private int? _stgeorgetest=0;
+		private DateTime? _stgeorgetestdate;
+		private string _stgeorgetestfile;
+		private int? _cattest=0;
+		private DateTime? _cattestdate;
+		private int? _mmrctest=0;
+		private DateTime? _mmrctestdate;
+		private DateTime? _checkdate;
+		/// <summary>
+		/// 
+		/// </summary>
+		public int ID
+		{
+			set{ _id=value;}
+			get{return _id;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public int? PID
+		{
+			set{ _pid=value;}
+			get{return _pid;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public int? Period
+		{
+			set{ _period=value;}
+			get{return _period;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public int? SixMinuteTest
+		{
+			set{ _sixminutetest=value;}
+			get{return _sixminutetest;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public DateTime? SixMinuteTestDate
+		{
+			set{ _sixminutetestdate=value;}
+			get{return _sixminutetestdate;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public int? StGeorgeTest
+		{
+			set{ _stgeorgetest=value;}
+			get{return _stgeorgetest;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public DateTime? StGeorgeTestDate
+		{
+			set{ _stgeorgetestdate=value;}
+			get{return _stgeorgetestdate;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public string StGeorgeTestFile
+		{
+			set{ _stgeorgetestfile=value;}
+			get{return _stgeorgetestfile;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public int? CATTest
+		{
+			set{ _cattest=value;}
+			get{return _cattest;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public DateTime? CATTestDate
+		{
+			set{ _cattestdate=value;}
+			get{return _cattestdate;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public int? MMRCTest
+		{
+			set{ _mmrctest=value;}
+			get{return _mmrctest;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public DateTime? MMRCTestDate
+		{
+			set{ _mmrctestdate=value;}
+			get{return _mmrctestdate;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public DateTime? CheckDate
+		{
+			set{ _checkdate=value;}
+			get{return _checkdate;}
+		}
+		#endregion Model
+
+	}
+}
+

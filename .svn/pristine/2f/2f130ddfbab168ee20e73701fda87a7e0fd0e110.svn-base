@@ -1,0 +1,85 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace HIS
+{
+    public partial class PatientList : Form
+    {
+        public PatientList()
+        {
+            InitializeComponent();
+            //加载UltarGrid样式
+            this.ugGrid.DisplayLayout.LoadFromXml(System.IO.Path.GetFullPath(Application.StartupPath + @"\UltragridStyle.xml"));
+
+            LoadBucterList();
+
+        }
+
+        private void LoadBucterList()
+        {
+            List<double> outValue = new List<double>();//输出统计数
+            DataTable dt = new DataTable();
+            DataColumn dc = new DataColumn("NAME");
+            dt.Columns.Add(dc);
+            DataColumn dc1 = new DataColumn("ID");
+            dt.Columns.Add(dc1);
+            DataColumn dc2 = new DataColumn("IDNUMBER");
+            dt.Columns.Add(dc2);
+            DataColumn dc3 = new DataColumn("SIGNDATE");
+            dt.Columns.Add(dc3);
+            DataColumn dc4 = new DataColumn("LASTMODIFYDATE");
+            dt.Columns.Add(dc4);
+
+
+            dt.Rows.Add("林森", "1", "001", "2010-1-1", "2013-4-1");
+            dt.Rows.Add("王小红", "2", "002", "2011-2-1", "2013-5-1");
+            dt.Rows.Add("慕雪村", "3", "003", "2012-3-1", "2013-6-1");
+           
+            //DataSet ds = new DataSet();
+            //try
+            //{
+            //    using (WCF_Butcher.WCF_ButcherClient butcherWCF = new BJNL.MVS.Clinet.UI.WCF_Butcher.WCF_ButcherClient())
+            //    {
+            //        ds = butcherWCF.GetButcherInfoList(out outValue, dtpStartTime.Value.ToShortDateString(), dtpEndTime.Value.ToShortDateString(), txtOwner.Text.Trim(), txtAnimalCert.Text.Trim(), Common.BaseData.SystemUserInfo.OrganID, pagination1.PageSize, pagination1.CurrentPage);
+            //    }
+            //}
+            //catch//无法连接到服务或服务有错误，读取本机ACCESS上的数据
+            //{
+            //    BJNL.MVS.Clinet.LocalAccess.Butcher.ButcherInfoDAL localDAL = new BJNL.MVS.Clinet.LocalAccess.Butcher.ButcherInfoDAL();
+            //    ds = localDAL.GetButcherInfoList(dtpStartTime.Value.ToShortDateString(), dtpEndTime.Value.ToShortDateString(), txtOwner.Text.Trim(), txtAnimalCert.Text.Trim(), Common.BaseData.SystemUserInfo.OrganID);
+            //}
+            ugGrid.DataSource = dt;
+            ugGrid.DataBind();
+
+            //if (outValue != null && outValue.Count != 0)
+            //{
+            //    pagination1.RecordCount = Convert.ToInt32(outValue[0]);//记录数
+            //    this.pagination1.StaticInfo = ugGrid.DisplayLayout.Bands[0].Columns["ANIMALAMOUNT"].Header.Caption + outValue[1].ToString() //检疫数
+            //                                  + " " + ugGrid.DisplayLayout.Bands[0].Columns["AMOUNT"].Header.Caption + outValue[2].ToString() //进场数
+            //                                  + " " + ugGrid.DisplayLayout.Bands[0].Columns["BUTCHERNUM"].Header.Caption + outValue[3].ToString() //屠宰数
+            //                                  + " " + ugGrid.DisplayLayout.Bands[0].Columns["PRODUCTNUM"].Header.Caption + outValue[4].ToString(); //出厂数
+            //}
+            //else
+            //{
+            //    pagination1.RecordCount = 0;
+            //}
+        }
+
+        private void ugGrid_InitializeLayout(object sender, Infragistics.Win.UltraWinGrid.InitializeLayoutEventArgs e)
+        {
+
+        }
+
+        private void ugGrid_DoubleClickRow(object sender, Infragistics.Win.UltraWinGrid.DoubleClickRowEventArgs e)
+        {
+            DetailInfo detailInfo =new DetailInfo();
+            detailInfo.ShowDialog();
+        }
+    }
+}

@@ -1,0 +1,96 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace HIS
+{
+    public partial class DetailInfo : Form
+    {
+        public DetailInfo()
+        {
+            InitializeComponent();
+        }
+
+        private void ultraTabbedMdiManager1_InitializeTab(object sender, Infragistics.Win.UltraWinTabbedMdi.MdiTabEventArgs e)
+        {
+
+        }
+
+        private void ultraLabel20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ultraLabel27_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ultraOptionSet1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtBillCode_TextChanged(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void txtMeatNO_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            TreatmentInfo ti = new TreatmentInfo();
+            ti.ShowDialog();
+        }
+
+        private void panel6_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            BadReaction br = new BadReaction();
+            br.ShowDialog();
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            BadReaction br = new BadReaction();
+            br.ShowDialog();
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            BadReaction br = new BadReaction();
+            br.ShowDialog();
+        }
+
+        private void button18_Click(object sender, EventArgs e)
+        {
+            BadReaction br = new BadReaction();
+            br.ShowDialog();
+        }
+
+        private void button21_Click(object sender, EventArgs e)
+        {
+            BadReaction br = new BadReaction();
+            br.ShowDialog();
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            BadReaction br = new BadReaction();
+            br.ShowDialog();
+        }
+    }
+}

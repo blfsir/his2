@@ -1,0 +1,355 @@
+﻿/**  版本信息模板在安装目录下，可自行修改。
+* dicom.cs
+*
+* 功 能： N/A
+* 类 名： dicom
+*
+* Ver    变更日期             负责人  变更内容
+* ───────────────────────────────────
+* V0.01  2013/5/28 23:07:24   N/A    初版
+*
+* Copyright (c) 2012 Maticsoft Corporation. All rights reserved.
+*┌──────────────────────────────────┐
+*│　此技术信息为本公司机密信息，未经本公司书面同意禁止向第三方披露．　│
+*│　版权所有：动软卓越（北京）科技有限公司　　　　　　　　　　　　　　│
+*└──────────────────────────────────┘
+*/
+using System;
+using System.Data;
+using System.Text;
+using System.Data.OleDb;
+using Maticsoft.DBUtility;//Please add references
+namespace Maticsoft.DAL
+{
+	/// <summary>
+	/// 数据访问类:dicom
+	/// </summary>
+	public partial class dicom
+	{
+		public dicom()
+		{}
+		#region  BasicMethod
+
+		/// <summary>
+		/// 得到最大ID
+		/// </summary>
+		public int GetMaxId()
+		{
+		return DbHelperOleDb.GetMaxID("ID", "dicom"); 
+		}
+
+		/// <summary>
+		/// 是否存在该记录
+		/// </summary>
+		public bool Exists(int ID)
+		{
+			StringBuilder strSql=new StringBuilder();
+			strSql.Append("select count(1) from dicom");
+			strSql.Append(" where ID=@ID");
+			OleDbParameter[] parameters = {
+					new OleDbParameter("@ID", OleDbType.Integer,4)
+			};
+			parameters[0].Value = ID;
+
+			return DbHelperOleDb.Exists(strSql.ToString(),parameters);
+		}
+
+
+		/// <summary>
+		/// 增加一条数据
+		/// </summary>
+		public bool Add(Maticsoft.Model.dicom model)
+		{
+			StringBuilder strSql=new StringBuilder();
+			strSql.Append("insert into dicom(");
+			strSql.Append("PID,Period,Heterogeneity,LobeSplit,TreatLobeVolumn,UnTreatLobeVolumn,CheckDate,File)");
+			strSql.Append(" values (");
+			strSql.Append("@PID,@Period,@Heterogeneity,@LobeSplit,@TreatLobeVolumn,@UnTreatLobeVolumn,@CheckDate,@File)");
+			OleDbParameter[] parameters = {
+					new OleDbParameter("@PID", OleDbType.Integer,4),
+					new OleDbParameter("@Period", OleDbType.Integer,4),
+					new OleDbParameter("@Heterogeneity", OleDbType.VarChar,50),
+					new OleDbParameter("@LobeSplit", OleDbType.VarChar,50),
+					new OleDbParameter("@TreatLobeVolumn", OleDbType.VarChar,50),
+					new OleDbParameter("@UnTreatLobeVolumn", OleDbType.VarChar,50),
+					new OleDbParameter("@CheckDate", OleDbType.Date),
+					new OleDbParameter("@File", OleDbType.VarChar,255)};
+			parameters[0].Value = model.PID;
+			parameters[1].Value = model.Period;
+			parameters[2].Value = model.Heterogeneity;
+			parameters[3].Value = model.LobeSplit;
+			parameters[4].Value = model.TreatLobeVolumn;
+			parameters[5].Value = model.UnTreatLobeVolumn;
+			parameters[6].Value = model.CheckDate;
+			parameters[7].Value = model.File;
+
+			int rows=DbHelperOleDb.ExecuteSql(strSql.ToString(),parameters);
+			if (rows > 0)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+		/// <summary>
+		/// 更新一条数据
+		/// </summary>
+		public bool Update(Maticsoft.Model.dicom model)
+		{
+			StringBuilder strSql=new StringBuilder();
+			strSql.Append("update dicom set ");
+			strSql.Append("PID=@PID,");
+			strSql.Append("Period=@Period,");
+			strSql.Append("Heterogeneity=@Heterogeneity,");
+			strSql.Append("LobeSplit=@LobeSplit,");
+			strSql.Append("TreatLobeVolumn=@TreatLobeVolumn,");
+			strSql.Append("UnTreatLobeVolumn=@UnTreatLobeVolumn,");
+			strSql.Append("CheckDate=@CheckDate,");
+			strSql.Append("File=@File");
+			strSql.Append(" where ID=@ID");
+			OleDbParameter[] parameters = {
+					new OleDbParameter("@PID", OleDbType.Integer,4),
+					new OleDbParameter("@Period", OleDbType.Integer,4),
+					new OleDbParameter("@Heterogeneity", OleDbType.VarChar,50),
+					new OleDbParameter("@LobeSplit", OleDbType.VarChar,50),
+					new OleDbParameter("@TreatLobeVolumn", OleDbType.VarChar,50),
+					new OleDbParameter("@UnTreatLobeVolumn", OleDbType.VarChar,50),
+					new OleDbParameter("@CheckDate", OleDbType.Date),
+					new OleDbParameter("@File", OleDbType.VarChar,255),
+					new OleDbParameter("@ID", OleDbType.Integer,4)};
+			parameters[0].Value = model.PID;
+			parameters[1].Value = model.Period;
+			parameters[2].Value = model.Heterogeneity;
+			parameters[3].Value = model.LobeSplit;
+			parameters[4].Value = model.TreatLobeVolumn;
+			parameters[5].Value = model.UnTreatLobeVolumn;
+			parameters[6].Value = model.CheckDate;
+			parameters[7].Value = model.File;
+			parameters[8].Value = model.ID;
+
+			int rows=DbHelperOleDb.ExecuteSql(strSql.ToString(),parameters);
+			if (rows > 0)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+
+		/// <summary>
+		/// 删除一条数据
+		/// </summary>
+		public bool Delete(int ID)
+		{
+			
+			StringBuilder strSql=new StringBuilder();
+			strSql.Append("delete from dicom ");
+			strSql.Append(" where ID=@ID");
+			OleDbParameter[] parameters = {
+					new OleDbParameter("@ID", OleDbType.Integer,4)
+			};
+			parameters[0].Value = ID;
+
+			int rows=DbHelperOleDb.ExecuteSql(strSql.ToString(),parameters);
+			if (rows > 0)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+		/// <summary>
+		/// 批量删除数据
+		/// </summary>
+		public bool DeleteList(string IDlist )
+		{
+			StringBuilder strSql=new StringBuilder();
+			strSql.Append("delete from dicom ");
+			strSql.Append(" where ID in ("+IDlist + ")  ");
+			int rows=DbHelperOleDb.ExecuteSql(strSql.ToString());
+			if (rows > 0)
+			{
+				return true;
+			}
+			else
+			{
+				return false;
+			}
+		}
+
+
+		/// <summary>
+		/// 得到一个对象实体
+		/// </summary>
+		public Maticsoft.Model.dicom GetModel(int ID)
+		{
+			
+			StringBuilder strSql=new StringBuilder();
+			strSql.Append("select ID,PID,Period,Heterogeneity,LobeSplit,TreatLobeVolumn,UnTreatLobeVolumn,CheckDate,File from dicom ");
+			strSql.Append(" where ID=@ID");
+			OleDbParameter[] parameters = {
+					new OleDbParameter("@ID", OleDbType.Integer,4)
+			};
+			parameters[0].Value = ID;
+
+			Maticsoft.Model.dicom model=new Maticsoft.Model.dicom();
+			DataSet ds=DbHelperOleDb.Query(strSql.ToString(),parameters);
+			if(ds.Tables[0].Rows.Count>0)
+			{
+				return DataRowToModel(ds.Tables[0].Rows[0]);
+			}
+			else
+			{
+				return null;
+			}
+		}
+
+
+		/// <summary>
+		/// 得到一个对象实体
+		/// </summary>
+		public Maticsoft.Model.dicom DataRowToModel(DataRow row)
+		{
+			Maticsoft.Model.dicom model=new Maticsoft.Model.dicom();
+			if (row != null)
+			{
+				if(row["ID"]!=null && row["ID"].ToString()!="")
+				{
+					model.ID=int.Parse(row["ID"].ToString());
+				}
+				if(row["PID"]!=null && row["PID"].ToString()!="")
+				{
+					model.PID=int.Parse(row["PID"].ToString());
+				}
+				if(row["Period"]!=null && row["Period"].ToString()!="")
+				{
+					model.Period=int.Parse(row["Period"].ToString());
+				}
+				if(row["Heterogeneity"]!=null)
+				{
+					model.Heterogeneity=row["Heterogeneity"].ToString();
+				}
+				if(row["LobeSplit"]!=null)
+				{
+					model.LobeSplit=row["LobeSplit"].ToString();
+				}
+				if(row["TreatLobeVolumn"]!=null)
+				{
+					model.TreatLobeVolumn=row["TreatLobeVolumn"].ToString();
+				}
+				if(row["UnTreatLobeVolumn"]!=null)
+				{
+					model.UnTreatLobeVolumn=row["UnTreatLobeVolumn"].ToString();
+				}
+				if(row["CheckDate"]!=null && row["CheckDate"].ToString()!="")
+				{
+					model.CheckDate=DateTime.Parse(row["CheckDate"].ToString());
+				}
+				if(row["File"]!=null)
+				{
+					model.File=row["File"].ToString();
+				}
+			}
+			return model;
+		}
+
+		/// <summary>
+		/// 获得数据列表
+		/// </summary>
+		public DataSet GetList(string strWhere)
+		{
+			StringBuilder strSql=new StringBuilder();
+			strSql.Append("select ID,PID,Period,Heterogeneity,LobeSplit,TreatLobeVolumn,UnTreatLobeVolumn,CheckDate,File ");
+			strSql.Append(" FROM dicom ");
+			if(strWhere.Trim()!="")
+			{
+				strSql.Append(" where "+strWhere);
+			}
+			return DbHelperOleDb.Query(strSql.ToString());
+		}
+
+		/// <summary>
+		/// 获取记录总数
+		/// </summary>
+		public int GetRecordCount(string strWhere)
+		{
+			StringBuilder strSql=new StringBuilder();
+			strSql.Append("select count(1) FROM dicom ");
+			if(strWhere.Trim()!="")
+			{
+				strSql.Append(" where "+strWhere);
+			}
+			object obj = DbHelperSQL.GetSingle(strSql.ToString());
+			if (obj == null)
+			{
+				return 0;
+			}
+			else
+			{
+				return Convert.ToInt32(obj);
+			}
+		}
+		/// <summary>
+		/// 分页获取数据列表
+		/// </summary>
+		public DataSet GetListByPage(string strWhere, string orderby, int startIndex, int endIndex)
+		{
+			StringBuilder strSql=new StringBuilder();
+			strSql.Append("SELECT * FROM ( ");
+			strSql.Append(" SELECT ROW_NUMBER() OVER (");
+			if (!string.IsNullOrEmpty(orderby.Trim()))
+			{
+				strSql.Append("order by T." + orderby );
+			}
+			else
+			{
+				strSql.Append("order by T.ID desc");
+			}
+			strSql.Append(")AS Row, T.*  from dicom T ");
+			if (!string.IsNullOrEmpty(strWhere.Trim()))
+			{
+				strSql.Append(" WHERE " + strWhere);
+			}
+			strSql.Append(" ) TT");
+			strSql.AppendFormat(" WHERE TT.Row between {0} and {1}", startIndex, endIndex);
+			return DbHelperOleDb.Query(strSql.ToString());
+		}
+
+		/*
+		/// <summary>
+		/// 分页获取数据列表
+		/// </summary>
+		public DataSet GetList(int PageSize,int PageIndex,string strWhere)
+		{
+			OleDbParameter[] parameters = {
+					new OleDbParameter("@tblName", OleDbType.VarChar, 255),
+					new OleDbParameter("@fldName", OleDbType.VarChar, 255),
+					new OleDbParameter("@PageSize", OleDbType.Integer),
+					new OleDbParameter("@PageIndex", OleDbType.Integer),
+					new OleDbParameter("@IsReCount", OleDbType.Boolean),
+					new OleDbParameter("@OrderType", OleDbType.Boolean),
+					new OleDbParameter("@strWhere", OleDbType.VarChar,1000),
+					};
+			parameters[0].Value = "dicom";
+			parameters[1].Value = "ID";
+			parameters[2].Value = PageSize;
+			parameters[3].Value = PageIndex;
+			parameters[4].Value = 0;
+			parameters[5].Value = 0;
+			parameters[6].Value = strWhere;	
+			return DbHelperOleDb.RunProcedure("UP_GetRecordByPage",parameters,"ds");
+		}*/
+
+		#endregion  BasicMethod
+		#region  ExtensionMethod
+
+		#endregion  ExtensionMethod
+	}
+}
+

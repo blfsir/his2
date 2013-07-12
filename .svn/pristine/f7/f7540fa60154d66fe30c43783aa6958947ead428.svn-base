@@ -1,0 +1,378 @@
+﻿namespace HIS
+{
+    partial class PatientList
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            Infragistics.Win.Appearance appearance1 = new Infragistics.Win.Appearance();
+            Infragistics.Win.UltraWinGrid.UltraGridBand ultraGridBand1 = new Infragistics.Win.UltraWinGrid.UltraGridBand("", -1);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn1 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("ID", 0);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn2 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("SignDate", 1);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn3 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("IDCode", 2);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn4 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("ModifyDate", 3);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn5 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("Name", 4, null, 0, Infragistics.Win.UltraWinGrid.SortIndicator.Ascending, false);
+            Infragistics.Win.Appearance appearance2 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance3 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance4 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance5 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance6 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance7 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance8 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance9 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance10 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance11 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance12 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance20 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance21 = new Infragistics.Win.Appearance();
+            this.tsmAdd = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmUpdate = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
+            this.dtpStartTime = new System.Windows.Forms.DateTimePicker();
+            this.txtAnimalCert = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnQuery = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.dtpEndTime = new System.Windows.Forms.DateTimePicker();
+            this.txtOwner = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.ugGrid = new Infragistics.Win.UltraWinGrid.UltraGrid();
+            this.pagination1 = new HIS.common.Pagination();
+            this.menuStrip1.SuspendLayout();
+            this.splitContainer1.Panel1.SuspendLayout();
+            this.splitContainer1.Panel2.SuspendLayout();
+            this.splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ugGrid)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // tsmAdd
+            // 
+            this.tsmAdd.Name = "tsmAdd";
+            this.tsmAdd.Size = new System.Drawing.Size(44, 21);
+            this.tsmAdd.Text = "新建";
+            this.tsmAdd.Click += new System.EventHandler(this.tsmAdd_Click);
+            // 
+            // tsmUpdate
+            // 
+            this.tsmUpdate.Name = "tsmUpdate";
+            this.tsmUpdate.Size = new System.Drawing.Size(44, 21);
+            this.tsmUpdate.Text = "编辑";
+            this.tsmUpdate.Click += new System.EventHandler(this.tsmUpdate_Click);
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmAdd,
+            this.tsmUpdate});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(1075, 25);
+            this.menuStrip1.TabIndex = 0;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // splitContainer1
+            // 
+            this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer1.FixedPanel = System.Windows.Forms.FixedPanel.Panel1;
+            this.splitContainer1.IsSplitterFixed = true;
+            this.splitContainer1.Location = new System.Drawing.Point(0, 25);
+            this.splitContainer1.Name = "splitContainer1";
+            this.splitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer1.Panel1
+            // 
+            this.splitContainer1.Panel1.Controls.Add(this.dtpStartTime);
+            this.splitContainer1.Panel1.Controls.Add(this.txtAnimalCert);
+            this.splitContainer1.Panel1.Controls.Add(this.label5);
+            this.splitContainer1.Panel1.Controls.Add(this.btnQuery);
+            this.splitContainer1.Panel1.Controls.Add(this.label6);
+            this.splitContainer1.Panel1.Controls.Add(this.dtpEndTime);
+            this.splitContainer1.Panel1.Controls.Add(this.txtOwner);
+            this.splitContainer1.Panel1.Controls.Add(this.label4);
+            this.splitContainer1.Panel1.Controls.Add(this.label1);
+            // 
+            // splitContainer1.Panel2
+            // 
+            this.splitContainer1.Panel2.Controls.Add(this.ugGrid);
+            this.splitContainer1.Panel2.Controls.Add(this.pagination1);
+            this.splitContainer1.Size = new System.Drawing.Size(1075, 361);
+            this.splitContainer1.SplitterDistance = 42;
+            this.splitContainer1.TabIndex = 7;
+            // 
+            // dtpStartTime
+            // 
+            this.dtpStartTime.CustomFormat = "yyyy年MM月dd日 12:00:00";
+            this.dtpStartTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpStartTime.Location = new System.Drawing.Point(74, 6);
+            this.dtpStartTime.Name = "dtpStartTime";
+            this.dtpStartTime.Size = new System.Drawing.Size(162, 21);
+            this.dtpStartTime.TabIndex = 178;
+            // 
+            // txtAnimalCert
+            // 
+            this.txtAnimalCert.Location = new System.Drawing.Point(550, 6);
+            this.txtAnimalCert.MaxLength = 20;
+            this.txtAnimalCert.Name = "txtAnimalCert";
+            this.txtAnimalCert.Size = new System.Drawing.Size(101, 21);
+            this.txtAnimalCert.TabIndex = 177;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(435, 10);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(41, 12);
+            this.label5.TabIndex = 176;
+            this.label5.Text = "姓名：";
+            // 
+            // btnQuery
+            // 
+            this.btnQuery.Location = new System.Drawing.Point(801, 5);
+            this.btnQuery.Name = "btnQuery";
+            this.btnQuery.Size = new System.Drawing.Size(75, 23);
+            this.btnQuery.TabIndex = 175;
+            this.btnQuery.Text = "查询";
+            this.btnQuery.UseVisualStyleBackColor = true;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(242, 10);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(17, 12);
+            this.label6.TabIndex = 174;
+            this.label6.Text = "--";
+            // 
+            // dtpEndTime
+            // 
+            this.dtpEndTime.CustomFormat = "yyyy年MM月dd日 12:00:00";
+            this.dtpEndTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtpEndTime.Location = new System.Drawing.Point(263, 6);
+            this.dtpEndTime.Name = "dtpEndTime";
+            this.dtpEndTime.Size = new System.Drawing.Size(166, 21);
+            this.dtpEndTime.TabIndex = 171;
+            // 
+            // txtOwner
+            // 
+            this.txtOwner.Location = new System.Drawing.Point(701, 6);
+            this.txtOwner.MaxLength = 20;
+            this.txtOwner.Name = "txtOwner";
+            this.txtOwner.Size = new System.Drawing.Size(94, 21);
+            this.txtOwner.TabIndex = 173;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(657, 10);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(41, 12);
+            this.label4.TabIndex = 172;
+            this.label4.Text = "ID号：";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(11, 10);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 12);
+            this.label1.TabIndex = 170;
+            this.label1.Text = "入库日期：";
+            // 
+            // ugGrid
+            // 
+            appearance1.BackColor = System.Drawing.SystemColors.Window;
+            appearance1.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.ugGrid.DisplayLayout.Appearance = appearance1;
+            this.ugGrid.DisplayLayout.AutoFitStyle = Infragistics.Win.UltraWinGrid.AutoFitStyle.ResizeAllColumns;
+            ultraGridColumn1.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn1.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit;
+            ultraGridColumn1.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn1.ExcludeFromColumnChooser = Infragistics.Win.UltraWinGrid.ExcludeFromColumnChooser.True;
+            ultraGridColumn1.Header.Caption = "编号";
+            ultraGridColumn1.Header.VisiblePosition = 0;
+            ultraGridColumn1.Width = 114;
+            ultraGridColumn2.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn2.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit;
+            ultraGridColumn2.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn2.Header.Caption = "入库时间";
+            ultraGridColumn2.Header.VisiblePosition = 3;
+            ultraGridColumn2.Width = 180;
+            ultraGridColumn3.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn3.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit;
+            ultraGridColumn3.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn3.ExcludeFromColumnChooser = Infragistics.Win.UltraWinGrid.ExcludeFromColumnChooser.True;
+            ultraGridColumn3.Header.Caption = "ID号";
+            ultraGridColumn3.Header.VisiblePosition = 2;
+            ultraGridColumn3.Width = 139;
+            ultraGridColumn4.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn4.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit;
+            ultraGridColumn4.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn4.Header.Caption = "末次修改时间";
+            ultraGridColumn4.Header.VisiblePosition = 4;
+            ultraGridColumn4.Width = 192;
+            ultraGridColumn5.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn5.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit;
+            ultraGridColumn5.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn5.Header.Caption = "姓名";
+            ultraGridColumn5.Header.VisiblePosition = 1;
+            ultraGridColumn5.Width = 446;
+            ultraGridBand1.Columns.AddRange(new object[] {
+            ultraGridColumn1,
+            ultraGridColumn2,
+            ultraGridColumn3,
+            ultraGridColumn4,
+            ultraGridColumn5});
+            this.ugGrid.DisplayLayout.BandsSerializer.Add(ultraGridBand1);
+            this.ugGrid.DisplayLayout.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
+            this.ugGrid.DisplayLayout.CaptionVisible = Infragistics.Win.DefaultableBoolean.False;
+            appearance2.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            appearance2.BackColor2 = System.Drawing.SystemColors.ControlDark;
+            appearance2.BackGradientStyle = Infragistics.Win.GradientStyle.Vertical;
+            appearance2.BorderColor = System.Drawing.SystemColors.Window;
+            this.ugGrid.DisplayLayout.GroupByBox.Appearance = appearance2;
+            appearance3.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.ugGrid.DisplayLayout.GroupByBox.BandLabelAppearance = appearance3;
+            this.ugGrid.DisplayLayout.GroupByBox.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
+            appearance4.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            appearance4.BackColor2 = System.Drawing.SystemColors.Control;
+            appearance4.BackGradientStyle = Infragistics.Win.GradientStyle.Horizontal;
+            appearance4.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.ugGrid.DisplayLayout.GroupByBox.PromptAppearance = appearance4;
+            this.ugGrid.DisplayLayout.MaxColScrollRegions = 1;
+            this.ugGrid.DisplayLayout.MaxRowScrollRegions = 1;
+            appearance5.BackColor = System.Drawing.SystemColors.Window;
+            appearance5.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.ugGrid.DisplayLayout.Override.ActiveCellAppearance = appearance5;
+            appearance6.BackColor = System.Drawing.SystemColors.Highlight;
+            appearance6.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.ugGrid.DisplayLayout.Override.ActiveRowAppearance = appearance6;
+            this.ugGrid.DisplayLayout.Override.AllowColSizing = Infragistics.Win.UltraWinGrid.AllowColSizing.Free;
+            this.ugGrid.DisplayLayout.Override.AllowColSwapping = Infragistics.Win.UltraWinGrid.AllowColSwapping.NotAllowed;
+            this.ugGrid.DisplayLayout.Override.BorderStyleCell = Infragistics.Win.UIElementBorderStyle.Dotted;
+            this.ugGrid.DisplayLayout.Override.BorderStyleRow = Infragistics.Win.UIElementBorderStyle.Dotted;
+            appearance7.BackColor = System.Drawing.SystemColors.Window;
+            this.ugGrid.DisplayLayout.Override.CardAreaAppearance = appearance7;
+            appearance8.BorderColor = System.Drawing.Color.Silver;
+            appearance8.TextTrimming = Infragistics.Win.TextTrimming.EllipsisCharacter;
+            this.ugGrid.DisplayLayout.Override.CellAppearance = appearance8;
+            this.ugGrid.DisplayLayout.Override.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.EditAndSelectText;
+            this.ugGrid.DisplayLayout.Override.CellPadding = 0;
+            this.ugGrid.DisplayLayout.Override.FilterUIType = Infragistics.Win.UltraWinGrid.FilterUIType.FilterRow;
+            appearance9.BackColor = System.Drawing.SystemColors.Control;
+            appearance9.BackColor2 = System.Drawing.SystemColors.ControlDark;
+            appearance9.BackGradientAlignment = Infragistics.Win.GradientAlignment.Element;
+            appearance9.BackGradientStyle = Infragistics.Win.GradientStyle.Horizontal;
+            appearance9.BorderColor = System.Drawing.SystemColors.Window;
+            this.ugGrid.DisplayLayout.Override.GroupByRowAppearance = appearance9;
+            appearance10.TextHAlignAsString = "Left";
+            this.ugGrid.DisplayLayout.Override.HeaderAppearance = appearance10;
+            this.ugGrid.DisplayLayout.Override.HeaderClickAction = Infragistics.Win.UltraWinGrid.HeaderClickAction.SortMulti;
+            this.ugGrid.DisplayLayout.Override.HeaderStyle = Infragistics.Win.HeaderStyle.WindowsXPCommand;
+            appearance11.BackColor = System.Drawing.SystemColors.Window;
+            appearance11.BorderColor = System.Drawing.Color.Silver;
+            this.ugGrid.DisplayLayout.Override.RowAppearance = appearance11;
+            this.ugGrid.DisplayLayout.Override.RowSelectors = Infragistics.Win.DefaultableBoolean.False;
+            this.ugGrid.DisplayLayout.Override.RowSizing = Infragistics.Win.UltraWinGrid.RowSizing.Fixed;
+            appearance12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ugGrid.DisplayLayout.Override.SummaryFooterAppearance = appearance12;
+            appearance20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.ugGrid.DisplayLayout.Override.SummaryFooterCaptionAppearance = appearance20;
+            appearance21.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.ugGrid.DisplayLayout.Override.TemplateAddRowAppearance = appearance21;
+            this.ugGrid.DisplayLayout.ScrollBounds = Infragistics.Win.UltraWinGrid.ScrollBounds.ScrollToFill;
+            this.ugGrid.DisplayLayout.ScrollStyle = Infragistics.Win.UltraWinGrid.ScrollStyle.Immediate;
+            this.ugGrid.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ugGrid.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ugGrid.Location = new System.Drawing.Point(0, 0);
+            this.ugGrid.Name = "ugGrid";
+            this.ugGrid.Size = new System.Drawing.Size(1073, 285);
+            this.ugGrid.TabIndex = 8;
+            this.ugGrid.Text = "ultraGrid1";
+            // 
+            // pagination1
+            // 
+            this.pagination1.AutoSize = true;
+            this.pagination1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.pagination1.CurrentPage = 1;
+            this.pagination1.CustomPageSize = false;
+            this.pagination1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.pagination1.Location = new System.Drawing.Point(0, 285);
+            this.pagination1.Name = "pagination1";
+            this.pagination1.PageCount = 0;
+            this.pagination1.PageSize = 20;
+            this.pagination1.RecordCount = 0;
+            this.pagination1.Size = new System.Drawing.Size(1073, 28);
+            this.pagination1.StaticInfo = "";
+            this.pagination1.TabIndex = 5;
+            // 
+            // PatientList
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1075, 386);
+            this.Controls.Add(this.splitContainer1);
+            this.Controls.Add(this.menuStrip1);
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "PatientList";
+            this.Text = "PatientList";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.splitContainer1.Panel1.ResumeLayout(false);
+            this.splitContainer1.Panel1.PerformLayout();
+            this.splitContainer1.Panel2.ResumeLayout(false);
+            this.splitContainer1.Panel2.PerformLayout();
+            this.splitContainer1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ugGrid)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.ToolStripMenuItem tsmAdd;
+        private System.Windows.Forms.ToolStripMenuItem tsmUpdate;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.SplitContainer splitContainer1;
+        private common.Pagination pagination1;
+        private System.Windows.Forms.DateTimePicker dtpStartTime;
+        private System.Windows.Forms.TextBox txtAnimalCert;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnQuery;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.DateTimePicker dtpEndTime;
+        private System.Windows.Forms.TextBox txtOwner;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label1;
+        private Infragistics.Win.UltraWinGrid.UltraGrid ugGrid;
+
+
+    }
+}

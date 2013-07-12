@@ -1,0 +1,98 @@
+﻿using System;
+namespace Maticsoft.Model
+{
+	/// <summary>
+	/// dicom:实体类(属性说明自动提取数据库字段的描述信息)
+	/// </summary>
+	[Serializable]
+	public partial class dicom
+	{
+		public dicom()
+		{}
+		#region Model
+		private int _id;
+		private int? _pid=0;
+		private int? _peroid=0;
+		private DateTime? _checkdate;
+		private string _dicomfilf;
+		private string _heterogeneity;
+		private string _lobesplit;
+		private string _treatlobevolumn;
+		private string _untreatlobevolumn;
+		/// <summary>
+		/// 
+		/// </summary>
+		public int ID
+		{
+			set{ _id=value;}
+			get{return _id;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public int? PID
+		{
+			set{ _pid=value;}
+			get{return _pid;}
+		}
+		/// <summary>
+		/// 
+		/// </summary>
+		public int? Peroid
+		{
+			set{ _peroid=value;}
+			get{return _peroid;}
+		}
+		/// <summary>
+		/// 检查时间
+		/// </summary>
+		public DateTime? CheckDate
+		{
+			set{ _checkdate=value;}
+			get{return _checkdate;}
+		}
+		/// <summary>
+		/// 影像学资料（dicom文件）
+		/// </summary>
+		public string dicomFilf
+		{
+			set{ _dicomfilf=value;}
+			get{return _dicomfilf;}
+		}
+		/// <summary>
+		/// 异质性评分
+		/// </summary>
+		public string Heterogeneity
+		{
+			set{ _heterogeneity=value;}
+			get{return _heterogeneity;}
+		}
+		/// <summary>
+		/// 叶间裂完整性选项（完整、不完整）
+		/// </summary>
+		public string LobeSplit
+		{
+			set{ _lobesplit=value;}
+			get{return _lobesplit;}
+		}
+		/// <summary>
+		/// 治疗靶肺叶容积
+		/// </summary>
+		public string TreatLobeVolumn
+		{
+			set{ _treatlobevolumn=value;}
+			get{return _treatlobevolumn;}
+		}
+		/// <summary>
+		/// 同侧未治疗肺叶容积    ml
+		/// </summary>
+		public string UnTreatLobeVolumn
+		{
+			set{ _untreatlobevolumn=value;}
+			get{return _untreatlobevolumn;}
+		}
+		#endregion Model
+
+	}
+}
+

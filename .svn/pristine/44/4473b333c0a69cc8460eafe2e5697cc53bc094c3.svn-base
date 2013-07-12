@@ -1,0 +1,118 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace HIS.common
+{
+   public  class Race
+    {
+        public string Name { get; set; }
+
+        public Race() { }
+        public Race(string _name)
+        {
+            Name = _name;
+        }
+        public List<Race> races() {
+            return new List<Race> { 
+                                new Race("汉族"), 
+                                new Race("壮族"),
+                                new Race("满族"),
+                                new Race("回族"),
+                                new Race("苗族"),
+                                new Race("维吾尔族"),
+                                new Race("土家族"),
+                                new Race("彝族"),
+                                new Race("蒙古族"),
+                                new Race("藏族"),
+                                new Race("布依族"),
+                                new Race("侗族"),
+                                new Race("瑶族"), 
+                                new Race("朝鲜族"),
+                                new Race("白族"),
+                                new Race("哈尼族"),
+                                new Race("哈萨克族"),
+                                new Race("黎族"),
+                                new Race("傣族"),
+                                new Race("畲族"),
+                                new Race("傈僳族"),
+                                new Race("仡佬族"),
+                                new Race("东乡族"),
+                                new Race("高山族"),
+                                new Race("拉祜族"),
+                                new Race("水族"),
+                                new Race("佤族"),
+                                new Race("纳西族"),
+                                new Race("羌族"),
+                                new Race("土族"),
+                                new Race("仫佬族"),
+                                new Race("锡伯族"),
+                                new Race("柯尔克孜族"),
+                                new Race("达斡尔族"),
+                                new Race("景颇族"),
+                                new Race("毛南族"),
+                                new Race("撒拉族"),
+                                new Race("布朗族"),
+                                new Race("塔吉克族"),
+                                new Race("阿昌族"),
+                                new Race("普米族"),
+                                new Race("鄂温克族"),
+                                new Race("怒族"),
+                                new Race("京族"),
+                                new Race("基诺族"),
+                                new Race("德昂族"),
+                                new Race("保安族"),
+                                new Race("俄罗斯族"),
+                                new Race("裕固族"),
+                                new Race("乌兹别克族"),
+                                new Race("门巴族"),
+                                new Race("鄂伦春族"),
+                                new Race("独龙族"),
+                                new Race("塔塔尔族"),
+                                new Race("赫哲族"),
+                                new Race("珞巴族") 
+ 
+        };
+        }
+
+        public List<Race> regions() {
+            return new List<Race> { 
+                new Race("北京市"),
+                new Race("天津市"),
+                new Race("河北省"),
+                new Race("山西省"),
+                new Race("内蒙古"),
+                new Race("辽宁省"),
+                new Race("吉林省"),
+                new Race("黑龙江"),
+                new Race("上海市"),
+                new Race("江苏省"),
+                new Race("浙江省"),
+                new Race("安徽省"),
+                new Race("福建省"),
+                new Race("江西省"),
+                new Race("山东省"),
+                new Race("河南省"),
+                new Race("湖北省"),
+                new Race("湖南省"),
+                new Race("广东省"),
+                new Race("广西省"),
+                new Race("海南省"),
+                new Race("重庆市"),
+                new Race("四川省"),
+                new Race("贵州省"),
+                new Race("云南省"),
+                new Race("西藏"),
+                new Race("陕西省"),
+                new Race("甘肃省"),
+                new Race("青海省"),
+                new Race("宁夏"),
+                new Race("新疆"),
+                new Race("台湾省"),
+                new Race("香港"),
+                new Race("澳门")
+            };
+        }
+    }
+}

@@ -1,0 +1,1035 @@
+﻿namespace HIS
+{
+    partial class DetailInfo
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            Infragistics.Win.Appearance appearance54 = new Infragistics.Win.Appearance();
+            Infragistics.Win.UltraWinGrid.UltraGridBand ultraGridBand1 = new Infragistics.Win.UltraWinGrid.UltraGridBand("Band0", -1);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn1 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("PRODUCTNAME", 0);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn2 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("PRODUCTWEIGHT", 1, null, 0, Infragistics.Win.UltraWinGrid.SortIndicator.Ascending, false);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn3 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("ID", 2);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn4 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("PRODUCTCODE", 3);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn5 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("PLANTATIONNAME", 4);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn6 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("UnboundColumn1", 5);
+            Infragistics.Win.Appearance appearance31 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance32 = new Infragistics.Win.Appearance();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DetailInfo));
+            Infragistics.Win.Appearance appearance33 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance55 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance56 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance57 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance58 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance59 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance60 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance61 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance62 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance63 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance64 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance65 = new Infragistics.Win.Appearance();
+            this.ultraTabbedMdiManager1 = new Infragistics.Win.UltraWinTabbedMdi.UltraTabbedMdiManager(this.components);
+            this.tc = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.ultraLabel1 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel2 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel7 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel8 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel9 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel10 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel11 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel12 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraGroupBox1 = new Infragistics.Win.Misc.UltraGroupBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtBillCode = new System.Windows.Forms.TextBox();
+            this.ultraCheckEditor1 = new Infragistics.Win.UltraWinEditors.UltraCheckEditor();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.ultraLabel6 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel5 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel4 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel3 = new Infragistics.Win.Misc.UltraLabel();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.cmbButcherOrgan = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.ultraGroupBox3 = new Infragistics.Win.Misc.UltraGroupBox();
+            this.gbGoodInfo = new System.Windows.Forms.GroupBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.gridInfo = new Infragistics.Win.UltraWinGrid.UltraGrid();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtMeatNO = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtCarNo = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            ((System.ComponentModel.ISupportInitialize)(this.ultraTabbedMdiManager1)).BeginInit();
+            this.tc.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ultraGroupBox1)).BeginInit();
+            this.ultraGroupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ultraGroupBox3)).BeginInit();
+            this.ultraGroupBox3.SuspendLayout();
+            this.gbGoodInfo.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridInfo)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // ultraTabbedMdiManager1
+            // 
+            this.ultraTabbedMdiManager1.MdiParent = this;
+            this.ultraTabbedMdiManager1.InitializeTab += new Infragistics.Win.UltraWinTabbedMdi.MdiTabEventHandler(this.ultraTabbedMdiManager1_InitializeTab);
+            // 
+            // tc
+            // 
+            this.tc.Controls.Add(this.tabPage1);
+            this.tc.Controls.Add(this.tabPage2);
+            this.tc.Controls.Add(this.tabPage3);
+            this.tc.Controls.Add(this.tabPage4);
+            this.tc.Controls.Add(this.tabPage5);
+            this.tc.Controls.Add(this.tabPage6);
+            this.tc.Controls.Add(this.tabPage7);
+            this.tc.Controls.Add(this.tabPage8);
+            this.tc.Controls.Add(this.tabPage9);
+            this.tc.Location = new System.Drawing.Point(12, 12);
+            this.tc.Name = "tc";
+            this.tc.SelectedIndex = 0;
+            this.tc.Size = new System.Drawing.Size(1051, 546);
+            this.tc.TabIndex = 1;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage1.Controls.Add(this.button2);
+            this.tabPage1.Controls.Add(this.button1);
+            this.tabPage1.Controls.Add(this.comboBox1);
+            this.tabPage1.Controls.Add(this.cmbButcherOrgan);
+            this.tabPage1.Controls.Add(this.radioButton2);
+            this.tabPage1.Controls.Add(this.radioButton1);
+            this.tabPage1.Controls.Add(this.textBox12);
+            this.tabPage1.Controls.Add(this.dateTimePicker1);
+            this.tabPage1.Controls.Add(this.textBox13);
+            this.tabPage1.Controls.Add(this.textBox14);
+            this.tabPage1.Controls.Add(this.textBox15);
+            this.tabPage1.Controls.Add(this.ultraLabel1);
+            this.tabPage1.Controls.Add(this.ultraLabel2);
+            this.tabPage1.Controls.Add(this.ultraLabel7);
+            this.tabPage1.Controls.Add(this.ultraLabel8);
+            this.tabPage1.Controls.Add(this.ultraLabel9);
+            this.tabPage1.Controls.Add(this.ultraLabel10);
+            this.tabPage1.Controls.Add(this.ultraLabel11);
+            this.tabPage1.Controls.Add(this.ultraLabel12);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1043, 520);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "人口学数据";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage2.Controls.Add(this.gbGoodInfo);
+            this.tabPage2.Controls.Add(this.ultraGroupBox3);
+            this.tabPage2.Controls.Add(this.button3);
+            this.tabPage2.Controls.Add(this.button4);
+            this.tabPage2.Controls.Add(this.ultraGroupBox1);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1043, 520);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "一般情况";
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1043, 520);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "治疗前基线指标";
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(1020, 76);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "治疗情况";
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(1020, 76);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "治疗后1周";
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(1020, 76);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "治疗后1月";
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(1020, 76);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "治疗后3月";
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage8.Size = new System.Drawing.Size(1020, 76);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "治疗后6月";
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage9.Location = new System.Drawing.Point(4, 22);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage9.Size = new System.Drawing.Size(1020, 76);
+            this.tabPage9.TabIndex = 8;
+            this.tabPage9.Text = "治疗后1年";
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(170, 100);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.ReadOnly = true;
+            this.textBox12.Size = new System.Drawing.Size(144, 21);
+            this.textBox12.TabIndex = 72;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(170, 62);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(144, 21);
+            this.dateTimePicker1.TabIndex = 70;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(170, 296);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(144, 21);
+            this.textBox13.TabIndex = 69;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(170, 257);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(311, 21);
+            this.textBox14.TabIndex = 68;
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(170, 219);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(144, 21);
+            this.textBox15.TabIndex = 67;
+            // 
+            // ultraLabel1
+            // 
+            this.ultraLabel1.Location = new System.Drawing.Point(44, 179);
+            this.ultraLabel1.Name = "ultraLabel1";
+            this.ultraLabel1.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel1.TabIndex = 64;
+            this.ultraLabel1.Text = "籍贯：";
+            // 
+            // ultraLabel2
+            // 
+            this.ultraLabel2.Location = new System.Drawing.Point(44, 219);
+            this.ultraLabel2.Name = "ultraLabel2";
+            this.ultraLabel2.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel2.TabIndex = 63;
+            this.ultraLabel2.Text = "联系电话：";
+            // 
+            // ultraLabel7
+            // 
+            this.ultraLabel7.Location = new System.Drawing.Point(44, 257);
+            this.ultraLabel7.Name = "ultraLabel7";
+            this.ultraLabel7.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel7.TabIndex = 62;
+            this.ultraLabel7.Text = "联系地址：";
+            // 
+            // ultraLabel8
+            // 
+            this.ultraLabel8.Location = new System.Drawing.Point(44, 296);
+            this.ultraLabel8.Name = "ultraLabel8";
+            this.ultraLabel8.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel8.TabIndex = 61;
+            this.ultraLabel8.Text = "电子邮箱：";
+            // 
+            // ultraLabel9
+            // 
+            this.ultraLabel9.Location = new System.Drawing.Point(44, 100);
+            this.ultraLabel9.Name = "ultraLabel9";
+            this.ultraLabel9.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel9.TabIndex = 60;
+            this.ultraLabel9.Text = "年龄：";
+            // 
+            // ultraLabel10
+            // 
+            this.ultraLabel10.Location = new System.Drawing.Point(44, 25);
+            this.ultraLabel10.Name = "ultraLabel10";
+            this.ultraLabel10.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel10.TabIndex = 59;
+            this.ultraLabel10.Text = "性别：";
+            // 
+            // ultraLabel11
+            // 
+            this.ultraLabel11.Location = new System.Drawing.Point(44, 141);
+            this.ultraLabel11.Name = "ultraLabel11";
+            this.ultraLabel11.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel11.TabIndex = 58;
+            this.ultraLabel11.Text = "民族：";
+            // 
+            // ultraLabel12
+            // 
+            this.ultraLabel12.Location = new System.Drawing.Point(44, 62);
+            this.ultraLabel12.Name = "ultraLabel12";
+            this.ultraLabel12.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel12.TabIndex = 57;
+            this.ultraLabel12.Text = "出生日期：";
+            // 
+            // ultraGroupBox1
+            // 
+            this.ultraGroupBox1.Controls.Add(this.textBox11);
+            this.ultraGroupBox1.Controls.Add(this.label7);
+            this.ultraGroupBox1.Controls.Add(this.textBox10);
+            this.ultraGroupBox1.Controls.Add(this.label5);
+            this.ultraGroupBox1.Controls.Add(this.label4);
+            this.ultraGroupBox1.Controls.Add(this.label6);
+            this.ultraGroupBox1.Controls.Add(this.textBox9);
+            this.ultraGroupBox1.Controls.Add(this.txtBillCode);
+            this.ultraGroupBox1.Controls.Add(this.ultraCheckEditor1);
+            this.ultraGroupBox1.Location = new System.Drawing.Point(27, 87);
+            this.ultraGroupBox1.Name = "ultraGroupBox1";
+            this.ultraGroupBox1.Size = new System.Drawing.Size(995, 60);
+            this.ultraGroupBox1.TabIndex = 68;
+            this.ultraGroupBox1.Text = "吸烟史";
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(701, 26);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(66, 21);
+            this.textBox11.TabIndex = 141;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(638, 30);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(53, 12);
+            this.label7.TabIndex = 140;
+            this.label7.Text = "戒烟时间";
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(412, 21);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.ReadOnly = true;
+            this.textBox10.Size = new System.Drawing.Size(100, 21);
+            this.textBox10.TabIndex = 139;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(311, 27);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(95, 12);
+            this.label5.TabIndex = 138;
+            this.label5.Text = "吸烟指数(支年):";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 27);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(47, 12);
+            this.label4.TabIndex = 137;
+            this.label4.Text = "吸烟年:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(168, 27);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(65, 12);
+            this.label6.TabIndex = 136;
+            this.label6.Text = "平均支/日:";
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(239, 21);
+            this.textBox9.MaxLength = 6;
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(66, 21);
+            this.textBox9.TabIndex = 35;
+            // 
+            // txtBillCode
+            // 
+            this.txtBillCode.Location = new System.Drawing.Point(59, 21);
+            this.txtBillCode.MaxLength = 6;
+            this.txtBillCode.Name = "txtBillCode";
+            this.txtBillCode.Size = new System.Drawing.Size(68, 21);
+            this.txtBillCode.TabIndex = 34;
+            // 
+            // ultraCheckEditor1
+            // 
+            this.ultraCheckEditor1.Location = new System.Drawing.Point(541, 25);
+            this.ultraCheckEditor1.Name = "ultraCheckEditor1";
+            this.ultraCheckEditor1.Size = new System.Drawing.Size(120, 20);
+            this.ultraCheckEditor1.TabIndex = 34;
+            this.ultraCheckEditor1.Text = "是否戒烟";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(826, 22);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.ReadOnly = true;
+            this.textBox7.Size = new System.Drawing.Size(119, 21);
+            this.textBox7.TabIndex = 67;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(678, 24);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(17, 12);
+            this.label3.TabIndex = 66;
+            this.label3.Text = "cm";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(553, 19);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(119, 21);
+            this.textBox6.TabIndex = 65;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(412, 24);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(17, 12);
+            this.label2.TabIndex = 64;
+            this.label2.Text = "kg";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(287, 16);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(119, 21);
+            this.textBox5.TabIndex = 63;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(189, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(17, 12);
+            this.label1.TabIndex = 62;
+            this.label1.Text = "cm";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(64, 16);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(119, 21);
+            this.textBox4.TabIndex = 61;
+            // 
+            // ultraLabel6
+            // 
+            this.ultraLabel6.Location = new System.Drawing.Point(501, 19);
+            this.ultraLabel6.Name = "ultraLabel6";
+            this.ultraLabel6.Size = new System.Drawing.Size(46, 23);
+            this.ultraLabel6.TabIndex = 60;
+            this.ultraLabel6.Text = "腰围：";
+            // 
+            // ultraLabel5
+            // 
+            this.ultraLabel5.Location = new System.Drawing.Point(6, 20);
+            this.ultraLabel5.Name = "ultraLabel5";
+            this.ultraLabel5.Size = new System.Drawing.Size(54, 23);
+            this.ultraLabel5.TabIndex = 59;
+            this.ultraLabel5.Text = "身高：";
+            // 
+            // ultraLabel4
+            // 
+            this.ultraLabel4.Location = new System.Drawing.Point(754, 24);
+            this.ultraLabel4.Name = "ultraLabel4";
+            this.ultraLabel4.Size = new System.Drawing.Size(91, 23);
+            this.ultraLabel4.TabIndex = 58;
+            this.ultraLabel4.Text = "体重指数：";
+            // 
+            // ultraLabel3
+            // 
+            this.ultraLabel3.Location = new System.Drawing.Point(232, 19);
+            this.ultraLabel3.Name = "ultraLabel3";
+            this.ultraLabel3.Size = new System.Drawing.Size(49, 23);
+            this.ultraLabel3.TabIndex = 57;
+            this.ultraLabel3.Text = "体重：";
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(170, 23);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(35, 16);
+            this.radioButton1.TabIndex = 73;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "男";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(240, 23);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(35, 16);
+            this.radioButton2.TabIndex = 74;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "女";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // cmbButcherOrgan
+            // 
+            this.cmbButcherOrgan.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.cmbButcherOrgan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbButcherOrgan.FormattingEnabled = true;
+            this.cmbButcherOrgan.Location = new System.Drawing.Point(170, 138);
+            this.cmbButcherOrgan.Name = "cmbButcherOrgan";
+            this.cmbButcherOrgan.Size = new System.Drawing.Size(144, 20);
+            this.cmbButcherOrgan.TabIndex = 75;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(170, 176);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(144, 20);
+            this.comboBox1.TabIndex = 76;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(868, 479);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 77;
+            this.button1.Text = "编辑";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(962, 479);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 78;
+            this.button2.Text = "保存";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(960, 479);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 80;
+            this.button3.Text = "保存";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(866, 479);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 79;
+            this.button4.Text = "编辑";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // ultraGroupBox3
+            // 
+            this.ultraGroupBox3.Controls.Add(this.ultraLabel5);
+            this.ultraGroupBox3.Controls.Add(this.textBox4);
+            this.ultraGroupBox3.Controls.Add(this.label1);
+            this.ultraGroupBox3.Controls.Add(this.ultraLabel3);
+            this.ultraGroupBox3.Controls.Add(this.textBox5);
+            this.ultraGroupBox3.Controls.Add(this.textBox7);
+            this.ultraGroupBox3.Controls.Add(this.label2);
+            this.ultraGroupBox3.Controls.Add(this.ultraLabel4);
+            this.ultraGroupBox3.Controls.Add(this.label3);
+            this.ultraGroupBox3.Controls.Add(this.ultraLabel6);
+            this.ultraGroupBox3.Controls.Add(this.textBox6);
+            this.ultraGroupBox3.Location = new System.Drawing.Point(27, 21);
+            this.ultraGroupBox3.Name = "ultraGroupBox3";
+            this.ultraGroupBox3.Size = new System.Drawing.Size(995, 60);
+            this.ultraGroupBox3.TabIndex = 82;
+            this.ultraGroupBox3.Text = "一般情况";
+            // 
+            // gbGoodInfo
+            // 
+            this.gbGoodInfo.Controls.Add(this.panel3);
+            this.gbGoodInfo.Controls.Add(this.panel2);
+            this.gbGoodInfo.Location = new System.Drawing.Point(27, 153);
+            this.gbGoodInfo.Name = "gbGoodInfo";
+            this.gbGoodInfo.Size = new System.Drawing.Size(995, 306);
+            this.gbGoodInfo.TabIndex = 83;
+            this.gbGoodInfo.TabStop = false;
+            this.gbGoodInfo.Text = "既往病史/治疗史";
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.gridInfo);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(3, 117);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(989, 186);
+            this.panel3.TabIndex = 168;
+            // 
+            // gridInfo
+            // 
+            this.gridInfo.DisplayLayout.AddNewBox.ButtonConnectorStyle = Infragistics.Win.UIElementBorderStyle.Dotted;
+            this.gridInfo.DisplayLayout.AddNewBox.ButtonStyle = Infragistics.Win.UIElementButtonStyle.Button;
+            this.gridInfo.DisplayLayout.AddNewBox.Style = Infragistics.Win.UltraWinGrid.AddNewBoxStyle.Compact;
+            appearance54.BackColor = System.Drawing.SystemColors.Window;
+            appearance54.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.gridInfo.DisplayLayout.Appearance = appearance54;
+            this.gridInfo.DisplayLayout.AutoFitStyle = Infragistics.Win.UltraWinGrid.AutoFitStyle.ResizeAllColumns;
+            ultraGridBand1.AddButtonCaption = "Add";
+            ultraGridColumn1.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn1.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit;
+            ultraGridColumn1.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn1.Header.Caption = "发病年份";
+            ultraGridColumn1.Header.VisiblePosition = 1;
+            ultraGridColumn1.Width = 284;
+            ultraGridColumn2.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn2.Header.Caption = "治疗情况";
+            ultraGridColumn2.Header.VisiblePosition = 2;
+            ultraGridColumn2.Width = 204;
+            ultraGridColumn3.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn3.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit;
+            ultraGridColumn3.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn3.ExcludeFromColumnChooser = Infragistics.Win.UltraWinGrid.ExcludeFromColumnChooser.True;
+            ultraGridColumn3.Header.Caption = "治疗效果";
+            ultraGridColumn3.Header.VisiblePosition = 3;
+            ultraGridColumn3.SupportDataErrorInfo = Infragistics.Win.DefaultableBoolean.False;
+            ultraGridColumn3.Width = 87;
+            ultraGridColumn4.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn4.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit;
+            ultraGridColumn4.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn4.ExcludeFromColumnChooser = Infragistics.Win.UltraWinGrid.ExcludeFromColumnChooser.True;
+            ultraGridColumn4.Header.Caption = "长期用药史";
+            ultraGridColumn4.Header.VisiblePosition = 4;
+            ultraGridColumn4.Width = 90;
+            ultraGridColumn5.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn5.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit;
+            ultraGridColumn5.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn5.Header.Caption = "疾病诊断";
+            ultraGridColumn5.Header.VisiblePosition = 0;
+            ultraGridColumn5.Width = 115;
+            ultraGridColumn6.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn6.ButtonDisplayStyle = Infragistics.Win.UltraWinGrid.ButtonDisplayStyle.Always;
+            appearance31.TextHAlignAsString = "Center";
+            appearance31.TextVAlignAsString = "Middle";
+            ultraGridColumn6.CellAppearance = appearance31;
+            appearance32.BackColor = System.Drawing.Color.DimGray;
+            appearance32.Image = ((object)(resources.GetObject("appearance32.Image")));
+            appearance32.ImageVAlign = Infragistics.Win.VAlign.Middle;
+            appearance32.TextHAlignAsString = "Center";
+            appearance32.TextVAlignAsString = "Middle";
+            ultraGridColumn6.CellButtonAppearance = appearance32;
+            ultraGridColumn6.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn6.DataType = typeof(object);
+            appearance33.TextHAlignAsString = "Center";
+            appearance33.TextVAlignAsString = "Middle";
+            ultraGridColumn6.Header.Appearance = appearance33;
+            ultraGridColumn6.Header.Caption = "操作";
+            ultraGridColumn6.Header.VisiblePosition = 5;
+            ultraGridColumn6.NullText = "删除";
+            ultraGridColumn6.ShowInkButton = Infragistics.Win.ShowInkButton.Always;
+            ultraGridColumn6.Style = Infragistics.Win.UltraWinGrid.ColumnStyle.Button;
+            ultraGridColumn6.Width = 207;
+            ultraGridBand1.Columns.AddRange(new object[] {
+            ultraGridColumn1,
+            ultraGridColumn2,
+            ultraGridColumn3,
+            ultraGridColumn4,
+            ultraGridColumn5,
+            ultraGridColumn6});
+            this.gridInfo.DisplayLayout.BandsSerializer.Add(ultraGridBand1);
+            this.gridInfo.DisplayLayout.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
+            this.gridInfo.DisplayLayout.CaptionVisible = Infragistics.Win.DefaultableBoolean.False;
+            appearance55.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            appearance55.BackColor2 = System.Drawing.SystemColors.ControlDark;
+            appearance55.BackGradientStyle = Infragistics.Win.GradientStyle.Vertical;
+            appearance55.BorderColor = System.Drawing.SystemColors.Window;
+            this.gridInfo.DisplayLayout.GroupByBox.Appearance = appearance55;
+            appearance56.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.gridInfo.DisplayLayout.GroupByBox.BandLabelAppearance = appearance56;
+            this.gridInfo.DisplayLayout.GroupByBox.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
+            appearance57.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            appearance57.BackColor2 = System.Drawing.SystemColors.Control;
+            appearance57.BackGradientStyle = Infragistics.Win.GradientStyle.Horizontal;
+            appearance57.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.gridInfo.DisplayLayout.GroupByBox.PromptAppearance = appearance57;
+            this.gridInfo.DisplayLayout.MaxColScrollRegions = 1;
+            this.gridInfo.DisplayLayout.MaxRowScrollRegions = 1;
+            appearance58.BackColor = System.Drawing.SystemColors.Window;
+            appearance58.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.gridInfo.DisplayLayout.Override.ActiveCellAppearance = appearance58;
+            appearance59.BackColor = System.Drawing.SystemColors.Highlight;
+            appearance59.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.gridInfo.DisplayLayout.Override.ActiveRowAppearance = appearance59;
+            this.gridInfo.DisplayLayout.Override.AllowAddNew = Infragistics.Win.UltraWinGrid.AllowAddNew.TabRepeat;
+            this.gridInfo.DisplayLayout.Override.AllowDelete = Infragistics.Win.DefaultableBoolean.True;
+            this.gridInfo.DisplayLayout.Override.AllowUpdate = Infragistics.Win.DefaultableBoolean.True;
+            this.gridInfo.DisplayLayout.Override.BorderStyleCell = Infragistics.Win.UIElementBorderStyle.Dotted;
+            this.gridInfo.DisplayLayout.Override.BorderStyleRow = Infragistics.Win.UIElementBorderStyle.Dotted;
+            appearance60.BackColor = System.Drawing.SystemColors.Window;
+            this.gridInfo.DisplayLayout.Override.CardAreaAppearance = appearance60;
+            appearance61.BorderColor = System.Drawing.Color.Silver;
+            appearance61.TextTrimming = Infragistics.Win.TextTrimming.EllipsisCharacter;
+            this.gridInfo.DisplayLayout.Override.CellAppearance = appearance61;
+            this.gridInfo.DisplayLayout.Override.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.Edit;
+            this.gridInfo.DisplayLayout.Override.CellPadding = 0;
+            appearance62.BackColor = System.Drawing.SystemColors.Control;
+            appearance62.BackColor2 = System.Drawing.SystemColors.ControlDark;
+            appearance62.BackGradientAlignment = Infragistics.Win.GradientAlignment.Element;
+            appearance62.BackGradientStyle = Infragistics.Win.GradientStyle.Horizontal;
+            appearance62.BorderColor = System.Drawing.SystemColors.Window;
+            this.gridInfo.DisplayLayout.Override.GroupByRowAppearance = appearance62;
+            appearance63.TextHAlignAsString = "Left";
+            this.gridInfo.DisplayLayout.Override.HeaderAppearance = appearance63;
+            this.gridInfo.DisplayLayout.Override.HeaderClickAction = Infragistics.Win.UltraWinGrid.HeaderClickAction.SortMulti;
+            this.gridInfo.DisplayLayout.Override.HeaderStyle = Infragistics.Win.HeaderStyle.WindowsXPCommand;
+            appearance64.BackColor = System.Drawing.SystemColors.Window;
+            appearance64.BorderColor = System.Drawing.Color.Silver;
+            this.gridInfo.DisplayLayout.Override.RowAppearance = appearance64;
+            this.gridInfo.DisplayLayout.Override.RowSelectors = Infragistics.Win.DefaultableBoolean.False;
+            this.gridInfo.DisplayLayout.Override.SupportDataErrorInfo = Infragistics.Win.UltraWinGrid.SupportDataErrorInfo.None;
+            appearance65.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.gridInfo.DisplayLayout.Override.TemplateAddRowAppearance = appearance65;
+            this.gridInfo.DisplayLayout.ScrollBounds = Infragistics.Win.UltraWinGrid.ScrollBounds.ScrollToFill;
+            this.gridInfo.DisplayLayout.ScrollStyle = Infragistics.Win.UltraWinGrid.ScrollStyle.Immediate;
+            this.gridInfo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridInfo.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.gridInfo.Location = new System.Drawing.Point(0, 0);
+            this.gridInfo.Name = "gridInfo";
+            this.gridInfo.Size = new System.Drawing.Size(989, 186);
+            this.gridInfo.TabIndex = 82;
+            this.gridInfo.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.comboBox2);
+            this.panel2.Controls.Add(this.textBox2);
+            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.label9);
+            this.panel2.Controls.Add(this.txtMeatNO);
+            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.txtCarNo);
+            this.panel2.Controls.Add(this.label11);
+            this.panel2.Controls.Add(this.label39);
+            this.panel2.Controls.Add(this.label32);
+            this.panel2.Controls.Add(this.label19);
+            this.panel2.Controls.Add(this.btnAdd);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(3, 17);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(989, 100);
+            this.panel2.TabIndex = 167;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(9, 15);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(0, 12);
+            this.label19.TabIndex = 170;
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(907, 10);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(66, 23);
+            this.btnAdd.TabIndex = 166;
+            this.btnAdd.Text = "添加";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(295, 43);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(59, 12);
+            this.label9.TabIndex = 180;
+            this.label9.Text = "治疗效果:";
+            // 
+            // txtMeatNO
+            // 
+            this.txtMeatNO.Location = new System.Drawing.Point(95, 69);
+            this.txtMeatNO.MaxLength = 10;
+            this.txtMeatNO.Name = "txtMeatNO";
+            this.txtMeatNO.Size = new System.Drawing.Size(458, 21);
+            this.txtMeatNO.TabIndex = 174;
+            this.txtMeatNO.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtMeatNO.TextChanged += new System.EventHandler(this.txtMeatNO_TextChanged);
+            // 
+            // label10
+            // 
+            this.label10.Location = new System.Drawing.Point(15, 66);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(74, 24);
+            this.label10.TabIndex = 179;
+            this.label10.Text = "慢性病长期（用药史）:";
+            // 
+            // txtCarNo
+            // 
+            this.txtCarNo.Location = new System.Drawing.Point(95, 37);
+            this.txtCarNo.MaxLength = 20;
+            this.txtCarNo.Name = "txtCarNo";
+            this.txtCarNo.Size = new System.Drawing.Size(176, 21);
+            this.txtCarNo.TabIndex = 173;
+            this.txtCarNo.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(15, 40);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(59, 12);
+            this.label11.TabIndex = 178;
+            this.label11.Text = "治疗情况:";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(296, 11);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(59, 12);
+            this.label39.TabIndex = 177;
+            this.label39.Text = "发病年份:";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(15, 11);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(59, 12);
+            this.label32.TabIndex = 176;
+            this.label32.Text = "疾病诊断:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(95, 8);
+            this.textBox1.MaxLength = 20;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(176, 21);
+            this.textBox1.TabIndex = 182;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(378, 6);
+            this.textBox2.MaxLength = 20;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(176, 21);
+            this.textBox2.TabIndex = 183;
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(378, 40);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(176, 20);
+            this.comboBox2.TabIndex = 184;
+            // 
+            // DetailInfo
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1075, 570);
+            this.Controls.Add(this.tc);
+            this.Name = "DetailInfo";
+            this.Text = "DetailInfo";
+            ((System.ComponentModel.ISupportInitialize)(this.ultraTabbedMdiManager1)).EndInit();
+            this.tc.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ultraGroupBox1)).EndInit();
+            this.ultraGroupBox1.ResumeLayout(false);
+            this.ultraGroupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ultraGroupBox3)).EndInit();
+            this.ultraGroupBox3.ResumeLayout(false);
+            this.ultraGroupBox3.PerformLayout();
+            this.gbGoodInfo.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridInfo)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private Infragistics.Win.UltraWinTabbedMdi.UltraTabbedMdiManager ultraTabbedMdiManager1;
+        private System.Windows.Forms.TabControl tc;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.TabPage tabPage6;
+        private System.Windows.Forms.TabPage tabPage7;
+        private System.Windows.Forms.TabPage tabPage8;
+        private System.Windows.Forms.TabPage tabPage9;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox textBox15;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel1;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel2;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel7;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel8;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel9;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel10;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel11;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel12;
+        private Infragistics.Win.Misc.UltraGroupBox ultraGroupBox1;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtBillCode;
+        private Infragistics.Win.UltraWinEditors.UltraCheckEditor ultraCheckEditor1;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox4;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel6;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel5;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel4;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel3;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbButcherOrgan;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private Infragistics.Win.Misc.UltraGroupBox ultraGroupBox3;
+        private System.Windows.Forms.GroupBox gbGoodInfo;
+        private System.Windows.Forms.Panel panel3;
+        private Infragistics.Win.UltraWinGrid.UltraGrid gridInfo;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtMeatNO;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtCarNo;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.ComboBox comboBox2;
+
+    }
+}

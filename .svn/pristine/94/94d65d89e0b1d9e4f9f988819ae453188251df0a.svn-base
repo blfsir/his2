@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace HIS
+{
+    public partial class DataETC : Form
+    {
+        public DataETC()
+        {
+            InitializeComponent();
+        }
+
+        private void btnCancle_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        //export data to excel
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}

@@ -1,0 +1,176 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using BusinessObject;
+using Maticsoft.Model;
+ 
+
+namespace HIS.patient
+{
+    public partial class PatientEdit : Form
+    {
+        private int OperatType = 0;//操作类型 0新增 1 编辑 2 查看 
+        private string PatientID = "";//患者编号
+
+        public PatientEdit(int operatType,string patientID)
+        {
+            InitializeComponent();
+
+            OperatType = operatType;//操作类型 0新增 1 编辑 2 查看
+            PatientID = patientID;
+
+            if (operatType == 1 || operatType == 2)//编辑，查看
+            {
+                BindPatientDetail();
+            }
+        }
+
+        private void BindPatientDetail()
+        {
+            DataTable dt = new DataTable();
+            PatientObject po = new PatientObject();
+            dt =po.GetPatientByID(PatientID);
+             
+
+            if (dt == null || dt.Rows.Count == 0)
+            {
+                return;
+            }
+
+
+            this.txtIDNo.Text = dt.Rows[0]["IDCode"].ToString();
+            this.txtName.Text = dt.Rows[0]["Name"].ToString(); 
+        }
+
+        private void btnCancle_Click(object sender, EventArgs e)
+        {
+            DialogResult = DialogResult.OK;
+            this.Close();
+        }
+
+        private void btnOK_Click(object sender, EventArgs e)
+        {
+            //验证数据是否正确
+            if (!ValidateData())
+            {
+                return;
+            }
+         
+                if (SavePatientInfo())
+                {
+                    
+                    if (OperatType == 0)
+                    {
+                        if (MessageBox.Show(this, "新增患者信息成功,是否要继续添加", "提示", MessageBoxButtons.OKCancel, MessageBoxIcon.Information, MessageBoxDefaultButton.Button2) == DialogResult.OK)
+                        {
+                            //Common.ControlOperate.ClearControlvalue(gbAnimalInfo);
+                            txtIDNo.Text = "";
+                            txtName.Text = "";
+                            //txtHoggery.Text = "";
+                            //txtCarno.Text = "";
+                            //txtAnimalChecker.Text = "";
+
+                            //Common.ControlOperate.ClearControlvalue(gbEnterInfo);
+
+                            //Common.ControlOperate.ClearControlvalue(gbExitInfo);
+
+                            //txtSampleNum.Value = DBNull.Value;
+
+                            //txtAnimalAmount.Value = DBNull.Value;
+
+                            //txtAnimalCert.Focus();
+
+                            //GetLocalInfo();
+
+                            ////GetBatchCode();
+                            //this.checkBox1.Checked = true;
+                            //gridInfo.Rows[0].Cells["ITEM"].Value = "671";
+                            return;
+                        }
+                        else
+                        {
+                            this.DialogResult = DialogResult.OK;
+                            this.Close();
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show(this, "操作成功", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
+                        this.DialogResult = DialogResult.OK;
+                        this.Close();
+                    }
+
+                }
+                else
+                {
+                    MessageBox.Show(this, "操作失败", "提示", MessageBoxButtons.OK, MessageBoxIcon.Information, MessageBoxDefaultButton.Button1);
+                    //this.Close();
+                }
+            
+        }
+
+        private bool SavePatientInfo()
+        {
+            Patient patientInfo = new Patient();
+            patientInfo.IDCode = this.txtIDNo.Text;
+            patientInfo.Name = this.txtName.Text;
+         //   patientInfo.Signdate =   DateTime.Now;
+            int ret = 0;//标记位
+            if (OperatType == 0)
+            {
+                ret = PatientObject.AddPatientInfo(patientInfo);//新增屠宰信息
+            }
+            else if (OperatType == 1)
+            {
+                patientInfo.ID= int.Parse(PatientID);
+                ret = PatientObject.EditPatientInfo(patientInfo);//编辑屠宰信息
+            }
+
+            if (ret == 1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        /// <summary>
+        /// 数据验证
+        /// </summary>
+        private bool ValidateData()
+        {
+            if (
+                //   !Common.ValidateData.Validate(txtAnimalCert, lblAnimalCert.Text, false, 7, 10, Common.ValidateData.ValidateType.Numbers)//产地证
+                //|| !Common.ValidateData.Validate(txtHoggery, lblHoggery.Text, false, 0, -1)//养殖场
+                //|| !Common.ValidateData.Validate(txtAnimalAmount, lblAnimalAmount.Text, false, false)//检疫数
+                //|| !Common.ValidateData.Validate(txtDisfectCert, lblDisfectCert.Text, false, 7, 10, Common.ValidateData.ValidateType.Numbers)//消毒证
+                //|| !Common.ValidateData.Validate(txtCarno, lblCarno.Text, false, 0, -1)//车牌号
+                //|| !Common.ValidateData.Validate(txtEnterAmount, lblEnterAmount.Text, false, false)//进场数
+                //|| !Common.ValidateData.Validate(txtArgeeAmount, lblArgeeAmount.Text, false, false)//准宰数
+                //|| !Common.ValidateData.Validate(txtBatch, lblBatch.Text, false, 7, 16)//批次号
+                //|| !Common.ValidateData.Validate(txtBillCode, lblBillCode.Text, true, 7, 10, Common.ValidateData.ValidateType.Numbers)//检测单号
+                //|| !Common.ValidateData.Validate(txtSample, lblSample.Text, true, -1, -1)//采样名称
+                //|| !Common.ValidateData.Validate(txtSampleNum, lblSampleNum.Text, true, true)//采样数量
+                //||
+                !HIS.common.ValidateData.Validate(txtIDNo, lblID.Text, false, 0, -1)//产品证号
+                || !HIS.common.ValidateData.Validate(txtName, lblName.Text, false, 0, -1)//肉品品质证号
+                //|| ((txtButcherAmount.Value != DBNull.Value && txtProductAmount.Value != DBNull.Value) ? !Common.ValidateData.Validate(txtProductAmount, lblProductAmount.Text, true, -1, -1, Common.ValidateData.ValidateType.Numbers, Convert.ToDouble(txtButcherAmount.Value.ToString())) : false)
+                //|| ((txtButcherAmount.Value != DBNull.Value && txtUrgencyKill.Value != DBNull.Value) ? !Common.ValidateData.Validate(txtUrgencyKill, lblUrgencyKill.Text, true, -1, -1, Common.ValidateData.ValidateType.Numbers, Convert.ToDouble(txtButcherAmount.Value.ToString())) : false)
+                //|| ((txtButcherAmount.Value != DBNull.Value && txtCheckOutKill.Value != DBNull.Value) ? !Common.ValidateData.Validate(txtCheckOutKill, lblCheckOutKill.Text, true, -1, -1, Common.ValidateData.ValidateType.Numbers, Convert.ToDouble(txtButcherAmount.Value.ToString())) : false)
+                )
+            {
+                return false;
+            }
+             
+
+            return true;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using DataAccessLayer;
+using Model;
+
+namespace BusinessObject
+{
+   public  class PatientObject
+    {
+        public System.Data.DataTable GetPatientByID(string PatientID)
+        {
+            PatientDAL dal = new PatientDAL();
+            return dal.GetPatientByID(PatientID);
+        }
+
+        public static int AddPatientInfo( Patient patientInfo)
+        {
+            PatientDAL dal = new PatientDAL();
+            return dal.AddPatientInfo(patientInfo);
+        }
+
+        public static int EditPatientInfo( Patient patientInfo)
+        {
+            PatientDAL dal = new PatientDAL();
+            return dal.EditPatientInfo(patientInfo);
+        }
+    }
+}

@@ -1,0 +1,2733 @@
+﻿namespace HIS
+{
+    partial class DetailInfo
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            Infragistics.Win.Appearance appearance1 = new Infragistics.Win.Appearance();
+            Infragistics.Win.UltraWinGrid.UltraGridBand ultraGridBand1 = new Infragistics.Win.UltraWinGrid.UltraGridBand("Band0", -1);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn1 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("PRODUCTNAME", 0);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn2 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("PRODUCTWEIGHT", 1, null, 0, Infragistics.Win.UltraWinGrid.SortIndicator.Ascending, false);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn3 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("ID", 2);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn4 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("PRODUCTCODE", 3);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn5 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("PLANTATIONNAME", 4);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn6 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("UnboundColumn1", 5);
+            Infragistics.Win.Appearance appearance2 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance3 = new Infragistics.Win.Appearance();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DetailInfo));
+            Infragistics.Win.Appearance appearance5 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance6 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance7 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance8 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance9 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance10 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance11 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance12 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance13 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance14 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance15 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance16 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance54 = new Infragistics.Win.Appearance();
+            Infragistics.Win.UltraWinGrid.UltraGridBand ultraGridBand2 = new Infragistics.Win.UltraWinGrid.UltraGridBand("Band0", -1);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn7 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("PRODUCTNAME", 0, null, 0, Infragistics.Win.UltraWinGrid.SortIndicator.Ascending, false);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn8 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("PRODUCTWEIGHT", 1);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn9 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("ID", 2);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn10 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("PRODUCTCODE", 3);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn11 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("PLANTATIONNAME", 4);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn12 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("UnboundColumn1", 5);
+            Infragistics.Win.Appearance appearance31 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance32 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance33 = new Infragistics.Win.Appearance();
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn13 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("PLANTATIONID", 6);
+            Infragistics.Win.UltraWinGrid.UltraGridColumn ultraGridColumn14 = new Infragistics.Win.UltraWinGrid.UltraGridColumn("BATCH", 7);
+            Infragistics.Win.Appearance appearance55 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance56 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance57 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance58 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance59 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance60 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance61 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance62 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance63 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance64 = new Infragistics.Win.Appearance();
+            Infragistics.Win.Appearance appearance65 = new Infragistics.Win.Appearance();
+            this.tc = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.tabPage6 = new System.Windows.Forms.TabPage();
+            this.tabPage7 = new System.Windows.Forms.TabPage();
+            this.tabPage8 = new System.Windows.Forms.TabPage();
+            this.tabPage9 = new System.Windows.Forms.TabPage();
+            this.textBox12 = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.textBox14 = new System.Windows.Forms.TextBox();
+            this.textBox15 = new System.Windows.Forms.TextBox();
+            this.ultraLabel1 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel2 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel7 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel8 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel9 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel10 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel11 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel12 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraGroupBox1 = new Infragistics.Win.Misc.UltraGroupBox();
+            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.txtBillCode = new System.Windows.Forms.TextBox();
+            this.ultraCheckEditor1 = new Infragistics.Win.UltraWinEditors.UltraCheckEditor();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.ultraLabel6 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel5 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel4 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel3 = new Infragistics.Win.Misc.UltraLabel();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.cmbButcherOrgan = new System.Windows.Forms.ComboBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.ultraGroupBox3 = new Infragistics.Win.Misc.UltraGroupBox();
+            this.gbGoodInfo = new System.Windows.Forms.GroupBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.gridInfo = new Infragistics.Win.UltraWinGrid.UltraGrid();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label19 = new System.Windows.Forms.Label();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtMeatNO = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtCarNo = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label39 = new System.Windows.Forms.Label();
+            this.label32 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.gbEnterInfo = new System.Windows.Forms.GroupBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.txtBoothNO = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtICCardNo = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.txtICUserName = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.textBox16 = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.chk2 = new System.Windows.Forms.CheckBox();
+            this.textBox17 = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.textBox18 = new System.Windows.Forms.TextBox();
+            this.label18 = new System.Windows.Forms.Label();
+            this.textBox19 = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.textBox20 = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.textBox21 = new System.Windows.Forms.TextBox();
+            this.label22 = new System.Windows.Forms.Label();
+            this.textBox22 = new System.Windows.Forms.TextBox();
+            this.label23 = new System.Windows.Forms.Label();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.textBox23 = new System.Windows.Forms.TextBox();
+            this.label24 = new System.Windows.Forms.Label();
+            this.textBox24 = new System.Windows.Forms.TextBox();
+            this.label25 = new System.Windows.Forms.Label();
+            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.label26 = new System.Windows.Forms.Label();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.textBox27 = new System.Windows.Forms.TextBox();
+            this.label28 = new System.Windows.Forms.Label();
+            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.label29 = new System.Windows.Forms.Label();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.label30 = new System.Windows.Forms.Label();
+            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.label31 = new System.Windows.Forms.Label();
+            this.textBox31 = new System.Windows.Forms.TextBox();
+            this.label33 = new System.Windows.Forms.Label();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage10 = new System.Windows.Forms.TabPage();
+            this.tabPage11 = new System.Windows.Forms.TabPage();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox35 = new System.Windows.Forms.TextBox();
+            this.label37 = new System.Windows.Forms.Label();
+            this.textBox36 = new System.Windows.Forms.TextBox();
+            this.label38 = new System.Windows.Forms.Label();
+            this.textBox37 = new System.Windows.Forms.TextBox();
+            this.label40 = new System.Windows.Forms.Label();
+            this.checkBox8 = new System.Windows.Forms.CheckBox();
+            this.textBox38 = new System.Windows.Forms.TextBox();
+            this.label41 = new System.Windows.Forms.Label();
+            this.textBox39 = new System.Windows.Forms.TextBox();
+            this.label42 = new System.Windows.Forms.Label();
+            this.textBox40 = new System.Windows.Forms.TextBox();
+            this.label43 = new System.Windows.Forms.Label();
+            this.checkBox9 = new System.Windows.Forms.CheckBox();
+            this.textBox41 = new System.Windows.Forms.TextBox();
+            this.label44 = new System.Windows.Forms.Label();
+            this.textBox42 = new System.Windows.Forms.TextBox();
+            this.label45 = new System.Windows.Forms.Label();
+            this.textBox43 = new System.Windows.Forms.TextBox();
+            this.label46 = new System.Windows.Forms.Label();
+            this.checkBox10 = new System.Windows.Forms.CheckBox();
+            this.textBox44 = new System.Windows.Forms.TextBox();
+            this.label47 = new System.Windows.Forms.Label();
+            this.textBox45 = new System.Windows.Forms.TextBox();
+            this.label48 = new System.Windows.Forms.Label();
+            this.textBox46 = new System.Windows.Forms.TextBox();
+            this.label49 = new System.Windows.Forms.Label();
+            this.checkBox11 = new System.Windows.Forms.CheckBox();
+            this.textBox47 = new System.Windows.Forms.TextBox();
+            this.label50 = new System.Windows.Forms.Label();
+            this.textBox48 = new System.Windows.Forms.TextBox();
+            this.label51 = new System.Windows.Forms.Label();
+            this.textBox49 = new System.Windows.Forms.TextBox();
+            this.label52 = new System.Windows.Forms.Label();
+            this.checkBox12 = new System.Windows.Forms.CheckBox();
+            this.textBox50 = new System.Windows.Forms.TextBox();
+            this.label53 = new System.Windows.Forms.Label();
+            this.textBox51 = new System.Windows.Forms.TextBox();
+            this.label54 = new System.Windows.Forms.Label();
+            this.textBox52 = new System.Windows.Forms.TextBox();
+            this.label55 = new System.Windows.Forms.Label();
+            this.checkBox13 = new System.Windows.Forms.CheckBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.label34 = new System.Windows.Forms.Label();
+            this.textBox33 = new System.Windows.Forms.TextBox();
+            this.label35 = new System.Windows.Forms.Label();
+            this.textBox34 = new System.Windows.Forms.TextBox();
+            this.label36 = new System.Windows.Forms.Label();
+            this.textBox53 = new System.Windows.Forms.TextBox();
+            this.label56 = new System.Windows.Forms.Label();
+            this.textBox54 = new System.Windows.Forms.TextBox();
+            this.label57 = new System.Windows.Forms.Label();
+            this.textBox55 = new System.Windows.Forms.TextBox();
+            this.label58 = new System.Windows.Forms.Label();
+            this.textBox56 = new System.Windows.Forms.TextBox();
+            this.label59 = new System.Windows.Forms.Label();
+            this.textBox57 = new System.Windows.Forms.TextBox();
+            this.label60 = new System.Windows.Forms.Label();
+            this.textBox58 = new System.Windows.Forms.TextBox();
+            this.label61 = new System.Windows.Forms.Label();
+            this.tabPage12 = new System.Windows.Forms.TabPage();
+            this.tabPage13 = new System.Windows.Forms.TabPage();
+            this.tabPage14 = new System.Windows.Forms.TabPage();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.ultraGrid1 = new Infragistics.Win.UltraWinGrid.UltraGrid();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label62 = new System.Windows.Forms.Label();
+            this.button9 = new System.Windows.Forms.Button();
+            this.tc.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.tabPage4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ultraGroupBox1)).BeginInit();
+            this.ultraGroupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ultraGroupBox3)).BeginInit();
+            this.ultraGroupBox3.SuspendLayout();
+            this.gbGoodInfo.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridInfo)).BeginInit();
+            this.panel2.SuspendLayout();
+            this.gbEnterInfo.SuspendLayout();
+            this.tabControl1.SuspendLayout();
+            this.tabPage10.SuspendLayout();
+            this.tabPage11.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ultraGrid1)).BeginInit();
+            this.panel4.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // tc
+            // 
+            this.tc.Controls.Add(this.tabPage1);
+            this.tc.Controls.Add(this.tabPage2);
+            this.tc.Controls.Add(this.tabPage3);
+            this.tc.Controls.Add(this.tabPage4);
+            this.tc.Controls.Add(this.tabPage5);
+            this.tc.Controls.Add(this.tabPage6);
+            this.tc.Controls.Add(this.tabPage7);
+            this.tc.Controls.Add(this.tabPage8);
+            this.tc.Controls.Add(this.tabPage9);
+            this.tc.Location = new System.Drawing.Point(12, 12);
+            this.tc.Name = "tc";
+            this.tc.SelectedIndex = 0;
+            this.tc.Size = new System.Drawing.Size(1051, 556);
+            this.tc.TabIndex = 1;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage1.Controls.Add(this.button2);
+            this.tabPage1.Controls.Add(this.button1);
+            this.tabPage1.Controls.Add(this.comboBox1);
+            this.tabPage1.Controls.Add(this.cmbButcherOrgan);
+            this.tabPage1.Controls.Add(this.radioButton2);
+            this.tabPage1.Controls.Add(this.radioButton1);
+            this.tabPage1.Controls.Add(this.textBox12);
+            this.tabPage1.Controls.Add(this.dateTimePicker1);
+            this.tabPage1.Controls.Add(this.textBox13);
+            this.tabPage1.Controls.Add(this.textBox14);
+            this.tabPage1.Controls.Add(this.textBox15);
+            this.tabPage1.Controls.Add(this.ultraLabel1);
+            this.tabPage1.Controls.Add(this.ultraLabel2);
+            this.tabPage1.Controls.Add(this.ultraLabel7);
+            this.tabPage1.Controls.Add(this.ultraLabel8);
+            this.tabPage1.Controls.Add(this.ultraLabel9);
+            this.tabPage1.Controls.Add(this.ultraLabel10);
+            this.tabPage1.Controls.Add(this.ultraLabel11);
+            this.tabPage1.Controls.Add(this.ultraLabel12);
+            this.tabPage1.Location = new System.Drawing.Point(4, 22);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(1043, 520);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "人口学数据";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage2.Controls.Add(this.gbGoodInfo);
+            this.tabPage2.Controls.Add(this.ultraGroupBox3);
+            this.tabPage2.Controls.Add(this.button3);
+            this.tabPage2.Controls.Add(this.button4);
+            this.tabPage2.Controls.Add(this.ultraGroupBox1);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1043, 530);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "一般情况";
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage3.Controls.Add(this.tabControl1);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(1043, 530);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "治疗前基线指标";
+            // 
+            // tabPage4
+            // 
+            this.tabPage4.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage4.Controls.Add(this.groupBox2);
+            this.tabPage4.Location = new System.Drawing.Point(4, 22);
+            this.tabPage4.Name = "tabPage4";
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage4.Size = new System.Drawing.Size(1043, 530);
+            this.tabPage4.TabIndex = 3;
+            this.tabPage4.Text = "治疗情况";
+            // 
+            // tabPage5
+            // 
+            this.tabPage5.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage5.Location = new System.Drawing.Point(4, 22);
+            this.tabPage5.Name = "tabPage5";
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage5.Size = new System.Drawing.Size(1020, 76);
+            this.tabPage5.TabIndex = 4;
+            this.tabPage5.Text = "治疗后1周";
+            // 
+            // tabPage6
+            // 
+            this.tabPage6.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage6.Location = new System.Drawing.Point(4, 22);
+            this.tabPage6.Name = "tabPage6";
+            this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage6.Size = new System.Drawing.Size(1020, 76);
+            this.tabPage6.TabIndex = 5;
+            this.tabPage6.Text = "治疗后1月";
+            // 
+            // tabPage7
+            // 
+            this.tabPage7.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage7.Location = new System.Drawing.Point(4, 22);
+            this.tabPage7.Name = "tabPage7";
+            this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage7.Size = new System.Drawing.Size(1020, 76);
+            this.tabPage7.TabIndex = 6;
+            this.tabPage7.Text = "治疗后3月";
+            // 
+            // tabPage8
+            // 
+            this.tabPage8.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage8.Location = new System.Drawing.Point(4, 22);
+            this.tabPage8.Name = "tabPage8";
+            this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage8.Size = new System.Drawing.Size(1020, 76);
+            this.tabPage8.TabIndex = 7;
+            this.tabPage8.Text = "治疗后6月";
+            // 
+            // tabPage9
+            // 
+            this.tabPage9.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage9.Location = new System.Drawing.Point(4, 22);
+            this.tabPage9.Name = "tabPage9";
+            this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage9.Size = new System.Drawing.Size(1020, 76);
+            this.tabPage9.TabIndex = 8;
+            this.tabPage9.Text = "治疗后1年";
+            // 
+            // textBox12
+            // 
+            this.textBox12.Location = new System.Drawing.Point(170, 100);
+            this.textBox12.Name = "textBox12";
+            this.textBox12.ReadOnly = true;
+            this.textBox12.Size = new System.Drawing.Size(144, 21);
+            this.textBox12.TabIndex = 72;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(170, 62);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(144, 21);
+            this.dateTimePicker1.TabIndex = 70;
+            // 
+            // textBox13
+            // 
+            this.textBox13.Location = new System.Drawing.Point(170, 296);
+            this.textBox13.Name = "textBox13";
+            this.textBox13.Size = new System.Drawing.Size(144, 21);
+            this.textBox13.TabIndex = 69;
+            // 
+            // textBox14
+            // 
+            this.textBox14.Location = new System.Drawing.Point(170, 257);
+            this.textBox14.Name = "textBox14";
+            this.textBox14.Size = new System.Drawing.Size(311, 21);
+            this.textBox14.TabIndex = 68;
+            // 
+            // textBox15
+            // 
+            this.textBox15.Location = new System.Drawing.Point(170, 219);
+            this.textBox15.Name = "textBox15";
+            this.textBox15.Size = new System.Drawing.Size(144, 21);
+            this.textBox15.TabIndex = 67;
+            // 
+            // ultraLabel1
+            // 
+            this.ultraLabel1.Location = new System.Drawing.Point(44, 179);
+            this.ultraLabel1.Name = "ultraLabel1";
+            this.ultraLabel1.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel1.TabIndex = 64;
+            this.ultraLabel1.Text = "籍贯：";
+            // 
+            // ultraLabel2
+            // 
+            this.ultraLabel2.Location = new System.Drawing.Point(44, 219);
+            this.ultraLabel2.Name = "ultraLabel2";
+            this.ultraLabel2.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel2.TabIndex = 63;
+            this.ultraLabel2.Text = "联系电话：";
+            // 
+            // ultraLabel7
+            // 
+            this.ultraLabel7.Location = new System.Drawing.Point(44, 257);
+            this.ultraLabel7.Name = "ultraLabel7";
+            this.ultraLabel7.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel7.TabIndex = 62;
+            this.ultraLabel7.Text = "联系地址：";
+            // 
+            // ultraLabel8
+            // 
+            this.ultraLabel8.Location = new System.Drawing.Point(44, 296);
+            this.ultraLabel8.Name = "ultraLabel8";
+            this.ultraLabel8.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel8.TabIndex = 61;
+            this.ultraLabel8.Text = "电子邮箱：";
+            // 
+            // ultraLabel9
+            // 
+            this.ultraLabel9.Location = new System.Drawing.Point(44, 100);
+            this.ultraLabel9.Name = "ultraLabel9";
+            this.ultraLabel9.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel9.TabIndex = 60;
+            this.ultraLabel9.Text = "年龄：";
+            // 
+            // ultraLabel10
+            // 
+            this.ultraLabel10.Location = new System.Drawing.Point(44, 25);
+            this.ultraLabel10.Name = "ultraLabel10";
+            this.ultraLabel10.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel10.TabIndex = 59;
+            this.ultraLabel10.Text = "性别：";
+            // 
+            // ultraLabel11
+            // 
+            this.ultraLabel11.Location = new System.Drawing.Point(44, 141);
+            this.ultraLabel11.Name = "ultraLabel11";
+            this.ultraLabel11.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel11.TabIndex = 58;
+            this.ultraLabel11.Text = "民族：";
+            // 
+            // ultraLabel12
+            // 
+            this.ultraLabel12.Location = new System.Drawing.Point(44, 62);
+            this.ultraLabel12.Name = "ultraLabel12";
+            this.ultraLabel12.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel12.TabIndex = 57;
+            this.ultraLabel12.Text = "出生日期：";
+            // 
+            // ultraGroupBox1
+            // 
+            this.ultraGroupBox1.Controls.Add(this.textBox11);
+            this.ultraGroupBox1.Controls.Add(this.label7);
+            this.ultraGroupBox1.Controls.Add(this.textBox10);
+            this.ultraGroupBox1.Controls.Add(this.label5);
+            this.ultraGroupBox1.Controls.Add(this.label4);
+            this.ultraGroupBox1.Controls.Add(this.label6);
+            this.ultraGroupBox1.Controls.Add(this.textBox9);
+            this.ultraGroupBox1.Controls.Add(this.txtBillCode);
+            this.ultraGroupBox1.Controls.Add(this.ultraCheckEditor1);
+            this.ultraGroupBox1.Location = new System.Drawing.Point(27, 87);
+            this.ultraGroupBox1.Name = "ultraGroupBox1";
+            this.ultraGroupBox1.Size = new System.Drawing.Size(995, 60);
+            this.ultraGroupBox1.TabIndex = 68;
+            this.ultraGroupBox1.Text = "吸烟史";
+            // 
+            // textBox11
+            // 
+            this.textBox11.Location = new System.Drawing.Point(701, 26);
+            this.textBox11.Name = "textBox11";
+            this.textBox11.Size = new System.Drawing.Size(66, 21);
+            this.textBox11.TabIndex = 141;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(638, 30);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(53, 12);
+            this.label7.TabIndex = 140;
+            this.label7.Text = "戒烟时间";
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(412, 21);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.ReadOnly = true;
+            this.textBox10.Size = new System.Drawing.Size(100, 21);
+            this.textBox10.TabIndex = 139;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(311, 27);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(95, 12);
+            this.label5.TabIndex = 138;
+            this.label5.Text = "吸烟指数(支年):";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 27);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(47, 12);
+            this.label4.TabIndex = 137;
+            this.label4.Text = "吸烟年:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(168, 27);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(65, 12);
+            this.label6.TabIndex = 136;
+            this.label6.Text = "平均支/日:";
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(239, 21);
+            this.textBox9.MaxLength = 6;
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(66, 21);
+            this.textBox9.TabIndex = 35;
+            // 
+            // txtBillCode
+            // 
+            this.txtBillCode.Location = new System.Drawing.Point(59, 21);
+            this.txtBillCode.MaxLength = 6;
+            this.txtBillCode.Name = "txtBillCode";
+            this.txtBillCode.Size = new System.Drawing.Size(68, 21);
+            this.txtBillCode.TabIndex = 34;
+            // 
+            // ultraCheckEditor1
+            // 
+            this.ultraCheckEditor1.Location = new System.Drawing.Point(541, 25);
+            this.ultraCheckEditor1.Name = "ultraCheckEditor1";
+            this.ultraCheckEditor1.Size = new System.Drawing.Size(120, 20);
+            this.ultraCheckEditor1.TabIndex = 34;
+            this.ultraCheckEditor1.Text = "是否戒烟";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(826, 22);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.ReadOnly = true;
+            this.textBox7.Size = new System.Drawing.Size(119, 21);
+            this.textBox7.TabIndex = 67;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(678, 24);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(17, 12);
+            this.label3.TabIndex = 66;
+            this.label3.Text = "cm";
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(553, 19);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(119, 21);
+            this.textBox6.TabIndex = 65;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(412, 24);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(17, 12);
+            this.label2.TabIndex = 64;
+            this.label2.Text = "kg";
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(287, 16);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(119, 21);
+            this.textBox5.TabIndex = 63;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(189, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(17, 12);
+            this.label1.TabIndex = 62;
+            this.label1.Text = "cm";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(64, 16);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(119, 21);
+            this.textBox4.TabIndex = 61;
+            // 
+            // ultraLabel6
+            // 
+            this.ultraLabel6.Location = new System.Drawing.Point(501, 19);
+            this.ultraLabel6.Name = "ultraLabel6";
+            this.ultraLabel6.Size = new System.Drawing.Size(46, 23);
+            this.ultraLabel6.TabIndex = 60;
+            this.ultraLabel6.Text = "腰围：";
+            // 
+            // ultraLabel5
+            // 
+            this.ultraLabel5.Location = new System.Drawing.Point(6, 20);
+            this.ultraLabel5.Name = "ultraLabel5";
+            this.ultraLabel5.Size = new System.Drawing.Size(54, 23);
+            this.ultraLabel5.TabIndex = 59;
+            this.ultraLabel5.Text = "身高：";
+            // 
+            // ultraLabel4
+            // 
+            this.ultraLabel4.Location = new System.Drawing.Point(754, 24);
+            this.ultraLabel4.Name = "ultraLabel4";
+            this.ultraLabel4.Size = new System.Drawing.Size(91, 23);
+            this.ultraLabel4.TabIndex = 58;
+            this.ultraLabel4.Text = "体重指数：";
+            // 
+            // ultraLabel3
+            // 
+            this.ultraLabel3.Location = new System.Drawing.Point(232, 19);
+            this.ultraLabel3.Name = "ultraLabel3";
+            this.ultraLabel3.Size = new System.Drawing.Size(49, 23);
+            this.ultraLabel3.TabIndex = 57;
+            this.ultraLabel3.Text = "体重：";
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(170, 23);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(35, 16);
+            this.radioButton1.TabIndex = 73;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "男";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(240, 23);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(35, 16);
+            this.radioButton2.TabIndex = 74;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "女";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // cmbButcherOrgan
+            // 
+            this.cmbButcherOrgan.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.cmbButcherOrgan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbButcherOrgan.FormattingEnabled = true;
+            this.cmbButcherOrgan.Location = new System.Drawing.Point(170, 138);
+            this.cmbButcherOrgan.Name = "cmbButcherOrgan";
+            this.cmbButcherOrgan.Size = new System.Drawing.Size(144, 20);
+            this.cmbButcherOrgan.TabIndex = 75;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(170, 176);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(144, 20);
+            this.comboBox1.TabIndex = 76;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(868, 479);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 77;
+            this.button1.Text = "编辑";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(962, 479);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 78;
+            this.button2.Text = "保存";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(960, 479);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 80;
+            this.button3.Text = "保存";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(866, 479);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 79;
+            this.button4.Text = "编辑";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // ultraGroupBox3
+            // 
+            this.ultraGroupBox3.Controls.Add(this.ultraLabel5);
+            this.ultraGroupBox3.Controls.Add(this.textBox4);
+            this.ultraGroupBox3.Controls.Add(this.label1);
+            this.ultraGroupBox3.Controls.Add(this.ultraLabel3);
+            this.ultraGroupBox3.Controls.Add(this.textBox5);
+            this.ultraGroupBox3.Controls.Add(this.textBox7);
+            this.ultraGroupBox3.Controls.Add(this.label2);
+            this.ultraGroupBox3.Controls.Add(this.ultraLabel4);
+            this.ultraGroupBox3.Controls.Add(this.label3);
+            this.ultraGroupBox3.Controls.Add(this.ultraLabel6);
+            this.ultraGroupBox3.Controls.Add(this.textBox6);
+            this.ultraGroupBox3.Location = new System.Drawing.Point(27, 21);
+            this.ultraGroupBox3.Name = "ultraGroupBox3";
+            this.ultraGroupBox3.Size = new System.Drawing.Size(995, 60);
+            this.ultraGroupBox3.TabIndex = 82;
+            this.ultraGroupBox3.Text = "一般情况";
+            // 
+            // gbGoodInfo
+            // 
+            this.gbGoodInfo.Controls.Add(this.panel3);
+            this.gbGoodInfo.Controls.Add(this.panel2);
+            this.gbGoodInfo.Location = new System.Drawing.Point(27, 153);
+            this.gbGoodInfo.Name = "gbGoodInfo";
+            this.gbGoodInfo.Size = new System.Drawing.Size(995, 306);
+            this.gbGoodInfo.TabIndex = 83;
+            this.gbGoodInfo.TabStop = false;
+            this.gbGoodInfo.Text = "既往病史/治疗史";
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.gridInfo);
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(3, 117);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(989, 186);
+            this.panel3.TabIndex = 168;
+            // 
+            // gridInfo
+            // 
+            this.gridInfo.DisplayLayout.AddNewBox.ButtonConnectorStyle = Infragistics.Win.UIElementBorderStyle.Dotted;
+            this.gridInfo.DisplayLayout.AddNewBox.ButtonStyle = Infragistics.Win.UIElementButtonStyle.Button;
+            this.gridInfo.DisplayLayout.AddNewBox.Style = Infragistics.Win.UltraWinGrid.AddNewBoxStyle.Compact;
+            appearance1.BackColor = System.Drawing.SystemColors.Window;
+            appearance1.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.gridInfo.DisplayLayout.Appearance = appearance1;
+            this.gridInfo.DisplayLayout.AutoFitStyle = Infragistics.Win.UltraWinGrid.AutoFitStyle.ResizeAllColumns;
+            ultraGridBand1.AddButtonCaption = "Add";
+            ultraGridColumn1.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn1.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit;
+            ultraGridColumn1.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn1.Header.Caption = "发病年份";
+            ultraGridColumn1.Header.VisiblePosition = 1;
+            ultraGridColumn1.Width = 284;
+            ultraGridColumn2.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn2.Header.Caption = "治疗情况";
+            ultraGridColumn2.Header.VisiblePosition = 2;
+            ultraGridColumn2.Width = 204;
+            ultraGridColumn3.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn3.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit;
+            ultraGridColumn3.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn3.ExcludeFromColumnChooser = Infragistics.Win.UltraWinGrid.ExcludeFromColumnChooser.True;
+            ultraGridColumn3.Header.Caption = "治疗效果";
+            ultraGridColumn3.Header.VisiblePosition = 3;
+            ultraGridColumn3.SupportDataErrorInfo = Infragistics.Win.DefaultableBoolean.False;
+            ultraGridColumn3.Width = 87;
+            ultraGridColumn4.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn4.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit;
+            ultraGridColumn4.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn4.ExcludeFromColumnChooser = Infragistics.Win.UltraWinGrid.ExcludeFromColumnChooser.True;
+            ultraGridColumn4.Header.Caption = "长期用药史";
+            ultraGridColumn4.Header.VisiblePosition = 4;
+            ultraGridColumn4.Width = 90;
+            ultraGridColumn5.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn5.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit;
+            ultraGridColumn5.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn5.Header.Caption = "疾病诊断";
+            ultraGridColumn5.Header.VisiblePosition = 0;
+            ultraGridColumn5.Width = 115;
+            ultraGridColumn6.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn6.ButtonDisplayStyle = Infragistics.Win.UltraWinGrid.ButtonDisplayStyle.Always;
+            appearance2.TextHAlignAsString = "Center";
+            appearance2.TextVAlignAsString = "Middle";
+            ultraGridColumn6.CellAppearance = appearance2;
+            appearance3.BackColor = System.Drawing.Color.DimGray;
+            appearance3.Image = ((object)(resources.GetObject("appearance3.Image")));
+            appearance3.ImageVAlign = Infragistics.Win.VAlign.Middle;
+            appearance3.TextHAlignAsString = "Center";
+            appearance3.TextVAlignAsString = "Middle";
+            ultraGridColumn6.CellButtonAppearance = appearance3;
+            ultraGridColumn6.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn6.DataType = typeof(object);
+            appearance5.TextHAlignAsString = "Center";
+            appearance5.TextVAlignAsString = "Middle";
+            ultraGridColumn6.Header.Appearance = appearance5;
+            ultraGridColumn6.Header.Caption = "操作";
+            ultraGridColumn6.Header.VisiblePosition = 5;
+            ultraGridColumn6.NullText = "删除";
+            ultraGridColumn6.ShowInkButton = Infragistics.Win.ShowInkButton.Always;
+            ultraGridColumn6.Style = Infragistics.Win.UltraWinGrid.ColumnStyle.Button;
+            ultraGridColumn6.Width = 207;
+            ultraGridBand1.Columns.AddRange(new object[] {
+            ultraGridColumn1,
+            ultraGridColumn2,
+            ultraGridColumn3,
+            ultraGridColumn4,
+            ultraGridColumn5,
+            ultraGridColumn6});
+            this.gridInfo.DisplayLayout.BandsSerializer.Add(ultraGridBand1);
+            this.gridInfo.DisplayLayout.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
+            this.gridInfo.DisplayLayout.CaptionVisible = Infragistics.Win.DefaultableBoolean.False;
+            appearance6.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            appearance6.BackColor2 = System.Drawing.SystemColors.ControlDark;
+            appearance6.BackGradientStyle = Infragistics.Win.GradientStyle.Vertical;
+            appearance6.BorderColor = System.Drawing.SystemColors.Window;
+            this.gridInfo.DisplayLayout.GroupByBox.Appearance = appearance6;
+            appearance7.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.gridInfo.DisplayLayout.GroupByBox.BandLabelAppearance = appearance7;
+            this.gridInfo.DisplayLayout.GroupByBox.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
+            appearance8.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            appearance8.BackColor2 = System.Drawing.SystemColors.Control;
+            appearance8.BackGradientStyle = Infragistics.Win.GradientStyle.Horizontal;
+            appearance8.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.gridInfo.DisplayLayout.GroupByBox.PromptAppearance = appearance8;
+            this.gridInfo.DisplayLayout.MaxColScrollRegions = 1;
+            this.gridInfo.DisplayLayout.MaxRowScrollRegions = 1;
+            appearance9.BackColor = System.Drawing.SystemColors.Window;
+            appearance9.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.gridInfo.DisplayLayout.Override.ActiveCellAppearance = appearance9;
+            appearance10.BackColor = System.Drawing.SystemColors.Highlight;
+            appearance10.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.gridInfo.DisplayLayout.Override.ActiveRowAppearance = appearance10;
+            this.gridInfo.DisplayLayout.Override.AllowAddNew = Infragistics.Win.UltraWinGrid.AllowAddNew.TabRepeat;
+            this.gridInfo.DisplayLayout.Override.AllowDelete = Infragistics.Win.DefaultableBoolean.True;
+            this.gridInfo.DisplayLayout.Override.AllowUpdate = Infragistics.Win.DefaultableBoolean.True;
+            this.gridInfo.DisplayLayout.Override.BorderStyleCell = Infragistics.Win.UIElementBorderStyle.Dotted;
+            this.gridInfo.DisplayLayout.Override.BorderStyleRow = Infragistics.Win.UIElementBorderStyle.Dotted;
+            appearance11.BackColor = System.Drawing.SystemColors.Window;
+            this.gridInfo.DisplayLayout.Override.CardAreaAppearance = appearance11;
+            appearance12.BorderColor = System.Drawing.Color.Silver;
+            appearance12.TextTrimming = Infragistics.Win.TextTrimming.EllipsisCharacter;
+            this.gridInfo.DisplayLayout.Override.CellAppearance = appearance12;
+            this.gridInfo.DisplayLayout.Override.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.Edit;
+            this.gridInfo.DisplayLayout.Override.CellPadding = 0;
+            appearance13.BackColor = System.Drawing.SystemColors.Control;
+            appearance13.BackColor2 = System.Drawing.SystemColors.ControlDark;
+            appearance13.BackGradientAlignment = Infragistics.Win.GradientAlignment.Element;
+            appearance13.BackGradientStyle = Infragistics.Win.GradientStyle.Horizontal;
+            appearance13.BorderColor = System.Drawing.SystemColors.Window;
+            this.gridInfo.DisplayLayout.Override.GroupByRowAppearance = appearance13;
+            appearance14.TextHAlignAsString = "Left";
+            this.gridInfo.DisplayLayout.Override.HeaderAppearance = appearance14;
+            this.gridInfo.DisplayLayout.Override.HeaderClickAction = Infragistics.Win.UltraWinGrid.HeaderClickAction.SortMulti;
+            this.gridInfo.DisplayLayout.Override.HeaderStyle = Infragistics.Win.HeaderStyle.WindowsXPCommand;
+            appearance15.BackColor = System.Drawing.SystemColors.Window;
+            appearance15.BorderColor = System.Drawing.Color.Silver;
+            this.gridInfo.DisplayLayout.Override.RowAppearance = appearance15;
+            this.gridInfo.DisplayLayout.Override.RowSelectors = Infragistics.Win.DefaultableBoolean.False;
+            this.gridInfo.DisplayLayout.Override.SupportDataErrorInfo = Infragistics.Win.UltraWinGrid.SupportDataErrorInfo.None;
+            appearance16.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.gridInfo.DisplayLayout.Override.TemplateAddRowAppearance = appearance16;
+            this.gridInfo.DisplayLayout.ScrollBounds = Infragistics.Win.UltraWinGrid.ScrollBounds.ScrollToFill;
+            this.gridInfo.DisplayLayout.ScrollStyle = Infragistics.Win.UltraWinGrid.ScrollStyle.Immediate;
+            this.gridInfo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.gridInfo.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.gridInfo.Location = new System.Drawing.Point(0, 0);
+            this.gridInfo.Name = "gridInfo";
+            this.gridInfo.Size = new System.Drawing.Size(989, 186);
+            this.gridInfo.TabIndex = 82;
+            this.gridInfo.TabStop = false;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.comboBox2);
+            this.panel2.Controls.Add(this.textBox2);
+            this.panel2.Controls.Add(this.textBox1);
+            this.panel2.Controls.Add(this.label9);
+            this.panel2.Controls.Add(this.txtMeatNO);
+            this.panel2.Controls.Add(this.label10);
+            this.panel2.Controls.Add(this.txtCarNo);
+            this.panel2.Controls.Add(this.label11);
+            this.panel2.Controls.Add(this.label39);
+            this.panel2.Controls.Add(this.label32);
+            this.panel2.Controls.Add(this.label19);
+            this.panel2.Controls.Add(this.btnAdd);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(3, 17);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(989, 100);
+            this.panel2.TabIndex = 167;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(9, 15);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(0, 12);
+            this.label19.TabIndex = 170;
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(907, 10);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(66, 23);
+            this.btnAdd.TabIndex = 166;
+            this.btnAdd.Text = "添加";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(295, 43);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(59, 12);
+            this.label9.TabIndex = 180;
+            this.label9.Text = "治疗效果:";
+            // 
+            // txtMeatNO
+            // 
+            this.txtMeatNO.Location = new System.Drawing.Point(95, 69);
+            this.txtMeatNO.MaxLength = 10;
+            this.txtMeatNO.Name = "txtMeatNO";
+            this.txtMeatNO.Size = new System.Drawing.Size(458, 21);
+            this.txtMeatNO.TabIndex = 174;
+            this.txtMeatNO.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtMeatNO.TextChanged += new System.EventHandler(this.txtMeatNO_TextChanged);
+            // 
+            // label10
+            // 
+            this.label10.Location = new System.Drawing.Point(15, 66);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(74, 24);
+            this.label10.TabIndex = 179;
+            this.label10.Text = "慢性病长期（用药史）:";
+            // 
+            // txtCarNo
+            // 
+            this.txtCarNo.Location = new System.Drawing.Point(95, 37);
+            this.txtCarNo.MaxLength = 20;
+            this.txtCarNo.Name = "txtCarNo";
+            this.txtCarNo.Size = new System.Drawing.Size(176, 21);
+            this.txtCarNo.TabIndex = 173;
+            this.txtCarNo.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(15, 40);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(59, 12);
+            this.label11.TabIndex = 178;
+            this.label11.Text = "治疗情况:";
+            // 
+            // label39
+            // 
+            this.label39.AutoSize = true;
+            this.label39.Location = new System.Drawing.Point(296, 11);
+            this.label39.Name = "label39";
+            this.label39.Size = new System.Drawing.Size(59, 12);
+            this.label39.TabIndex = 177;
+            this.label39.Text = "发病年份:";
+            // 
+            // label32
+            // 
+            this.label32.AutoSize = true;
+            this.label32.Location = new System.Drawing.Point(15, 11);
+            this.label32.Name = "label32";
+            this.label32.Size = new System.Drawing.Size(59, 12);
+            this.label32.TabIndex = 176;
+            this.label32.Text = "疾病诊断:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(95, 8);
+            this.textBox1.MaxLength = 20;
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(176, 21);
+            this.textBox1.TabIndex = 182;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(378, 6);
+            this.textBox2.MaxLength = 20;
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(176, 21);
+            this.textBox2.TabIndex = 183;
+            this.textBox2.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
+            this.comboBox2.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(378, 40);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(176, 20);
+            this.comboBox2.TabIndex = 184;
+            // 
+            // gbEnterInfo
+            // 
+            this.gbEnterInfo.Controls.Add(this.textBox29);
+            this.gbEnterInfo.Controls.Add(this.label30);
+            this.gbEnterInfo.Controls.Add(this.textBox30);
+            this.gbEnterInfo.Controls.Add(this.label31);
+            this.gbEnterInfo.Controls.Add(this.textBox31);
+            this.gbEnterInfo.Controls.Add(this.label33);
+            this.gbEnterInfo.Controls.Add(this.checkBox7);
+            this.gbEnterInfo.Controls.Add(this.textBox26);
+            this.gbEnterInfo.Controls.Add(this.label27);
+            this.gbEnterInfo.Controls.Add(this.textBox27);
+            this.gbEnterInfo.Controls.Add(this.label28);
+            this.gbEnterInfo.Controls.Add(this.textBox28);
+            this.gbEnterInfo.Controls.Add(this.label29);
+            this.gbEnterInfo.Controls.Add(this.checkBox6);
+            this.gbEnterInfo.Controls.Add(this.textBox23);
+            this.gbEnterInfo.Controls.Add(this.label24);
+            this.gbEnterInfo.Controls.Add(this.textBox24);
+            this.gbEnterInfo.Controls.Add(this.label25);
+            this.gbEnterInfo.Controls.Add(this.textBox25);
+            this.gbEnterInfo.Controls.Add(this.label26);
+            this.gbEnterInfo.Controls.Add(this.checkBox5);
+            this.gbEnterInfo.Controls.Add(this.textBox20);
+            this.gbEnterInfo.Controls.Add(this.label21);
+            this.gbEnterInfo.Controls.Add(this.textBox21);
+            this.gbEnterInfo.Controls.Add(this.label22);
+            this.gbEnterInfo.Controls.Add(this.textBox22);
+            this.gbEnterInfo.Controls.Add(this.label23);
+            this.gbEnterInfo.Controls.Add(this.checkBox4);
+            this.gbEnterInfo.Controls.Add(this.textBox17);
+            this.gbEnterInfo.Controls.Add(this.label17);
+            this.gbEnterInfo.Controls.Add(this.textBox18);
+            this.gbEnterInfo.Controls.Add(this.label18);
+            this.gbEnterInfo.Controls.Add(this.textBox19);
+            this.gbEnterInfo.Controls.Add(this.label20);
+            this.gbEnterInfo.Controls.Add(this.checkBox3);
+            this.gbEnterInfo.Controls.Add(this.textBox3);
+            this.gbEnterInfo.Controls.Add(this.label14);
+            this.gbEnterInfo.Controls.Add(this.textBox8);
+            this.gbEnterInfo.Controls.Add(this.label15);
+            this.gbEnterInfo.Controls.Add(this.textBox16);
+            this.gbEnterInfo.Controls.Add(this.label16);
+            this.gbEnterInfo.Controls.Add(this.chk2);
+            this.gbEnterInfo.Controls.Add(this.txtBoothNO);
+            this.gbEnterInfo.Controls.Add(this.label8);
+            this.gbEnterInfo.Controls.Add(this.txtICCardNo);
+            this.gbEnterInfo.Controls.Add(this.label13);
+            this.gbEnterInfo.Controls.Add(this.txtICUserName);
+            this.gbEnterInfo.Controls.Add(this.label12);
+            this.gbEnterInfo.Controls.Add(this.checkBox1);
+            this.gbEnterInfo.Location = new System.Drawing.Point(10, 16);
+            this.gbEnterInfo.Name = "gbEnterInfo";
+            this.gbEnterInfo.Size = new System.Drawing.Size(998, 211);
+            this.gbEnterInfo.TabIndex = 23;
+            this.gbEnterInfo.TabStop = false;
+            this.gbEnterInfo.Text = "口服药物";
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(6, 20);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(48, 16);
+            this.checkBox1.TabIndex = 0;
+            this.checkBox1.Text = "茶碱";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // txtBoothNO
+            // 
+            this.txtBoothNO.Location = new System.Drawing.Point(784, 18);
+            this.txtBoothNO.MaxLength = 20;
+            this.txtBoothNO.Name = "txtBoothNO";
+            this.txtBoothNO.Size = new System.Drawing.Size(194, 21);
+            this.txtBoothNO.TabIndex = 79;
+            this.txtBoothNO.TabStop = false;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(743, 25);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(35, 12);
+            this.label8.TabIndex = 78;
+            this.label8.Text = "用法:";
+            // 
+            // txtICCardNo
+            // 
+            this.txtICCardNo.Location = new System.Drawing.Point(231, 16);
+            this.txtICCardNo.Name = "txtICCardNo";
+            this.txtICCardNo.Size = new System.Drawing.Size(234, 21);
+            this.txtICCardNo.TabIndex = 75;
+            this.txtICCardNo.TabStop = false;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(169, 21);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(59, 12);
+            this.label13.TabIndex = 74;
+            this.label13.Text = "药物名称:";
+            // 
+            // txtICUserName
+            // 
+            this.txtICUserName.Location = new System.Drawing.Point(512, 15);
+            this.txtICUserName.MaxLength = 20;
+            this.txtICUserName.Name = "txtICUserName";
+            this.txtICUserName.Size = new System.Drawing.Size(180, 21);
+            this.txtICUserName.TabIndex = 77;
+            this.txtICUserName.TabStop = false;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(471, 21);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(35, 12);
+            this.label12.TabIndex = 76;
+            this.label12.Text = "剂量:";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(784, 45);
+            this.textBox3.MaxLength = 20;
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(194, 21);
+            this.textBox3.TabIndex = 86;
+            this.textBox3.TabStop = false;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(743, 49);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(35, 12);
+            this.label14.TabIndex = 85;
+            this.label14.Text = "用法:";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(231, 43);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(234, 21);
+            this.textBox8.TabIndex = 82;
+            this.textBox8.TabStop = false;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(169, 48);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(59, 12);
+            this.label15.TabIndex = 81;
+            this.label15.Text = "药物名称:";
+            // 
+            // textBox16
+            // 
+            this.textBox16.Location = new System.Drawing.Point(512, 42);
+            this.textBox16.MaxLength = 20;
+            this.textBox16.Name = "textBox16";
+            this.textBox16.Size = new System.Drawing.Size(180, 21);
+            this.textBox16.TabIndex = 84;
+            this.textBox16.TabStop = false;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(471, 46);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(35, 12);
+            this.label16.TabIndex = 83;
+            this.label16.Text = "剂量:";
+            // 
+            // chk2
+            // 
+            this.chk2.AutoSize = true;
+            this.chk2.Location = new System.Drawing.Point(6, 47);
+            this.chk2.Name = "chk2";
+            this.chk2.Size = new System.Drawing.Size(120, 16);
+            this.chk2.TabIndex = 80;
+            this.chk2.Text = "白三烯受体拮抗剂";
+            this.chk2.UseVisualStyleBackColor = true;
+            // 
+            // textBox17
+            // 
+            this.textBox17.Location = new System.Drawing.Point(784, 71);
+            this.textBox17.MaxLength = 20;
+            this.textBox17.Name = "textBox17";
+            this.textBox17.Size = new System.Drawing.Size(194, 21);
+            this.textBox17.TabIndex = 93;
+            this.textBox17.TabStop = false;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(743, 75);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(35, 12);
+            this.label17.TabIndex = 92;
+            this.label17.Text = "用法:";
+            // 
+            // textBox18
+            // 
+            this.textBox18.Location = new System.Drawing.Point(231, 69);
+            this.textBox18.Name = "textBox18";
+            this.textBox18.Size = new System.Drawing.Size(234, 21);
+            this.textBox18.TabIndex = 89;
+            this.textBox18.TabStop = false;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(169, 74);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(59, 12);
+            this.label18.TabIndex = 88;
+            this.label18.Text = "药物名称:";
+            // 
+            // textBox19
+            // 
+            this.textBox19.Location = new System.Drawing.Point(512, 68);
+            this.textBox19.MaxLength = 20;
+            this.textBox19.Name = "textBox19";
+            this.textBox19.Size = new System.Drawing.Size(180, 21);
+            this.textBox19.TabIndex = 91;
+            this.textBox19.TabStop = false;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(471, 72);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(35, 12);
+            this.label20.TabIndex = 90;
+            this.label20.Text = "剂量:";
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Location = new System.Drawing.Point(6, 72);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(162, 16);
+            this.checkBox3.TabIndex = 87;
+            this.checkBox3.Text = "选择性磷酸二酯酶4抑制剂";
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // textBox20
+            // 
+            this.textBox20.Location = new System.Drawing.Point(784, 98);
+            this.textBox20.MaxLength = 20;
+            this.textBox20.Name = "textBox20";
+            this.textBox20.Size = new System.Drawing.Size(194, 21);
+            this.textBox20.TabIndex = 100;
+            this.textBox20.TabStop = false;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(743, 102);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(35, 12);
+            this.label21.TabIndex = 99;
+            this.label21.Text = "用法:";
+            // 
+            // textBox21
+            // 
+            this.textBox21.Location = new System.Drawing.Point(231, 96);
+            this.textBox21.Name = "textBox21";
+            this.textBox21.Size = new System.Drawing.Size(234, 21);
+            this.textBox21.TabIndex = 96;
+            this.textBox21.TabStop = false;
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.Location = new System.Drawing.Point(169, 101);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(59, 12);
+            this.label22.TabIndex = 95;
+            this.label22.Text = "药物名称:";
+            // 
+            // textBox22
+            // 
+            this.textBox22.Location = new System.Drawing.Point(512, 95);
+            this.textBox22.MaxLength = 20;
+            this.textBox22.Name = "textBox22";
+            this.textBox22.Size = new System.Drawing.Size(180, 21);
+            this.textBox22.TabIndex = 98;
+            this.textBox22.TabStop = false;
+            // 
+            // label23
+            // 
+            this.label23.AutoSize = true;
+            this.label23.Location = new System.Drawing.Point(471, 99);
+            this.label23.Name = "label23";
+            this.label23.Size = new System.Drawing.Size(35, 12);
+            this.label23.TabIndex = 97;
+            this.label23.Text = "剂量:";
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Location = new System.Drawing.Point(6, 100);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(48, 16);
+            this.checkBox4.TabIndex = 94;
+            this.checkBox4.Text = "激素";
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // textBox23
+            // 
+            this.textBox23.Location = new System.Drawing.Point(784, 125);
+            this.textBox23.MaxLength = 20;
+            this.textBox23.Name = "textBox23";
+            this.textBox23.Size = new System.Drawing.Size(194, 21);
+            this.textBox23.TabIndex = 107;
+            this.textBox23.TabStop = false;
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.Location = new System.Drawing.Point(743, 129);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(35, 12);
+            this.label24.TabIndex = 106;
+            this.label24.Text = "用法:";
+            // 
+            // textBox24
+            // 
+            this.textBox24.Location = new System.Drawing.Point(231, 123);
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(234, 21);
+            this.textBox24.TabIndex = 103;
+            this.textBox24.TabStop = false;
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.Location = new System.Drawing.Point(169, 128);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(59, 12);
+            this.label25.TabIndex = 102;
+            this.label25.Text = "药物名称:";
+            // 
+            // textBox25
+            // 
+            this.textBox25.Location = new System.Drawing.Point(512, 122);
+            this.textBox25.MaxLength = 20;
+            this.textBox25.Name = "textBox25";
+            this.textBox25.Size = new System.Drawing.Size(180, 21);
+            this.textBox25.TabIndex = 105;
+            this.textBox25.TabStop = false;
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.Location = new System.Drawing.Point(471, 126);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(35, 12);
+            this.label26.TabIndex = 104;
+            this.label26.Text = "剂量:";
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Location = new System.Drawing.Point(6, 127);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(60, 16);
+            this.checkBox5.TabIndex = 101;
+            this.checkBox5.Text = "化痰药";
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // textBox26
+            // 
+            this.textBox26.Location = new System.Drawing.Point(784, 152);
+            this.textBox26.MaxLength = 20;
+            this.textBox26.Name = "textBox26";
+            this.textBox26.Size = new System.Drawing.Size(194, 21);
+            this.textBox26.TabIndex = 114;
+            this.textBox26.TabStop = false;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(743, 156);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(35, 12);
+            this.label27.TabIndex = 113;
+            this.label27.Text = "用法:";
+            // 
+            // textBox27
+            // 
+            this.textBox27.Location = new System.Drawing.Point(231, 150);
+            this.textBox27.Name = "textBox27";
+            this.textBox27.Size = new System.Drawing.Size(234, 21);
+            this.textBox27.TabIndex = 110;
+            this.textBox27.TabStop = false;
+            // 
+            // label28
+            // 
+            this.label28.AutoSize = true;
+            this.label28.Location = new System.Drawing.Point(169, 155);
+            this.label28.Name = "label28";
+            this.label28.Size = new System.Drawing.Size(59, 12);
+            this.label28.TabIndex = 109;
+            this.label28.Text = "药物名称:";
+            // 
+            // textBox28
+            // 
+            this.textBox28.Location = new System.Drawing.Point(512, 149);
+            this.textBox28.MaxLength = 20;
+            this.textBox28.Name = "textBox28";
+            this.textBox28.Size = new System.Drawing.Size(180, 21);
+            this.textBox28.TabIndex = 112;
+            this.textBox28.TabStop = false;
+            // 
+            // label29
+            // 
+            this.label29.AutoSize = true;
+            this.label29.Location = new System.Drawing.Point(471, 153);
+            this.label29.Name = "label29";
+            this.label29.Size = new System.Drawing.Size(35, 12);
+            this.label29.TabIndex = 111;
+            this.label29.Text = "剂量:";
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Location = new System.Drawing.Point(6, 154);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(60, 16);
+            this.checkBox6.TabIndex = 108;
+            this.checkBox6.Text = "镇咳药";
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // textBox29
+            // 
+            this.textBox29.Location = new System.Drawing.Point(784, 179);
+            this.textBox29.MaxLength = 20;
+            this.textBox29.Name = "textBox29";
+            this.textBox29.Size = new System.Drawing.Size(194, 21);
+            this.textBox29.TabIndex = 121;
+            this.textBox29.TabStop = false;
+            // 
+            // label30
+            // 
+            this.label30.AutoSize = true;
+            this.label30.Location = new System.Drawing.Point(743, 183);
+            this.label30.Name = "label30";
+            this.label30.Size = new System.Drawing.Size(35, 12);
+            this.label30.TabIndex = 120;
+            this.label30.Text = "用法:";
+            // 
+            // textBox30
+            // 
+            this.textBox30.Location = new System.Drawing.Point(231, 177);
+            this.textBox30.Name = "textBox30";
+            this.textBox30.Size = new System.Drawing.Size(234, 21);
+            this.textBox30.TabIndex = 117;
+            this.textBox30.TabStop = false;
+            // 
+            // label31
+            // 
+            this.label31.AutoSize = true;
+            this.label31.Location = new System.Drawing.Point(169, 182);
+            this.label31.Name = "label31";
+            this.label31.Size = new System.Drawing.Size(59, 12);
+            this.label31.TabIndex = 116;
+            this.label31.Text = "药物名称:";
+            // 
+            // textBox31
+            // 
+            this.textBox31.Location = new System.Drawing.Point(512, 176);
+            this.textBox31.MaxLength = 20;
+            this.textBox31.Name = "textBox31";
+            this.textBox31.Size = new System.Drawing.Size(180, 21);
+            this.textBox31.TabIndex = 119;
+            this.textBox31.TabStop = false;
+            // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(471, 180);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(35, 12);
+            this.label33.TabIndex = 118;
+            this.label33.Text = "剂量:";
+            // 
+            // checkBox7
+            // 
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.Location = new System.Drawing.Point(6, 181);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(48, 16);
+            this.checkBox7.TabIndex = 115;
+            this.checkBox7.Text = "其它";
+            this.checkBox7.UseVisualStyleBackColor = true;
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage10);
+            this.tabControl1.Controls.Add(this.tabPage11);
+            this.tabControl1.Controls.Add(this.tabPage12);
+            this.tabControl1.Controls.Add(this.tabPage13);
+            this.tabControl1.Controls.Add(this.tabPage14);
+            this.tabControl1.Location = new System.Drawing.Point(6, 6);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(1034, 514);
+            this.tabControl1.TabIndex = 24;
+            // 
+            // tabPage10
+            // 
+            this.tabPage10.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage10.Controls.Add(this.button5);
+            this.tabPage10.Controls.Add(this.button6);
+            this.tabPage10.Controls.Add(this.groupBox1);
+            this.tabPage10.Controls.Add(this.gbEnterInfo);
+            this.tabPage10.Location = new System.Drawing.Point(4, 22);
+            this.tabPage10.Name = "tabPage10";
+            this.tabPage10.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage10.Size = new System.Drawing.Size(1026, 488);
+            this.tabPage10.TabIndex = 0;
+            this.tabPage10.Text = "COPD用药";
+            // 
+            // tabPage11
+            // 
+            this.tabPage11.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage11.Controls.Add(this.button7);
+            this.tabPage11.Controls.Add(this.button8);
+            this.tabPage11.Controls.Add(this.textBox57);
+            this.tabPage11.Controls.Add(this.label60);
+            this.tabPage11.Controls.Add(this.textBox58);
+            this.tabPage11.Controls.Add(this.label61);
+            this.tabPage11.Controls.Add(this.textBox32);
+            this.tabPage11.Controls.Add(this.label34);
+            this.tabPage11.Controls.Add(this.textBox33);
+            this.tabPage11.Controls.Add(this.label35);
+            this.tabPage11.Controls.Add(this.textBox34);
+            this.tabPage11.Controls.Add(this.label36);
+            this.tabPage11.Controls.Add(this.textBox53);
+            this.tabPage11.Controls.Add(this.label56);
+            this.tabPage11.Controls.Add(this.textBox54);
+            this.tabPage11.Controls.Add(this.label57);
+            this.tabPage11.Controls.Add(this.textBox55);
+            this.tabPage11.Controls.Add(this.label58);
+            this.tabPage11.Controls.Add(this.textBox56);
+            this.tabPage11.Controls.Add(this.label59);
+            this.tabPage11.Location = new System.Drawing.Point(4, 22);
+            this.tabPage11.Name = "tabPage11";
+            this.tabPage11.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage11.Size = new System.Drawing.Size(1026, 488);
+            this.tabPage11.TabIndex = 1;
+            this.tabPage11.Text = "动脉血气";
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.textBox35);
+            this.groupBox1.Controls.Add(this.label37);
+            this.groupBox1.Controls.Add(this.textBox36);
+            this.groupBox1.Controls.Add(this.label38);
+            this.groupBox1.Controls.Add(this.textBox37);
+            this.groupBox1.Controls.Add(this.label40);
+            this.groupBox1.Controls.Add(this.checkBox8);
+            this.groupBox1.Controls.Add(this.textBox38);
+            this.groupBox1.Controls.Add(this.label41);
+            this.groupBox1.Controls.Add(this.textBox39);
+            this.groupBox1.Controls.Add(this.label42);
+            this.groupBox1.Controls.Add(this.textBox40);
+            this.groupBox1.Controls.Add(this.label43);
+            this.groupBox1.Controls.Add(this.checkBox9);
+            this.groupBox1.Controls.Add(this.textBox41);
+            this.groupBox1.Controls.Add(this.label44);
+            this.groupBox1.Controls.Add(this.textBox42);
+            this.groupBox1.Controls.Add(this.label45);
+            this.groupBox1.Controls.Add(this.textBox43);
+            this.groupBox1.Controls.Add(this.label46);
+            this.groupBox1.Controls.Add(this.checkBox10);
+            this.groupBox1.Controls.Add(this.textBox44);
+            this.groupBox1.Controls.Add(this.label47);
+            this.groupBox1.Controls.Add(this.textBox45);
+            this.groupBox1.Controls.Add(this.label48);
+            this.groupBox1.Controls.Add(this.textBox46);
+            this.groupBox1.Controls.Add(this.label49);
+            this.groupBox1.Controls.Add(this.checkBox11);
+            this.groupBox1.Controls.Add(this.textBox47);
+            this.groupBox1.Controls.Add(this.label50);
+            this.groupBox1.Controls.Add(this.textBox48);
+            this.groupBox1.Controls.Add(this.label51);
+            this.groupBox1.Controls.Add(this.textBox49);
+            this.groupBox1.Controls.Add(this.label52);
+            this.groupBox1.Controls.Add(this.checkBox12);
+            this.groupBox1.Controls.Add(this.textBox50);
+            this.groupBox1.Controls.Add(this.label53);
+            this.groupBox1.Controls.Add(this.textBox51);
+            this.groupBox1.Controls.Add(this.label54);
+            this.groupBox1.Controls.Add(this.textBox52);
+            this.groupBox1.Controls.Add(this.label55);
+            this.groupBox1.Controls.Add(this.checkBox13);
+            this.groupBox1.Location = new System.Drawing.Point(10, 233);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(998, 193);
+            this.groupBox1.TabIndex = 24;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "吸入药物";
+            // 
+            // textBox35
+            // 
+            this.textBox35.Location = new System.Drawing.Point(784, 152);
+            this.textBox35.MaxLength = 20;
+            this.textBox35.Name = "textBox35";
+            this.textBox35.Size = new System.Drawing.Size(194, 21);
+            this.textBox35.TabIndex = 114;
+            this.textBox35.TabStop = false;
+            // 
+            // label37
+            // 
+            this.label37.AutoSize = true;
+            this.label37.Location = new System.Drawing.Point(743, 156);
+            this.label37.Name = "label37";
+            this.label37.Size = new System.Drawing.Size(35, 12);
+            this.label37.TabIndex = 113;
+            this.label37.Text = "用法:";
+            // 
+            // textBox36
+            // 
+            this.textBox36.Location = new System.Drawing.Point(231, 150);
+            this.textBox36.Name = "textBox36";
+            this.textBox36.Size = new System.Drawing.Size(234, 21);
+            this.textBox36.TabIndex = 110;
+            this.textBox36.TabStop = false;
+            // 
+            // label38
+            // 
+            this.label38.AutoSize = true;
+            this.label38.Location = new System.Drawing.Point(169, 155);
+            this.label38.Name = "label38";
+            this.label38.Size = new System.Drawing.Size(59, 12);
+            this.label38.TabIndex = 109;
+            this.label38.Text = "药物名称:";
+            // 
+            // textBox37
+            // 
+            this.textBox37.Location = new System.Drawing.Point(512, 149);
+            this.textBox37.MaxLength = 20;
+            this.textBox37.Name = "textBox37";
+            this.textBox37.Size = new System.Drawing.Size(180, 21);
+            this.textBox37.TabIndex = 112;
+            this.textBox37.TabStop = false;
+            // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(471, 153);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(35, 12);
+            this.label40.TabIndex = 111;
+            this.label40.Text = "剂量:";
+            // 
+            // checkBox8
+            // 
+            this.checkBox8.AutoSize = true;
+            this.checkBox8.Location = new System.Drawing.Point(6, 154);
+            this.checkBox8.Name = "checkBox8";
+            this.checkBox8.Size = new System.Drawing.Size(48, 16);
+            this.checkBox8.TabIndex = 108;
+            this.checkBox8.Text = "其它";
+            this.checkBox8.UseVisualStyleBackColor = true;
+            // 
+            // textBox38
+            // 
+            this.textBox38.Location = new System.Drawing.Point(784, 125);
+            this.textBox38.MaxLength = 20;
+            this.textBox38.Name = "textBox38";
+            this.textBox38.Size = new System.Drawing.Size(194, 21);
+            this.textBox38.TabIndex = 107;
+            this.textBox38.TabStop = false;
+            // 
+            // label41
+            // 
+            this.label41.AutoSize = true;
+            this.label41.Location = new System.Drawing.Point(743, 129);
+            this.label41.Name = "label41";
+            this.label41.Size = new System.Drawing.Size(35, 12);
+            this.label41.TabIndex = 106;
+            this.label41.Text = "用法:";
+            // 
+            // textBox39
+            // 
+            this.textBox39.Location = new System.Drawing.Point(231, 123);
+            this.textBox39.Name = "textBox39";
+            this.textBox39.Size = new System.Drawing.Size(234, 21);
+            this.textBox39.TabIndex = 103;
+            this.textBox39.TabStop = false;
+            // 
+            // label42
+            // 
+            this.label42.AutoSize = true;
+            this.label42.Location = new System.Drawing.Point(169, 128);
+            this.label42.Name = "label42";
+            this.label42.Size = new System.Drawing.Size(59, 12);
+            this.label42.TabIndex = 102;
+            this.label42.Text = "药物名称:";
+            // 
+            // textBox40
+            // 
+            this.textBox40.Location = new System.Drawing.Point(512, 122);
+            this.textBox40.MaxLength = 20;
+            this.textBox40.Name = "textBox40";
+            this.textBox40.Size = new System.Drawing.Size(180, 21);
+            this.textBox40.TabIndex = 105;
+            this.textBox40.TabStop = false;
+            // 
+            // label43
+            // 
+            this.label43.AutoSize = true;
+            this.label43.Location = new System.Drawing.Point(471, 126);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(35, 12);
+            this.label43.TabIndex = 104;
+            this.label43.Text = "剂量:";
+            // 
+            // checkBox9
+            // 
+            this.checkBox9.AutoSize = true;
+            this.checkBox9.Location = new System.Drawing.Point(6, 127);
+            this.checkBox9.Name = "checkBox9";
+            this.checkBox9.Size = new System.Drawing.Size(120, 16);
+            this.checkBox9.TabIndex = 101;
+            this.checkBox9.Text = "长效抗胆碱能药物";
+            this.checkBox9.UseVisualStyleBackColor = true;
+            // 
+            // textBox41
+            // 
+            this.textBox41.Location = new System.Drawing.Point(784, 98);
+            this.textBox41.MaxLength = 20;
+            this.textBox41.Name = "textBox41";
+            this.textBox41.Size = new System.Drawing.Size(194, 21);
+            this.textBox41.TabIndex = 100;
+            this.textBox41.TabStop = false;
+            // 
+            // label44
+            // 
+            this.label44.AutoSize = true;
+            this.label44.Location = new System.Drawing.Point(743, 102);
+            this.label44.Name = "label44";
+            this.label44.Size = new System.Drawing.Size(35, 12);
+            this.label44.TabIndex = 99;
+            this.label44.Text = "用法:";
+            // 
+            // textBox42
+            // 
+            this.textBox42.Location = new System.Drawing.Point(231, 96);
+            this.textBox42.Name = "textBox42";
+            this.textBox42.Size = new System.Drawing.Size(234, 21);
+            this.textBox42.TabIndex = 96;
+            this.textBox42.TabStop = false;
+            // 
+            // label45
+            // 
+            this.label45.AutoSize = true;
+            this.label45.Location = new System.Drawing.Point(169, 101);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(59, 12);
+            this.label45.TabIndex = 95;
+            this.label45.Text = "药物名称:";
+            // 
+            // textBox43
+            // 
+            this.textBox43.Location = new System.Drawing.Point(512, 95);
+            this.textBox43.MaxLength = 20;
+            this.textBox43.Name = "textBox43";
+            this.textBox43.Size = new System.Drawing.Size(180, 21);
+            this.textBox43.TabIndex = 98;
+            this.textBox43.TabStop = false;
+            // 
+            // label46
+            // 
+            this.label46.AutoSize = true;
+            this.label46.Location = new System.Drawing.Point(471, 99);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(35, 12);
+            this.label46.TabIndex = 97;
+            this.label46.Text = "剂量:";
+            // 
+            // checkBox10
+            // 
+            this.checkBox10.AutoSize = true;
+            this.checkBox10.Location = new System.Drawing.Point(6, 100);
+            this.checkBox10.Name = "checkBox10";
+            this.checkBox10.Size = new System.Drawing.Size(150, 16);
+            this.checkBox10.TabIndex = 94;
+            this.checkBox10.Text = "长效β受体激动剂/激素";
+            this.checkBox10.UseVisualStyleBackColor = true;
+            // 
+            // textBox44
+            // 
+            this.textBox44.Location = new System.Drawing.Point(784, 71);
+            this.textBox44.MaxLength = 20;
+            this.textBox44.Name = "textBox44";
+            this.textBox44.Size = new System.Drawing.Size(194, 21);
+            this.textBox44.TabIndex = 93;
+            this.textBox44.TabStop = false;
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Location = new System.Drawing.Point(743, 75);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(35, 12);
+            this.label47.TabIndex = 92;
+            this.label47.Text = "用法:";
+            // 
+            // textBox45
+            // 
+            this.textBox45.Location = new System.Drawing.Point(231, 69);
+            this.textBox45.Name = "textBox45";
+            this.textBox45.Size = new System.Drawing.Size(234, 21);
+            this.textBox45.TabIndex = 89;
+            this.textBox45.TabStop = false;
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Location = new System.Drawing.Point(169, 74);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(59, 12);
+            this.label48.TabIndex = 88;
+            this.label48.Text = "药物名称:";
+            // 
+            // textBox46
+            // 
+            this.textBox46.Location = new System.Drawing.Point(512, 68);
+            this.textBox46.MaxLength = 20;
+            this.textBox46.Name = "textBox46";
+            this.textBox46.Size = new System.Drawing.Size(180, 21);
+            this.textBox46.TabIndex = 91;
+            this.textBox46.TabStop = false;
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Location = new System.Drawing.Point(471, 72);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(35, 12);
+            this.label49.TabIndex = 90;
+            this.label49.Text = "剂量:";
+            // 
+            // checkBox11
+            // 
+            this.checkBox11.AutoSize = true;
+            this.checkBox11.Location = new System.Drawing.Point(6, 72);
+            this.checkBox11.Name = "checkBox11";
+            this.checkBox11.Size = new System.Drawing.Size(72, 16);
+            this.checkBox11.TabIndex = 87;
+            this.checkBox11.Text = "吸入激素";
+            this.checkBox11.UseVisualStyleBackColor = true;
+            // 
+            // textBox47
+            // 
+            this.textBox47.Location = new System.Drawing.Point(784, 45);
+            this.textBox47.MaxLength = 20;
+            this.textBox47.Name = "textBox47";
+            this.textBox47.Size = new System.Drawing.Size(194, 21);
+            this.textBox47.TabIndex = 86;
+            this.textBox47.TabStop = false;
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Location = new System.Drawing.Point(743, 49);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(35, 12);
+            this.label50.TabIndex = 85;
+            this.label50.Text = "用法:";
+            // 
+            // textBox48
+            // 
+            this.textBox48.Location = new System.Drawing.Point(231, 43);
+            this.textBox48.Name = "textBox48";
+            this.textBox48.Size = new System.Drawing.Size(234, 21);
+            this.textBox48.TabIndex = 82;
+            this.textBox48.TabStop = false;
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Location = new System.Drawing.Point(169, 48);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(59, 12);
+            this.label51.TabIndex = 81;
+            this.label51.Text = "药物名称:";
+            // 
+            // textBox49
+            // 
+            this.textBox49.Location = new System.Drawing.Point(512, 42);
+            this.textBox49.MaxLength = 20;
+            this.textBox49.Name = "textBox49";
+            this.textBox49.Size = new System.Drawing.Size(180, 21);
+            this.textBox49.TabIndex = 84;
+            this.textBox49.TabStop = false;
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Location = new System.Drawing.Point(471, 46);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(35, 12);
+            this.label52.TabIndex = 83;
+            this.label52.Text = "剂量:";
+            // 
+            // checkBox12
+            // 
+            this.checkBox12.AutoSize = true;
+            this.checkBox12.Location = new System.Drawing.Point(6, 47);
+            this.checkBox12.Name = "checkBox12";
+            this.checkBox12.Size = new System.Drawing.Size(120, 16);
+            this.checkBox12.TabIndex = 80;
+            this.checkBox12.Text = "长效β受体激动剂";
+            this.checkBox12.UseVisualStyleBackColor = true;
+            // 
+            // textBox50
+            // 
+            this.textBox50.Location = new System.Drawing.Point(784, 18);
+            this.textBox50.MaxLength = 20;
+            this.textBox50.Name = "textBox50";
+            this.textBox50.Size = new System.Drawing.Size(194, 21);
+            this.textBox50.TabIndex = 79;
+            this.textBox50.TabStop = false;
+            // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Location = new System.Drawing.Point(743, 25);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(35, 12);
+            this.label53.TabIndex = 78;
+            this.label53.Text = "用法:";
+            // 
+            // textBox51
+            // 
+            this.textBox51.Location = new System.Drawing.Point(231, 16);
+            this.textBox51.Name = "textBox51";
+            this.textBox51.Size = new System.Drawing.Size(234, 21);
+            this.textBox51.TabIndex = 75;
+            this.textBox51.TabStop = false;
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Location = new System.Drawing.Point(169, 21);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(59, 12);
+            this.label54.TabIndex = 74;
+            this.label54.Text = "药物名称:";
+            // 
+            // textBox52
+            // 
+            this.textBox52.Location = new System.Drawing.Point(512, 15);
+            this.textBox52.MaxLength = 20;
+            this.textBox52.Name = "textBox52";
+            this.textBox52.Size = new System.Drawing.Size(180, 21);
+            this.textBox52.TabIndex = 77;
+            this.textBox52.TabStop = false;
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Location = new System.Drawing.Point(471, 21);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(35, 12);
+            this.label55.TabIndex = 76;
+            this.label55.Text = "剂量:";
+            // 
+            // checkBox13
+            // 
+            this.checkBox13.AutoSize = true;
+            this.checkBox13.Location = new System.Drawing.Point(6, 20);
+            this.checkBox13.Name = "checkBox13";
+            this.checkBox13.Size = new System.Drawing.Size(120, 16);
+            this.checkBox13.TabIndex = 0;
+            this.checkBox13.Text = "短效β受体激动剂";
+            this.checkBox13.UseVisualStyleBackColor = true;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(935, 448);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 82;
+            this.button5.Text = "保存";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(841, 448);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 81;
+            this.button6.Text = "编辑";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // textBox32
+            // 
+            this.textBox32.Location = new System.Drawing.Point(92, 178);
+            this.textBox32.Name = "textBox32";
+            this.textBox32.Size = new System.Drawing.Size(234, 21);
+            this.textBox32.TabIndex = 132;
+            this.textBox32.TabStop = false;
+            // 
+            // label34
+            // 
+            this.label34.AutoSize = true;
+            this.label34.Location = new System.Drawing.Point(30, 183);
+            this.label34.Name = "label34";
+            this.label34.Size = new System.Drawing.Size(23, 12);
+            this.label34.TabIndex = 131;
+            this.label34.Text = "AB:";
+            // 
+            // textBox33
+            // 
+            this.textBox33.Location = new System.Drawing.Point(92, 151);
+            this.textBox33.Name = "textBox33";
+            this.textBox33.Size = new System.Drawing.Size(234, 21);
+            this.textBox33.TabIndex = 130;
+            this.textBox33.TabStop = false;
+            // 
+            // label35
+            // 
+            this.label35.AutoSize = true;
+            this.label35.Location = new System.Drawing.Point(30, 156);
+            this.label35.Name = "label35";
+            this.label35.Size = new System.Drawing.Size(65, 12);
+            this.label35.TabIndex = 129;
+            this.label35.Text = "标准HCO3-:";
+            // 
+            // textBox34
+            // 
+            this.textBox34.Location = new System.Drawing.Point(92, 124);
+            this.textBox34.Name = "textBox34";
+            this.textBox34.Size = new System.Drawing.Size(234, 21);
+            this.textBox34.TabIndex = 128;
+            this.textBox34.TabStop = false;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.Location = new System.Drawing.Point(30, 129);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(65, 12);
+            this.label36.TabIndex = 127;
+            this.label36.Text = "实际HCO3-:";
+            // 
+            // textBox53
+            // 
+            this.textBox53.Location = new System.Drawing.Point(92, 97);
+            this.textBox53.Name = "textBox53";
+            this.textBox53.Size = new System.Drawing.Size(234, 21);
+            this.textBox53.TabIndex = 126;
+            this.textBox53.TabStop = false;
+            // 
+            // label56
+            // 
+            this.label56.AutoSize = true;
+            this.label56.Location = new System.Drawing.Point(30, 102);
+            this.label56.Name = "label56";
+            this.label56.Size = new System.Drawing.Size(41, 12);
+            this.label56.TabIndex = 125;
+            this.label56.Text = "PaCO2:";
+            // 
+            // textBox54
+            // 
+            this.textBox54.Location = new System.Drawing.Point(92, 70);
+            this.textBox54.Name = "textBox54";
+            this.textBox54.Size = new System.Drawing.Size(234, 21);
+            this.textBox54.TabIndex = 124;
+            this.textBox54.TabStop = false;
+            // 
+            // label57
+            // 
+            this.label57.AutoSize = true;
+            this.label57.Location = new System.Drawing.Point(30, 75);
+            this.label57.Name = "label57";
+            this.label57.Size = new System.Drawing.Size(35, 12);
+            this.label57.TabIndex = 123;
+            this.label57.Text = "SaO2:";
+            // 
+            // textBox55
+            // 
+            this.textBox55.Location = new System.Drawing.Point(92, 44);
+            this.textBox55.Name = "textBox55";
+            this.textBox55.Size = new System.Drawing.Size(234, 21);
+            this.textBox55.TabIndex = 121;
+            this.textBox55.TabStop = false;
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Location = new System.Drawing.Point(30, 49);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(35, 12);
+            this.label58.TabIndex = 120;
+            this.label58.Text = "PaO2:";
+            // 
+            // textBox56
+            // 
+            this.textBox56.Location = new System.Drawing.Point(92, 17);
+            this.textBox56.Name = "textBox56";
+            this.textBox56.Size = new System.Drawing.Size(234, 21);
+            this.textBox56.TabIndex = 119;
+            this.textBox56.TabStop = false;
+            // 
+            // label59
+            // 
+            this.label59.AutoSize = true;
+            this.label59.Location = new System.Drawing.Point(30, 22);
+            this.label59.Name = "label59";
+            this.label59.Size = new System.Drawing.Size(23, 12);
+            this.label59.TabIndex = 118;
+            this.label59.Text = "pH:";
+            // 
+            // textBox57
+            // 
+            this.textBox57.Location = new System.Drawing.Point(92, 235);
+            this.textBox57.Name = "textBox57";
+            this.textBox57.Size = new System.Drawing.Size(234, 21);
+            this.textBox57.TabIndex = 136;
+            this.textBox57.TabStop = false;
+            // 
+            // label60
+            // 
+            this.label60.AutoSize = true;
+            this.label60.Location = new System.Drawing.Point(30, 240);
+            this.label60.Name = "label60";
+            this.label60.Size = new System.Drawing.Size(23, 12);
+            this.label60.TabIndex = 135;
+            this.label60.Text = "AG:";
+            // 
+            // textBox58
+            // 
+            this.textBox58.Location = new System.Drawing.Point(92, 208);
+            this.textBox58.Name = "textBox58";
+            this.textBox58.Size = new System.Drawing.Size(234, 21);
+            this.textBox58.TabIndex = 134;
+            this.textBox58.TabStop = false;
+            // 
+            // label61
+            // 
+            this.label61.AutoSize = true;
+            this.label61.Location = new System.Drawing.Point(30, 213);
+            this.label61.Name = "label61";
+            this.label61.Size = new System.Drawing.Size(23, 12);
+            this.label61.TabIndex = 133;
+            this.label61.Text = "BE:";
+            // 
+            // tabPage12
+            // 
+            this.tabPage12.Location = new System.Drawing.Point(4, 22);
+            this.tabPage12.Name = "tabPage12";
+            this.tabPage12.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage12.Size = new System.Drawing.Size(1026, 488);
+            this.tabPage12.TabIndex = 2;
+            this.tabPage12.Text = "肺功能";
+            this.tabPage12.UseVisualStyleBackColor = true;
+            // 
+            // tabPage13
+            // 
+            this.tabPage13.Location = new System.Drawing.Point(4, 22);
+            this.tabPage13.Name = "tabPage13";
+            this.tabPage13.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage13.Size = new System.Drawing.Size(1026, 488);
+            this.tabPage13.TabIndex = 3;
+            this.tabPage13.Text = "影像学和chartis检测";
+            this.tabPage13.UseVisualStyleBackColor = true;
+            // 
+            // tabPage14
+            // 
+            this.tabPage14.Location = new System.Drawing.Point(4, 22);
+            this.tabPage14.Name = "tabPage14";
+            this.tabPage14.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage14.Size = new System.Drawing.Size(1026, 488);
+            this.tabPage14.TabIndex = 4;
+            this.tabPage14.Text = "运动能力和生活质量";
+            this.tabPage14.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Location = new System.Drawing.Point(938, 450);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 23);
+            this.button7.TabIndex = 138;
+            this.button7.Text = "保存";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(844, 450);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 23);
+            this.button8.TabIndex = 137;
+            this.button8.Text = "编辑";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.panel1);
+            this.groupBox2.Controls.Add(this.panel4);
+            this.groupBox2.Location = new System.Drawing.Point(6, 6);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(1031, 485);
+            this.groupBox2.TabIndex = 24;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "治疗情况";
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.ultraGrid1);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(3, 60);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1025, 422);
+            this.panel1.TabIndex = 168;
+            // 
+            // ultraGrid1
+            // 
+            this.ultraGrid1.DisplayLayout.AddNewBox.ButtonConnectorStyle = Infragistics.Win.UIElementBorderStyle.Dotted;
+            this.ultraGrid1.DisplayLayout.AddNewBox.ButtonStyle = Infragistics.Win.UIElementButtonStyle.Button;
+            this.ultraGrid1.DisplayLayout.AddNewBox.Style = Infragistics.Win.UltraWinGrid.AddNewBoxStyle.Compact;
+            appearance54.BackColor = System.Drawing.SystemColors.Window;
+            appearance54.BorderColor = System.Drawing.SystemColors.InactiveCaption;
+            this.ultraGrid1.DisplayLayout.Appearance = appearance54;
+            this.ultraGrid1.DisplayLayout.AutoFitStyle = Infragistics.Win.UltraWinGrid.AutoFitStyle.ResizeAllColumns;
+            ultraGridBand2.AddButtonCaption = "Add";
+            ultraGridColumn7.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn7.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit;
+            ultraGridColumn7.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn7.Header.Caption = "品种";
+            ultraGridColumn7.Header.VisiblePosition = 1;
+            ultraGridColumn7.Width = 524;
+            ultraGridColumn8.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn8.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.Edit;
+            ultraGridColumn8.DataType = typeof(double);
+            ultraGridColumn8.Header.Caption = "重量(公斤)";
+            ultraGridColumn8.Header.VisiblePosition = 2;
+            ultraGridColumn8.Style = Infragistics.Win.UltraWinGrid.ColumnStyle.Double;
+            ultraGridColumn8.Width = 373;
+            ultraGridColumn9.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn9.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit;
+            ultraGridColumn9.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn9.ExcludeFromColumnChooser = Infragistics.Win.UltraWinGrid.ExcludeFromColumnChooser.True;
+            ultraGridColumn9.Header.VisiblePosition = 3;
+            ultraGridColumn9.Hidden = true;
+            ultraGridColumn9.SupportDataErrorInfo = Infragistics.Win.DefaultableBoolean.False;
+            ultraGridColumn10.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn10.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit;
+            ultraGridColumn10.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn10.ExcludeFromColumnChooser = Infragistics.Win.UltraWinGrid.ExcludeFromColumnChooser.True;
+            ultraGridColumn10.Header.VisiblePosition = 4;
+            ultraGridColumn10.Hidden = true;
+            ultraGridColumn10.Width = 93;
+            ultraGridColumn11.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn11.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit;
+            ultraGridColumn11.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn11.Header.Caption = "种植园";
+            ultraGridColumn11.Header.VisiblePosition = 0;
+            ultraGridColumn11.Hidden = true;
+            ultraGridColumn11.Width = 162;
+            ultraGridColumn12.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn12.ButtonDisplayStyle = Infragistics.Win.UltraWinGrid.ButtonDisplayStyle.Always;
+            appearance31.TextHAlignAsString = "Center";
+            appearance31.TextVAlignAsString = "Middle";
+            ultraGridColumn12.CellAppearance = appearance31;
+            appearance32.BackColor = System.Drawing.Color.DimGray;
+            appearance32.Image = ((object)(resources.GetObject("appearance32.Image")));
+            appearance32.ImageVAlign = Infragistics.Win.VAlign.Middle;
+            appearance32.TextHAlignAsString = "Center";
+            appearance32.TextVAlignAsString = "Middle";
+            ultraGridColumn12.CellButtonAppearance = appearance32;
+            ultraGridColumn12.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn12.DataType = typeof(object);
+            appearance33.TextHAlignAsString = "Center";
+            appearance33.TextVAlignAsString = "Middle";
+            ultraGridColumn12.Header.Appearance = appearance33;
+            ultraGridColumn12.Header.Caption = "操作";
+            ultraGridColumn12.Header.VisiblePosition = 5;
+            ultraGridColumn12.NullText = "删除";
+            ultraGridColumn12.ShowInkButton = Infragistics.Win.ShowInkButton.Always;
+            ultraGridColumn12.Style = Infragistics.Win.UltraWinGrid.ColumnStyle.Button;
+            ultraGridColumn12.Width = 126;
+            ultraGridColumn13.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn13.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit;
+            ultraGridColumn13.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn13.Header.VisiblePosition = 6;
+            ultraGridColumn13.Hidden = true;
+            ultraGridColumn13.Width = 94;
+            ultraGridColumn14.AutoCompleteMode = Infragistics.Win.AutoCompleteMode.Append;
+            ultraGridColumn14.CellActivation = Infragistics.Win.UltraWinGrid.Activation.NoEdit;
+            ultraGridColumn14.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.RowSelect;
+            ultraGridColumn14.Header.Caption = "批次码";
+            ultraGridColumn14.Header.VisiblePosition = 7;
+            ultraGridColumn14.Hidden = true;
+            ultraGridColumn14.Width = 97;
+            ultraGridBand2.Columns.AddRange(new object[] {
+            ultraGridColumn7,
+            ultraGridColumn8,
+            ultraGridColumn9,
+            ultraGridColumn10,
+            ultraGridColumn11,
+            ultraGridColumn12,
+            ultraGridColumn13,
+            ultraGridColumn14});
+            this.ultraGrid1.DisplayLayout.BandsSerializer.Add(ultraGridBand2);
+            this.ultraGrid1.DisplayLayout.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
+            this.ultraGrid1.DisplayLayout.CaptionVisible = Infragistics.Win.DefaultableBoolean.False;
+            appearance55.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            appearance55.BackColor2 = System.Drawing.SystemColors.ControlDark;
+            appearance55.BackGradientStyle = Infragistics.Win.GradientStyle.Vertical;
+            appearance55.BorderColor = System.Drawing.SystemColors.Window;
+            this.ultraGrid1.DisplayLayout.GroupByBox.Appearance = appearance55;
+            appearance56.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.ultraGrid1.DisplayLayout.GroupByBox.BandLabelAppearance = appearance56;
+            this.ultraGrid1.DisplayLayout.GroupByBox.BorderStyle = Infragistics.Win.UIElementBorderStyle.Solid;
+            appearance57.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            appearance57.BackColor2 = System.Drawing.SystemColors.Control;
+            appearance57.BackGradientStyle = Infragistics.Win.GradientStyle.Horizontal;
+            appearance57.ForeColor = System.Drawing.SystemColors.GrayText;
+            this.ultraGrid1.DisplayLayout.GroupByBox.PromptAppearance = appearance57;
+            this.ultraGrid1.DisplayLayout.MaxColScrollRegions = 1;
+            this.ultraGrid1.DisplayLayout.MaxRowScrollRegions = 1;
+            appearance58.BackColor = System.Drawing.SystemColors.Window;
+            appearance58.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.ultraGrid1.DisplayLayout.Override.ActiveCellAppearance = appearance58;
+            appearance59.BackColor = System.Drawing.SystemColors.Highlight;
+            appearance59.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.ultraGrid1.DisplayLayout.Override.ActiveRowAppearance = appearance59;
+            this.ultraGrid1.DisplayLayout.Override.AllowAddNew = Infragistics.Win.UltraWinGrid.AllowAddNew.TabRepeat;
+            this.ultraGrid1.DisplayLayout.Override.AllowDelete = Infragistics.Win.DefaultableBoolean.True;
+            this.ultraGrid1.DisplayLayout.Override.AllowUpdate = Infragistics.Win.DefaultableBoolean.True;
+            this.ultraGrid1.DisplayLayout.Override.BorderStyleCell = Infragistics.Win.UIElementBorderStyle.Dotted;
+            this.ultraGrid1.DisplayLayout.Override.BorderStyleRow = Infragistics.Win.UIElementBorderStyle.Dotted;
+            appearance60.BackColor = System.Drawing.SystemColors.Window;
+            this.ultraGrid1.DisplayLayout.Override.CardAreaAppearance = appearance60;
+            appearance61.BorderColor = System.Drawing.Color.Silver;
+            appearance61.TextTrimming = Infragistics.Win.TextTrimming.EllipsisCharacter;
+            this.ultraGrid1.DisplayLayout.Override.CellAppearance = appearance61;
+            this.ultraGrid1.DisplayLayout.Override.CellClickAction = Infragistics.Win.UltraWinGrid.CellClickAction.Edit;
+            this.ultraGrid1.DisplayLayout.Override.CellPadding = 0;
+            appearance62.BackColor = System.Drawing.SystemColors.Control;
+            appearance62.BackColor2 = System.Drawing.SystemColors.ControlDark;
+            appearance62.BackGradientAlignment = Infragistics.Win.GradientAlignment.Element;
+            appearance62.BackGradientStyle = Infragistics.Win.GradientStyle.Horizontal;
+            appearance62.BorderColor = System.Drawing.SystemColors.Window;
+            this.ultraGrid1.DisplayLayout.Override.GroupByRowAppearance = appearance62;
+            appearance63.TextHAlignAsString = "Left";
+            this.ultraGrid1.DisplayLayout.Override.HeaderAppearance = appearance63;
+            this.ultraGrid1.DisplayLayout.Override.HeaderClickAction = Infragistics.Win.UltraWinGrid.HeaderClickAction.SortMulti;
+            this.ultraGrid1.DisplayLayout.Override.HeaderStyle = Infragistics.Win.HeaderStyle.WindowsXPCommand;
+            appearance64.BackColor = System.Drawing.SystemColors.Window;
+            appearance64.BorderColor = System.Drawing.Color.Silver;
+            this.ultraGrid1.DisplayLayout.Override.RowAppearance = appearance64;
+            this.ultraGrid1.DisplayLayout.Override.RowSelectors = Infragistics.Win.DefaultableBoolean.False;
+            this.ultraGrid1.DisplayLayout.Override.SupportDataErrorInfo = Infragistics.Win.UltraWinGrid.SupportDataErrorInfo.None;
+            appearance65.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.ultraGrid1.DisplayLayout.Override.TemplateAddRowAppearance = appearance65;
+            this.ultraGrid1.DisplayLayout.ScrollBounds = Infragistics.Win.UltraWinGrid.ScrollBounds.ScrollToFill;
+            this.ultraGrid1.DisplayLayout.ScrollStyle = Infragistics.Win.UltraWinGrid.ScrollStyle.Immediate;
+            this.ultraGrid1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ultraGrid1.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.ultraGrid1.Location = new System.Drawing.Point(0, 0);
+            this.ultraGrid1.Name = "ultraGrid1";
+            this.ultraGrid1.Size = new System.Drawing.Size(1025, 422);
+            this.ultraGrid1.TabIndex = 82;
+            this.ultraGrid1.TabStop = false;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.label62);
+            this.panel4.Controls.Add(this.button9);
+            this.panel4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel4.Location = new System.Drawing.Point(3, 17);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(1025, 43);
+            this.panel4.TabIndex = 167;
+            // 
+            // label62
+            // 
+            this.label62.AutoSize = true;
+            this.label62.Location = new System.Drawing.Point(9, 15);
+            this.label62.Name = "label62";
+            this.label62.Size = new System.Drawing.Size(0, 12);
+            this.label62.TabIndex = 170;
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(946, 10);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(66, 23);
+            this.button9.TabIndex = 166;
+            this.button9.Text = "添加";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // DetailInfo
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1075, 570);
+            this.Controls.Add(this.tc);
+            this.Name = "DetailInfo";
+            this.Text = "DetailInfo";
+            this.tc.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ultraGroupBox1)).EndInit();
+            this.ultraGroupBox1.ResumeLayout(false);
+            this.ultraGroupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ultraGroupBox3)).EndInit();
+            this.ultraGroupBox3.ResumeLayout(false);
+            this.ultraGroupBox3.PerformLayout();
+            this.gbGoodInfo.ResumeLayout(false);
+            this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridInfo)).EndInit();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.gbEnterInfo.ResumeLayout(false);
+            this.gbEnterInfo.PerformLayout();
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage10.ResumeLayout(false);
+            this.tabPage11.ResumeLayout(false);
+            this.tabPage11.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.ultraGrid1)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.TabControl tc;
+        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage tabPage4;
+        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.TabPage tabPage6;
+        private System.Windows.Forms.TabPage tabPage7;
+        private System.Windows.Forms.TabPage tabPage8;
+        private System.Windows.Forms.TabPage tabPage9;
+        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.TextBox textBox14;
+        private System.Windows.Forms.TextBox textBox15;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel1;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel2;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel7;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel8;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel9;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel10;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel11;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel12;
+        private Infragistics.Win.Misc.UltraGroupBox ultraGroupBox1;
+        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox txtBillCode;
+        private Infragistics.Win.UltraWinEditors.UltraCheckEditor ultraCheckEditor1;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox4;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel6;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel5;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel4;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel3;
+        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox cmbButcherOrgan;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private Infragistics.Win.Misc.UltraGroupBox ultraGroupBox3;
+        private System.Windows.Forms.GroupBox gbGoodInfo;
+        private System.Windows.Forms.Panel panel3;
+        private Infragistics.Win.UltraWinGrid.UltraGrid gridInfo;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox txtMeatNO;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox txtCarNo;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label39;
+        private System.Windows.Forms.Label label32;
+        private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.GroupBox gbEnterInfo;
+        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.TextBox txtBoothNO;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtICCardNo;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.TextBox txtICUserName;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox textBox16;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.CheckBox chk2;
+        private System.Windows.Forms.TextBox textBox29;
+        private System.Windows.Forms.Label label30;
+        private System.Windows.Forms.TextBox textBox30;
+        private System.Windows.Forms.Label label31;
+        private System.Windows.Forms.TextBox textBox31;
+        private System.Windows.Forms.Label label33;
+        private System.Windows.Forms.CheckBox checkBox7;
+        private System.Windows.Forms.TextBox textBox26;
+        private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.TextBox textBox27;
+        private System.Windows.Forms.Label label28;
+        private System.Windows.Forms.TextBox textBox28;
+        private System.Windows.Forms.Label label29;
+        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.TextBox textBox23;
+        private System.Windows.Forms.Label label24;
+        private System.Windows.Forms.TextBox textBox24;
+        private System.Windows.Forms.Label label25;
+        private System.Windows.Forms.TextBox textBox25;
+        private System.Windows.Forms.Label label26;
+        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.TextBox textBox20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox textBox21;
+        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.TextBox textBox22;
+        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.TextBox textBox17;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox textBox18;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.TextBox textBox19;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tabPage10;
+        private System.Windows.Forms.TabPage tabPage11;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.TextBox textBox35;
+        private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.TextBox textBox36;
+        private System.Windows.Forms.Label label38;
+        private System.Windows.Forms.TextBox textBox37;
+        private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.CheckBox checkBox8;
+        private System.Windows.Forms.TextBox textBox38;
+        private System.Windows.Forms.Label label41;
+        private System.Windows.Forms.TextBox textBox39;
+        private System.Windows.Forms.Label label42;
+        private System.Windows.Forms.TextBox textBox40;
+        private System.Windows.Forms.Label label43;
+        private System.Windows.Forms.CheckBox checkBox9;
+        private System.Windows.Forms.TextBox textBox41;
+        private System.Windows.Forms.Label label44;
+        private System.Windows.Forms.TextBox textBox42;
+        private System.Windows.Forms.Label label45;
+        private System.Windows.Forms.TextBox textBox43;
+        private System.Windows.Forms.Label label46;
+        private System.Windows.Forms.CheckBox checkBox10;
+        private System.Windows.Forms.TextBox textBox44;
+        private System.Windows.Forms.Label label47;
+        private System.Windows.Forms.TextBox textBox45;
+        private System.Windows.Forms.Label label48;
+        private System.Windows.Forms.TextBox textBox46;
+        private System.Windows.Forms.Label label49;
+        private System.Windows.Forms.CheckBox checkBox11;
+        private System.Windows.Forms.TextBox textBox47;
+        private System.Windows.Forms.Label label50;
+        private System.Windows.Forms.TextBox textBox48;
+        private System.Windows.Forms.Label label51;
+        private System.Windows.Forms.TextBox textBox49;
+        private System.Windows.Forms.Label label52;
+        private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.TextBox textBox50;
+        private System.Windows.Forms.Label label53;
+        private System.Windows.Forms.TextBox textBox51;
+        private System.Windows.Forms.Label label54;
+        private System.Windows.Forms.TextBox textBox52;
+        private System.Windows.Forms.Label label55;
+        private System.Windows.Forms.CheckBox checkBox13;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.TextBox textBox32;
+        private System.Windows.Forms.Label label34;
+        private System.Windows.Forms.TextBox textBox33;
+        private System.Windows.Forms.Label label35;
+        private System.Windows.Forms.TextBox textBox34;
+        private System.Windows.Forms.Label label36;
+        private System.Windows.Forms.TextBox textBox53;
+        private System.Windows.Forms.Label label56;
+        private System.Windows.Forms.TextBox textBox54;
+        private System.Windows.Forms.Label label57;
+        private System.Windows.Forms.TextBox textBox55;
+        private System.Windows.Forms.Label label58;
+        private System.Windows.Forms.TextBox textBox56;
+        private System.Windows.Forms.Label label59;
+        private System.Windows.Forms.TextBox textBox57;
+        private System.Windows.Forms.Label label60;
+        private System.Windows.Forms.TextBox textBox58;
+        private System.Windows.Forms.Label label61;
+        private System.Windows.Forms.TabPage tabPage12;
+        private System.Windows.Forms.TabPage tabPage13;
+        private System.Windows.Forms.TabPage tabPage14;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Panel panel1;
+        private Infragistics.Win.UltraWinGrid.UltraGrid ultraGrid1;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label label62;
+        private System.Windows.Forms.Button button9;
+
+    }
+}

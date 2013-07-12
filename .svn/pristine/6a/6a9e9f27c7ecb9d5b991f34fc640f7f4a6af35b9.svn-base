@@ -1,0 +1,392 @@
+﻿namespace HIS
+{
+    partial class DetailInfo
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.components = new System.ComponentModel.Container();
+            Infragistics.Win.UltraWinTabControl.UltraTab ultraTab1 = new Infragistics.Win.UltraWinTabControl.UltraTab();
+            Infragistics.Win.UltraWinTabControl.UltraTab ultraTab2 = new Infragistics.Win.UltraWinTabControl.UltraTab();
+            Infragistics.Win.UltraWinTabControl.UltraTab ultraTab3 = new Infragistics.Win.UltraWinTabControl.UltraTab();
+            Infragistics.Win.UltraWinTabControl.UltraTab ultraTab4 = new Infragistics.Win.UltraWinTabControl.UltraTab();
+            Infragistics.Win.UltraWinTabControl.UltraTab ultraTab5 = new Infragistics.Win.UltraWinTabControl.UltraTab();
+            Infragistics.Win.UltraWinTabControl.UltraTab ultraTab6 = new Infragistics.Win.UltraWinTabControl.UltraTab();
+            Infragistics.Win.UltraWinTabControl.UltraTab ultraTab7 = new Infragistics.Win.UltraWinTabControl.UltraTab();
+            Infragistics.Win.UltraWinTabControl.UltraTab ultraTab8 = new Infragistics.Win.UltraWinTabControl.UltraTab();
+            Infragistics.Win.UltraWinTabControl.UltraTab ultraTab9 = new Infragistics.Win.UltraWinTabControl.UltraTab();
+            this.ultraTabbedMdiManager1 = new Infragistics.Win.UltraWinTabbedMdi.UltraTabbedMdiManager(this.components);
+            this.ultraTabControl1 = new Infragistics.Win.UltraWinTabControl.UltraTabControl();
+            this.ultraTabSharedControlsPage1 = new Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage();
+            this.ultraTabPageControl1 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
+            this.ultraTabPageControl2 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
+            this.ultraTabPageControl3 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
+            this.ultraTabPageControl4 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
+            this.ultraTabPageControl5 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
+            this.ultraTabPageControl6 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
+            this.ultraTabPageControl7 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
+            this.ultraTabPageControl8 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
+            this.ultraTabPageControl9 = new Infragistics.Win.UltraWinTabControl.UltraTabPageControl();
+            this.ultraCheckEditor1 = new Infragistics.Win.UltraWinEditors.UltraCheckEditor();
+            this.ultraLabel23 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel22 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel21 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel20 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel6 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel5 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel4 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel3 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel24 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel25 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel26 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel27 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel28 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel29 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel30 = new Infragistics.Win.Misc.UltraLabel();
+            this.ultraLabel31 = new Infragistics.Win.Misc.UltraLabel();
+            ((System.ComponentModel.ISupportInitialize)(this.ultraTabbedMdiManager1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ultraTabControl1)).BeginInit();
+            this.ultraTabControl1.SuspendLayout();
+            this.ultraTabPageControl1.SuspendLayout();
+            this.ultraTabPageControl2.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // ultraTabbedMdiManager1
+            // 
+            this.ultraTabbedMdiManager1.MdiParent = this;
+            this.ultraTabbedMdiManager1.InitializeTab += new Infragistics.Win.UltraWinTabbedMdi.MdiTabEventHandler(this.ultraTabbedMdiManager1_InitializeTab);
+            // 
+            // ultraTabControl1
+            // 
+            this.ultraTabControl1.Controls.Add(this.ultraTabSharedControlsPage1);
+            this.ultraTabControl1.Controls.Add(this.ultraTabPageControl1);
+            this.ultraTabControl1.Controls.Add(this.ultraTabPageControl2);
+            this.ultraTabControl1.Controls.Add(this.ultraTabPageControl3);
+            this.ultraTabControl1.Controls.Add(this.ultraTabPageControl4);
+            this.ultraTabControl1.Controls.Add(this.ultraTabPageControl5);
+            this.ultraTabControl1.Controls.Add(this.ultraTabPageControl6);
+            this.ultraTabControl1.Controls.Add(this.ultraTabPageControl7);
+            this.ultraTabControl1.Controls.Add(this.ultraTabPageControl8);
+            this.ultraTabControl1.Controls.Add(this.ultraTabPageControl9);
+            this.ultraTabControl1.Location = new System.Drawing.Point(12, 12);
+            this.ultraTabControl1.Name = "ultraTabControl1";
+            this.ultraTabControl1.SharedControlsPage = this.ultraTabSharedControlsPage1;
+            this.ultraTabControl1.Size = new System.Drawing.Size(1051, 546);
+            this.ultraTabControl1.TabIndex = 0;
+            ultraTab1.TabPage = this.ultraTabPageControl1;
+            ultraTab1.Text = "人口学数据";
+            ultraTab2.TabPage = this.ultraTabPageControl2;
+            ultraTab2.Text = "一般情况";
+            ultraTab3.TabPage = this.ultraTabPageControl3;
+            ultraTab3.Text = "治疗前基线指标";
+            ultraTab4.TabPage = this.ultraTabPageControl4;
+            ultraTab4.Text = "治疗情况";
+            ultraTab5.TabPage = this.ultraTabPageControl5;
+            ultraTab5.Text = "治疗后1周";
+            ultraTab6.TabPage = this.ultraTabPageControl6;
+            ultraTab6.Text = "治疗后1月";
+            ultraTab7.TabPage = this.ultraTabPageControl7;
+            ultraTab7.Text = "治疗后3月";
+            ultraTab8.TabPage = this.ultraTabPageControl8;
+            ultraTab8.Text = "治疗后6月";
+            ultraTab9.TabPage = this.ultraTabPageControl9;
+            ultraTab9.Text = "治疗后1年";
+            this.ultraTabControl1.Tabs.AddRange(new Infragistics.Win.UltraWinTabControl.UltraTab[] {
+            ultraTab1,
+            ultraTab2,
+            ultraTab3,
+            ultraTab4,
+            ultraTab5,
+            ultraTab6,
+            ultraTab7,
+            ultraTab8,
+            ultraTab9});
+            // 
+            // ultraTabSharedControlsPage1
+            // 
+            this.ultraTabSharedControlsPage1.Location = new System.Drawing.Point(-10000, -10000);
+            this.ultraTabSharedControlsPage1.Name = "ultraTabSharedControlsPage1";
+            this.ultraTabSharedControlsPage1.Size = new System.Drawing.Size(1047, 520);
+            // 
+            // ultraTabPageControl1
+            // 
+            this.ultraTabPageControl1.Controls.Add(this.ultraLabel24);
+            this.ultraTabPageControl1.Controls.Add(this.ultraLabel25);
+            this.ultraTabPageControl1.Controls.Add(this.ultraLabel26);
+            this.ultraTabPageControl1.Controls.Add(this.ultraLabel27);
+            this.ultraTabPageControl1.Controls.Add(this.ultraLabel28);
+            this.ultraTabPageControl1.Controls.Add(this.ultraLabel29);
+            this.ultraTabPageControl1.Controls.Add(this.ultraLabel30);
+            this.ultraTabPageControl1.Controls.Add(this.ultraLabel31);
+            this.ultraTabPageControl1.Location = new System.Drawing.Point(1, 23);
+            this.ultraTabPageControl1.Name = "ultraTabPageControl1";
+            this.ultraTabPageControl1.Size = new System.Drawing.Size(1047, 520);
+            // 
+            // ultraTabPageControl2
+            // 
+            this.ultraTabPageControl2.Controls.Add(this.ultraCheckEditor1);
+            this.ultraTabPageControl2.Controls.Add(this.ultraLabel23);
+            this.ultraTabPageControl2.Controls.Add(this.ultraLabel22);
+            this.ultraTabPageControl2.Controls.Add(this.ultraLabel21);
+            this.ultraTabPageControl2.Controls.Add(this.ultraLabel20);
+            this.ultraTabPageControl2.Controls.Add(this.ultraLabel6);
+            this.ultraTabPageControl2.Controls.Add(this.ultraLabel5);
+            this.ultraTabPageControl2.Controls.Add(this.ultraLabel4);
+            this.ultraTabPageControl2.Controls.Add(this.ultraLabel3);
+            this.ultraTabPageControl2.Location = new System.Drawing.Point(-10000, -10000);
+            this.ultraTabPageControl2.Name = "ultraTabPageControl2";
+            this.ultraTabPageControl2.Size = new System.Drawing.Size(1047, 520);
+            // 
+            // ultraTabPageControl3
+            // 
+            this.ultraTabPageControl3.Location = new System.Drawing.Point(-10000, -10000);
+            this.ultraTabPageControl3.Name = "ultraTabPageControl3";
+            this.ultraTabPageControl3.Size = new System.Drawing.Size(1047, 507);
+            // 
+            // ultraTabPageControl4
+            // 
+            this.ultraTabPageControl4.Location = new System.Drawing.Point(-10000, -10000);
+            this.ultraTabPageControl4.Name = "ultraTabPageControl4";
+            this.ultraTabPageControl4.Size = new System.Drawing.Size(1047, 507);
+            // 
+            // ultraTabPageControl5
+            // 
+            this.ultraTabPageControl5.Location = new System.Drawing.Point(-10000, -10000);
+            this.ultraTabPageControl5.Name = "ultraTabPageControl5";
+            this.ultraTabPageControl5.Size = new System.Drawing.Size(1047, 507);
+            // 
+            // ultraTabPageControl6
+            // 
+            this.ultraTabPageControl6.Location = new System.Drawing.Point(-10000, -10000);
+            this.ultraTabPageControl6.Name = "ultraTabPageControl6";
+            this.ultraTabPageControl6.Size = new System.Drawing.Size(1047, 507);
+            // 
+            // ultraTabPageControl7
+            // 
+            this.ultraTabPageControl7.Location = new System.Drawing.Point(-10000, -10000);
+            this.ultraTabPageControl7.Name = "ultraTabPageControl7";
+            this.ultraTabPageControl7.Size = new System.Drawing.Size(1047, 507);
+            // 
+            // ultraTabPageControl8
+            // 
+            this.ultraTabPageControl8.Location = new System.Drawing.Point(-10000, -10000);
+            this.ultraTabPageControl8.Name = "ultraTabPageControl8";
+            this.ultraTabPageControl8.Size = new System.Drawing.Size(1047, 502);
+            // 
+            // ultraTabPageControl9
+            // 
+            this.ultraTabPageControl9.Location = new System.Drawing.Point(-10000, -10000);
+            this.ultraTabPageControl9.Name = "ultraTabPageControl9";
+            this.ultraTabPageControl9.Size = new System.Drawing.Size(1047, 502);
+            // 
+            // ultraCheckEditor1
+            // 
+            this.ultraCheckEditor1.Location = new System.Drawing.Point(40, 277);
+            this.ultraCheckEditor1.Name = "ultraCheckEditor1";
+            this.ultraCheckEditor1.Size = new System.Drawing.Size(120, 20);
+            this.ultraCheckEditor1.TabIndex = 34;
+            this.ultraCheckEditor1.Text = "是否戒烟";
+            // 
+            // ultraLabel23
+            // 
+            this.ultraLabel23.Location = new System.Drawing.Point(40, 164);
+            this.ultraLabel23.Name = "ultraLabel23";
+            this.ultraLabel23.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel23.TabIndex = 33;
+            this.ultraLabel23.Text = "吸烟年：";
+            // 
+            // ultraLabel22
+            // 
+            this.ultraLabel22.Location = new System.Drawing.Point(40, 202);
+            this.ultraLabel22.Name = "ultraLabel22";
+            this.ultraLabel22.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel22.TabIndex = 32;
+            this.ultraLabel22.Text = "平均支/日：";
+            // 
+            // ultraLabel21
+            // 
+            this.ultraLabel21.Location = new System.Drawing.Point(40, 242);
+            this.ultraLabel21.Name = "ultraLabel21";
+            this.ultraLabel21.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel21.TabIndex = 31;
+            this.ultraLabel21.Text = "吸烟指数/支年：";
+            // 
+            // ultraLabel20
+            // 
+            this.ultraLabel20.Location = new System.Drawing.Point(40, 314);
+            this.ultraLabel20.Name = "ultraLabel20";
+            this.ultraLabel20.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel20.TabIndex = 30;
+            this.ultraLabel20.Text = "戒烟时间：";
+            // 
+            // ultraLabel6
+            // 
+            this.ultraLabel6.Location = new System.Drawing.Point(40, 94);
+            this.ultraLabel6.Name = "ultraLabel6";
+            this.ultraLabel6.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel6.TabIndex = 29;
+            this.ultraLabel6.Text = "腰围：";
+            // 
+            // ultraLabel5
+            // 
+            this.ultraLabel5.Location = new System.Drawing.Point(40, 19);
+            this.ultraLabel5.Name = "ultraLabel5";
+            this.ultraLabel5.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel5.TabIndex = 28;
+            this.ultraLabel5.Text = "身高：";
+            // 
+            // ultraLabel4
+            // 
+            this.ultraLabel4.Location = new System.Drawing.Point(40, 135);
+            this.ultraLabel4.Name = "ultraLabel4";
+            this.ultraLabel4.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel4.TabIndex = 27;
+            this.ultraLabel4.Text = "体重指数：";
+            // 
+            // ultraLabel3
+            // 
+            this.ultraLabel3.Location = new System.Drawing.Point(40, 56);
+            this.ultraLabel3.Name = "ultraLabel3";
+            this.ultraLabel3.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel3.TabIndex = 26;
+            this.ultraLabel3.Text = "体重：";
+            // 
+            // ultraLabel24
+            // 
+            this.ultraLabel24.Location = new System.Drawing.Point(49, 165);
+            this.ultraLabel24.Name = "ultraLabel24";
+            this.ultraLabel24.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel24.TabIndex = 42;
+            this.ultraLabel24.Text = "籍贯：";
+            // 
+            // ultraLabel25
+            // 
+            this.ultraLabel25.Location = new System.Drawing.Point(49, 203);
+            this.ultraLabel25.Name = "ultraLabel25";
+            this.ultraLabel25.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel25.TabIndex = 41;
+            this.ultraLabel25.Text = "联系电话：";
+            // 
+            // ultraLabel26
+            // 
+            this.ultraLabel26.Location = new System.Drawing.Point(49, 243);
+            this.ultraLabel26.Name = "ultraLabel26";
+            this.ultraLabel26.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel26.TabIndex = 40;
+            this.ultraLabel26.Text = "联系地址：";
+            // 
+            // ultraLabel27
+            // 
+            this.ultraLabel27.Location = new System.Drawing.Point(49, 281);
+            this.ultraLabel27.Name = "ultraLabel27";
+            this.ultraLabel27.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel27.TabIndex = 39;
+            this.ultraLabel27.Text = "电子邮箱：";
+            this.ultraLabel27.Click += new System.EventHandler(this.ultraLabel27_Click);
+            // 
+            // ultraLabel28
+            // 
+            this.ultraLabel28.Location = new System.Drawing.Point(49, 95);
+            this.ultraLabel28.Name = "ultraLabel28";
+            this.ultraLabel28.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel28.TabIndex = 38;
+            this.ultraLabel28.Text = "年龄：";
+            // 
+            // ultraLabel29
+            // 
+            this.ultraLabel29.Location = new System.Drawing.Point(49, 20);
+            this.ultraLabel29.Name = "ultraLabel29";
+            this.ultraLabel29.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel29.TabIndex = 37;
+            this.ultraLabel29.Text = "性别：";
+            // 
+            // ultraLabel30
+            // 
+            this.ultraLabel30.Location = new System.Drawing.Point(49, 136);
+            this.ultraLabel30.Name = "ultraLabel30";
+            this.ultraLabel30.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel30.TabIndex = 36;
+            this.ultraLabel30.Text = "民族：";
+            // 
+            // ultraLabel31
+            // 
+            this.ultraLabel31.Location = new System.Drawing.Point(49, 57);
+            this.ultraLabel31.Name = "ultraLabel31";
+            this.ultraLabel31.Size = new System.Drawing.Size(100, 23);
+            this.ultraLabel31.TabIndex = 35;
+            this.ultraLabel31.Text = "出生日期：";
+            // 
+            // DetailInfo
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1075, 570);
+            this.Controls.Add(this.ultraTabControl1);
+            this.Name = "DetailInfo";
+            this.Text = "DetailInfo";
+            ((System.ComponentModel.ISupportInitialize)(this.ultraTabbedMdiManager1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ultraTabControl1)).EndInit();
+            this.ultraTabControl1.ResumeLayout(false);
+            this.ultraTabPageControl1.ResumeLayout(false);
+            this.ultraTabPageControl2.ResumeLayout(false);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private Infragistics.Win.UltraWinTabbedMdi.UltraTabbedMdiManager ultraTabbedMdiManager1;
+        private Infragistics.Win.UltraWinTabControl.UltraTabControl ultraTabControl1;
+        private Infragistics.Win.UltraWinTabControl.UltraTabSharedControlsPage ultraTabSharedControlsPage1;
+        private Infragistics.Win.UltraWinTabControl.UltraTabPageControl ultraTabPageControl1;
+        private Infragistics.Win.UltraWinTabControl.UltraTabPageControl ultraTabPageControl2;
+        private Infragistics.Win.UltraWinTabControl.UltraTabPageControl ultraTabPageControl3;
+        private Infragistics.Win.UltraWinTabControl.UltraTabPageControl ultraTabPageControl4;
+        private Infragistics.Win.UltraWinTabControl.UltraTabPageControl ultraTabPageControl5;
+        private Infragistics.Win.UltraWinTabControl.UltraTabPageControl ultraTabPageControl6;
+        private Infragistics.Win.UltraWinTabControl.UltraTabPageControl ultraTabPageControl7;
+        private Infragistics.Win.UltraWinTabControl.UltraTabPageControl ultraTabPageControl8;
+        private Infragistics.Win.UltraWinTabControl.UltraTabPageControl ultraTabPageControl9;
+        private Infragistics.Win.UltraWinEditors.UltraCheckEditor ultraCheckEditor1;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel23;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel22;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel21;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel20;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel6;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel5;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel4;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel3;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel24;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel25;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel26;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel27;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel28;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel29;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel30;
+        private Infragistics.Win.Misc.UltraLabel ultraLabel31;
+
+    }
+}

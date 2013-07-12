@@ -1,0 +1,85 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+using Infragistics.Win.UltraWinGrid;
+ 
+
+namespace HIS.common
+{
+   public  class FreezeForm
+    {
+       internal static void ChangeControlEditable(Control f, bool isEditable)
+       {
+           foreach (Control c in f.Controls)
+           { 
+               if (c.HasChildren)
+               {
+                   ChangeControlEditable(c, isEditable);
+               }
+               else if (c is TextBox)
+               {
+                   TextBox tb = (TextBox)c;
+                   if (tb.Name == "txtLungPicFile") continue;
+                   if (tb.Name == "txtAge") continue;
+                   if (tb.Name == "txtBMI") continue;
+                   if (tb.Name == "txtSmokeIndex") continue; 
+
+                   tb.ReadOnly = !isEditable;
+               }
+               else if (c is ComboBox)
+               {
+                   ComboBox cb = (ComboBox)c;
+                   cb.Enabled = isEditable;
+               }
+               else if (c is CheckBox)
+               {
+                   CheckBox cb = (CheckBox)c;
+                   cb.Enabled = isEditable;
+               }
+               else if (c is RadioButton)
+               {
+                   RadioButton cb = (RadioButton)c;
+                   cb.Enabled = isEditable;
+               }
+               else if (c is DateTimePicker)
+               {
+                   DateTimePicker dtp = (DateTimePicker)c;
+                   dtp.Enabled = isEditable;
+               }
+               else if (c is Button)
+               {
+                   Button b = (Button)c;
+                   if (b.Text != "编辑" && b.Text != "查看")
+                   {
+                       b.Enabled = isEditable;
+                   }
+               }
+               else if (c is UltraGrid)
+               {
+                   UltraGrid ug = (UltraGrid)c;
+                   foreach (UltraGridColumn uc in ug.DisplayLayout.Bands[0].Columns)
+                   {
+                       if (uc.Key == "DELETE")
+                       {
+                           uc.Hidden = !isEditable;
+                       }else if (uc.Key == "EDIT")
+                       {
+                           uc.Hidden = !isEditable;
+                       }
+                   }
+                   //if (ug.DisplayLayout.Bands[0].Columns.Contains("DELETE"))
+                   //{
+                   //    ug.DisplayLayout.Bands[0].Columns["DELETE"].Hidden = !isEditable;
+                   //}
+                   //if (ug.DisplayLayout.Bands[0].Columns.Contains("EDIT"))
+                   //{
+                   //    ug.DisplayLayout.Bands[0].Columns["EDIT"].Hidden = !isEditable;
+                   //}
+                    
+               }
+           }
+       }
+    }
+}
